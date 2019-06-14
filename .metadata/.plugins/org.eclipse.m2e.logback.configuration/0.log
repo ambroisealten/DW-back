@@ -1,0 +1,759 @@
+2019-06-14 11:57:49,104 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-06-14 12:57:11,859 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.1.5.RELEASE/spring-boot-starter-parent-2.1.5.RELEASE.pom
+2019-06-14 12:57:11,950 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.1.5.RELEASE/spring-boot-starter-parent-2.1.5.RELEASE.pom
+2019-06-14 12:57:12,049 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.1.5.RELEASE/spring-boot-dependencies-2.1.5.RELEASE.pom
+2019-06-14 12:57:12,228 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.1.5.RELEASE/spring-boot-dependencies-2.1.5.RELEASE.pom
+2019-06-14 12:57:12,431 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.36.Final/netty-bom-4.1.36.Final.pom
+2019-06-14 12:57:12,509 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.36.Final/netty-bom-4.1.36.Final.pom
+2019-06-14 12:57:12,592 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR8/reactor-bom-Californium-SR8.pom
+2019-06-14 12:57:12,668 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR8/reactor-bom-Californium-SR8.pom
+2019-06-14 12:57:12,773 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.18.v20190429/jetty-bom-9.4.18.v20190429.pom
+2019-06-14 12:57:12,855 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.18.v20190429/jetty-bom-9.4.18.v20190429.pom
+2019-06-14 12:57:12,959 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.1.7.RELEASE/spring-framework-bom-5.1.7.RELEASE.pom
+2019-06-14 12:57:13,035 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.1.7.RELEASE/spring-framework-bom-5.1.7.RELEASE.pom
+2019-06-14 12:57:13,122 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Lovelace-SR8/spring-data-releasetrain-Lovelace-SR8.pom
+2019-06-14 12:57:13,212 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Lovelace-SR8/spring-data-releasetrain-Lovelace-SR8.pom
+2019-06-14 12:57:13,314 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.1.8.RELEASE/spring-data-build-2.1.8.RELEASE.pom
+2019-06-14 12:57:13,394 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.1.8.RELEASE/spring-data-build-2.1.8.RELEASE.pom
+2019-06-14 12:57:13,492 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.1.5.RELEASE/spring-integration-bom-5.1.5.RELEASE.pom
+2019-06-14 12:57:13,567 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.1.5.RELEASE/spring-integration-bom-5.1.5.RELEASE.pom
+2019-06-14 12:57:13,651 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.1.5.RELEASE/spring-security-bom-5.1.5.RELEASE.pom
+2019-06-14 12:57:13,736 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.1.5.RELEASE/spring-security-bom-5.1.5.RELEASE.pom
+2019-06-14 12:57:13,822 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Bean-SR5/spring-session-bom-Bean-SR5.pom
+2019-06-14 12:57:13,907 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/Bean-SR5/spring-session-bom-Bean-SR5.pom
+2019-06-14 12:57:14,867 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.1.5.RELEASE/spring-boot-maven-plugin-2.1.5.RELEASE.pom
+2019-06-14 12:57:14,966 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.1.5.RELEASE/spring-boot-maven-plugin-2.1.5.RELEASE.pom
+2019-06-14 12:57:15,052 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/2.1.5.RELEASE/spring-boot-tools-2.1.5.RELEASE.pom
+2019-06-14 12:57:15,135 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/2.1.5.RELEASE/spring-boot-tools-2.1.5.RELEASE.pom
+2019-06-14 12:57:15,234 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/2.1.5.RELEASE/spring-boot-parent-2.1.5.RELEASE.pom
+2019-06-14 12:57:15,309 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/2.1.5.RELEASE/spring-boot-parent-2.1.5.RELEASE.pom
+2019-06-14 12:57:15,511 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.1.5.RELEASE/spring-boot-maven-plugin-2.1.5.RELEASE.jar
+2019-06-14 12:57:15,652 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/2.1.5.RELEASE/spring-boot-maven-plugin-2.1.5.RELEASE.jar
+2019-06-14 12:57:16,348 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar
+2019-06-14 12:57:16,498 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar
+2019-06-14 12:57:16,738 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.2/maven-surefire-plugin-2.22.2.jar
+2019-06-14 12:57:16,828 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.2/maven-surefire-plugin-2.22.2.jar
+2019-06-14 12:57:17,036 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.1.2/maven-jar-plugin-3.1.2.jar
+2019-06-14 12:57:17,121 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.1.2/maven-jar-plugin-3.1.2.jar
+2019-06-14 12:57:17,354 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom
+2019-06-14 12:57:17,434 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom
+2019-06-14 12:57:18,405 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DW:0.0.1-SNAPSHOT @ C:\Users\mmaquinghen\Documents\Ambroise\DW-Back\DW\pom.xml.
+2019-06-14 12:57:18,473 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/2.1.5.RELEASE/spring-boot-starter-data-rest-2.1.5.RELEASE.pom
+2019-06-14 12:57:18,553 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/2.1.5.RELEASE/spring-boot-starter-data-rest-2.1.5.RELEASE.pom
+2019-06-14 12:57:18,653 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starters/2.1.5.RELEASE/spring-boot-starters-2.1.5.RELEASE.pom
+2019-06-14 12:57:18,736 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starters/2.1.5.RELEASE/spring-boot-starters-2.1.5.RELEASE.pom
+2019-06-14 12:57:18,844 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.1.5.RELEASE/spring-boot-starter-web-2.1.5.RELEASE.pom
+2019-06-14 12:57:18,927 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.1.5.RELEASE/spring-boot-starter-web-2.1.5.RELEASE.pom
+2019-06-14 12:57:19,023 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.1.5.RELEASE/spring-boot-starter-2.1.5.RELEASE.pom
+2019-06-14 12:57:19,100 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.1.5.RELEASE/spring-boot-starter-2.1.5.RELEASE.pom
+2019-06-14 12:57:19,183 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.1.5.RELEASE/spring-boot-2.1.5.RELEASE.pom
+2019-06-14 12:57:19,252 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.1.5.RELEASE/spring-boot-2.1.5.RELEASE.pom
+2019-06-14 12:57:19,343 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE.pom
+2019-06-14 12:57:19,432 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE.pom
+2019-06-14 12:57:19,522 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.1.7.RELEASE/spring-jcl-5.1.7.RELEASE.pom
+2019-06-14 12:57:19,608 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.1.7.RELEASE/spring-jcl-5.1.7.RELEASE.pom
+2019-06-14 12:57:19,702 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.pom
+2019-06-14 12:57:19,779 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.pom
+2019-06-14 12:57:19,882 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE.pom
+2019-06-14 12:57:19,963 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE.pom
+2019-06-14 12:57:20,052 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.pom
+2019-06-14 12:57:20,128 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.pom
+2019-06-14 12:57:20,220 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.1.7.RELEASE/spring-expression-5.1.7.RELEASE.pom
+2019-06-14 12:57:20,320 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.1.7.RELEASE/spring-expression-5.1.7.RELEASE.pom
+2019-06-14 12:57:20,403 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.pom
+2019-06-14 12:57:20,479 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.pom
+2019-06-14 12:57:20,571 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.1.5.RELEASE/spring-boot-starter-logging-2.1.5.RELEASE.pom
+2019-06-14 12:57:20,655 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.1.5.RELEASE/spring-boot-starter-logging-2.1.5.RELEASE.pom
+2019-06-14 12:57:20,775 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom
+2019-06-14 12:57:20,864 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.pom
+2019-06-14 12:57:20,951 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom
+2019-06-14 12:57:21,040 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.26/slf4j-parent-1.7.26.pom
+2019-06-14 12:57:21,172 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26.pom
+2019-06-14 12:57:21,251 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26.pom
+2019-06-14 12:57:21,353 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.1.5.RELEASE/spring-boot-starter-json-2.1.5.RELEASE.pom
+2019-06-14 12:57:21,437 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.1.5.RELEASE/spring-boot-starter-json-2.1.5.RELEASE.pom
+2019-06-14 12:57:21,523 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.pom
+2019-06-14 12:57:21,619 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.pom
+2019-06-14 12:57:21,803 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.1.5.RELEASE/spring-boot-starter-tomcat-2.1.5.RELEASE.pom
+2019-06-14 12:57:21,899 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.1.5.RELEASE/spring-boot-starter-tomcat-2.1.5.RELEASE.pom
+2019-06-14 12:57:21,983 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19.pom
+2019-06-14 12:57:22,058 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19.pom
+2019-06-14 12:57:22,142 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.19/tomcat-embed-el-9.0.19.pom
+2019-06-14 12:57:22,241 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.19/tomcat-embed-el-9.0.19.pom
+2019-06-14 12:57:22,372 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.19/tomcat-embed-websocket-9.0.19.pom
+2019-06-14 12:57:22,458 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.19/tomcat-embed-websocket-9.0.19.pom
+2019-06-14 12:57:22,561 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/9.0.19/tomcat-annotations-api-9.0.19.pom
+2019-06-14 12:57:22,653 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/tomcat-annotations-api/9.0.19/tomcat-annotations-api-9.0.19.pom
+2019-06-14 12:57:22,749 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.16.Final/hibernate-validator-6.0.16.Final.pom
+2019-06-14 12:57:22,829 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.16.Final/hibernate-validator-6.0.16.Final.pom
+2019-06-14 12:57:22,922 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.0.16.Final/hibernate-validator-parent-6.0.16.Final.pom
+2019-06-14 12:57:23,002 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator-parent/6.0.16.Final/hibernate-validator-parent-6.0.16.Final.pom
+2019-06-14 12:57:23,152 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.pom
+2019-06-14 12:57:23,249 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.pom
+2019-06-14 12:57:23,352 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/3.1.8.RELEASE/spring-data-rest-webmvc-3.1.8.RELEASE.pom
+2019-06-14 12:57:23,451 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/3.1.8.RELEASE/spring-data-rest-webmvc-3.1.8.RELEASE.pom
+2019-06-14 12:57:23,556 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-parent/3.1.8.RELEASE/spring-data-rest-parent-3.1.8.RELEASE.pom
+2019-06-14 12:57:23,635 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-parent/3.1.8.RELEASE/spring-data-rest-parent-3.1.8.RELEASE.pom
+2019-06-14 12:57:23,741 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.1.8.RELEASE/spring-data-parent-2.1.8.RELEASE.pom
+2019-06-14 12:57:23,810 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.1.8.RELEASE/spring-data-parent-2.1.8.RELEASE.pom
+2019-06-14 12:57:23,908 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR6/reactor-bom-Californium-SR6.pom
+2019-06-14 12:57:23,998 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/Californium-SR6/reactor-bom-Californium-SR6.pom
+2019-06-14 12:57:24,092 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/3.1.8.RELEASE/spring-data-rest-core-3.1.8.RELEASE.pom
+2019-06-14 12:57:24,189 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/3.1.8.RELEASE/spring-data-rest-core-3.1.8.RELEASE.pom
+2019-06-14 12:57:24,272 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.7.RELEASE/spring-tx-5.1.7.RELEASE.pom
+2019-06-14 12:57:24,350 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.7.RELEASE/spring-tx-5.1.7.RELEASE.pom
+2019-06-14 12:57:24,436 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/0.25.1.RELEASE/spring-hateoas-0.25.1.RELEASE.pom
+2019-06-14 12:57:24,512 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/0.25.1.RELEASE/spring-hateoas-0.25.1.RELEASE.pom
+2019-06-14 12:57:24,595 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.8.11.20181123/jackson-bom-2.8.11.20181123.pom
+2019-06-14 12:57:24,692 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.8.11.20181123/jackson-bom-2.8.11.20181123.pom
+2019-06-14 12:57:24,784 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+2019-06-14 12:57:24,862 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
+2019-06-14 12:57:24,971 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom
+2019-06-14 12:57:25,055 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom
+2019-06-14 12:57:25,144 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.pom
+2019-06-14 12:57:25,243 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.pom
+2019-06-14 12:57:25,352 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.pom
+2019-06-14 12:57:25,439 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.pom
+2019-06-14 12:57:25,545 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin/1.2.0.RELEASE/spring-plugin-1.2.0.RELEASE.pom
+2019-06-14 12:57:25,635 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin/1.2.0.RELEASE/spring-plugin-1.2.0.RELEASE.pom
+2019-06-14 12:57:25,755 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.2.2/evo-inflector-1.2.2.pom
+2019-06-14 12:57:25,847 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.2.2/evo-inflector-1.2.2.pom
+2019-06-14 12:57:25,944 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/atteo/parent/1.14/parent-1.14.pom
+2019-06-14 12:57:26,038 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/atteo/parent/1.14/parent-1.14.pom
+2019-06-14 12:57:26,152 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.1.5.RELEASE/spring-boot-devtools-2.1.5.RELEASE.pom
+2019-06-14 12:57:26,253 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.1.5.RELEASE/spring-boot-devtools-2.1.5.RELEASE.pom
+2019-06-14 12:57:26,365 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.pom
+2019-06-14 12:57:26,448 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.pom
+2019-06-14 12:57:26,553 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.1.5.RELEASE/spring-boot-starter-test-2.1.5.RELEASE.pom
+2019-06-14 12:57:26,654 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.1.5.RELEASE/spring-boot-starter-test-2.1.5.RELEASE.pom
+2019-06-14 12:57:26,772 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.1.5.RELEASE/spring-boot-test-2.1.5.RELEASE.pom
+2019-06-14 12:57:26,858 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.1.5.RELEASE/spring-boot-test-2.1.5.RELEASE.pom
+2019-06-14 12:57:26,943 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.1.5.RELEASE/spring-boot-test-autoconfigure-2.1.5.RELEASE.pom
+2019-06-14 12:57:27,036 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.1.5.RELEASE/spring-boot-test-autoconfigure-2.1.5.RELEASE.pom
+2019-06-14 12:57:27,192 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.pom
+2019-06-14 12:57:27,265 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.pom
+2019-06-14 12:57:27,362 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.12/byte-buddy-parent-1.9.12.pom
+2019-06-14 12:57:27,462 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.9.12/byte-buddy-parent-1.9.12.pom
+2019-06-14 12:57:27,546 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.12/byte-buddy-agent-1.9.12.pom
+2019-06-14 12:57:27,630 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.12/byte-buddy-agent-1.9.12.pom
+2019-06-14 12:57:27,791 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.pom
+2019-06-14 12:57:27,873 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.pom
+2019-06-14 12:57:28,064 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/2.1.5.RELEASE/spring-boot-starter-data-rest-2.1.5.RELEASE.jar
+2019-06-14 12:57:28,141 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/2.1.5.RELEASE/spring-boot-starter-data-rest-2.1.5.RELEASE.jar
+2019-06-14 12:57:28,203 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.1.5.RELEASE/spring-boot-starter-web-2.1.5.RELEASE.jar
+2019-06-14 12:57:28,295 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.1.5.RELEASE/spring-boot-starter-web-2.1.5.RELEASE.jar
+2019-06-14 12:57:28,460 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.1.5.RELEASE/spring-boot-starter-json-2.1.5.RELEASE.jar
+2019-06-14 12:57:28,615 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.1.5.RELEASE/spring-boot-starter-json-2.1.5.RELEASE.jar
+2019-06-14 12:57:28,737 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.1.5.RELEASE/spring-boot-starter-tomcat-2.1.5.RELEASE.jar
+2019-06-14 12:57:28,911 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.1.5.RELEASE/spring-boot-starter-tomcat-2.1.5.RELEASE.jar
+2019-06-14 12:57:29,302 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19.jar
+2019-06-14 12:57:30,100 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19.jar
+2019-06-14 12:57:30,171 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.19/tomcat-embed-el-9.0.19.jar
+2019-06-14 12:57:30,271 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.19/tomcat-embed-el-9.0.19.jar
+2019-06-14 12:57:30,338 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.19/tomcat-embed-websocket-9.0.19.jar
+2019-06-14 12:57:30,462 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.19/tomcat-embed-websocket-9.0.19.jar
+2019-06-14 12:57:30,570 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.16.Final/hibernate-validator-6.0.16.Final.jar
+2019-06-14 12:57:30,796 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.16.Final/hibernate-validator-6.0.16.Final.jar
+2019-06-14 12:57:30,858 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar
+2019-06-14 12:57:31,148 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar
+2019-06-14 12:57:31,208 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar
+2019-06-14 12:57:31,358 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar
+2019-06-14 12:57:31,427 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.jar
+2019-06-14 12:57:31,622 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.jar
+2019-06-14 12:57:31,690 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE.jar
+2019-06-14 12:57:31,906 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE.jar
+2019-06-14 12:57:31,966 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.1.7.RELEASE/spring-expression-5.1.7.RELEASE.jar
+2019-06-14 12:57:32,090 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.1.7.RELEASE/spring-expression-5.1.7.RELEASE.jar
+2019-06-14 12:57:32,155 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/3.1.8.RELEASE/spring-data-rest-webmvc-3.1.8.RELEASE.jar
+2019-06-14 12:57:32,283 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/3.1.8.RELEASE/spring-data-rest-webmvc-3.1.8.RELEASE.jar
+2019-06-14 12:57:32,366 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/3.1.8.RELEASE/spring-data-rest-core-3.1.8.RELEASE.jar
+2019-06-14 12:57:32,462 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/3.1.8.RELEASE/spring-data-rest-core-3.1.8.RELEASE.jar
+2019-06-14 12:57:32,528 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.7.RELEASE/spring-tx-5.1.7.RELEASE.jar
+2019-06-14 12:57:32,644 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.7.RELEASE/spring-tx-5.1.7.RELEASE.jar
+2019-06-14 12:57:32,706 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/0.25.1.RELEASE/spring-hateoas-0.25.1.RELEASE.jar
+2019-06-14 12:57:32,805 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/0.25.1.RELEASE/spring-hateoas-0.25.1.RELEASE.jar
+2019-06-14 12:57:32,877 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.jar
+2019-06-14 12:57:33,141 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE.jar
+2019-06-14 12:57:33,206 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar
+2019-06-14 12:57:33,279 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar
+2019-06-14 12:57:33,332 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.2.2/evo-inflector-1.2.2.jar
+2019-06-14 12:57:33,421 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.2.2/evo-inflector-1.2.2.jar
+2019-06-14 12:57:33,483 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar
+2019-06-14 12:57:33,549 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar
+2019-06-14 12:57:33,618 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.1.5.RELEASE/spring-boot-devtools-2.1.5.RELEASE.jar
+2019-06-14 12:57:33,704 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.1.5.RELEASE/spring-boot-devtools-2.1.5.RELEASE.jar
+2019-06-14 12:57:33,766 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.1.5.RELEASE/spring-boot-2.1.5.RELEASE.jar
+2019-06-14 12:57:33,976 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.1.5.RELEASE/spring-boot-2.1.5.RELEASE.jar
+2019-06-14 12:57:34,053 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar
+2019-06-14 12:57:34,279 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar
+2019-06-14 12:57:34,348 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar
+2019-06-14 12:57:34,588 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar
+2019-06-14 12:57:34,669 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar
+2019-06-14 12:57:35,067 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16.jar
+2019-06-14 12:57:35,132 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.1.5.RELEASE/spring-boot-starter-test-2.1.5.RELEASE.jar
+2019-06-14 12:57:35,207 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.1.5.RELEASE/spring-boot-starter-test-2.1.5.RELEASE.jar
+2019-06-14 12:57:35,272 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.1.5.RELEASE/spring-boot-starter-2.1.5.RELEASE.jar
+2019-06-14 12:57:35,342 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.1.5.RELEASE/spring-boot-starter-2.1.5.RELEASE.jar
+2019-06-14 12:57:35,409 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.1.5.RELEASE/spring-boot-starter-logging-2.1.5.RELEASE.jar
+2019-06-14 12:57:35,497 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.1.5.RELEASE/spring-boot-starter-logging-2.1.5.RELEASE.jar
+2019-06-14 12:57:35,562 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26.jar
+2019-06-14 12:57:35,653 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26.jar
+2019-06-14 12:57:35,731 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.1.5.RELEASE/spring-boot-test-2.1.5.RELEASE.jar
+2019-06-14 12:57:35,838 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.1.5.RELEASE/spring-boot-test-2.1.5.RELEASE.jar
+2019-06-14 12:57:35,899 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.1.5.RELEASE/spring-boot-test-autoconfigure-2.1.5.RELEASE.jar
+2019-06-14 12:57:36,008 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.1.5.RELEASE/spring-boot-test-autoconfigure-2.1.5.RELEASE.jar
+2019-06-14 12:57:36,077 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.jar
+2019-06-14 12:57:36,583 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12.jar
+2019-06-14 12:57:36,654 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.12/byte-buddy-agent-1.9.12.jar
+2019-06-14 12:57:36,739 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.12/byte-buddy-agent-1.9.12.jar
+2019-06-14 12:57:36,815 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE.jar
+2019-06-14 12:57:37,086 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE.jar
+2019-06-14 12:57:37,155 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.1.7.RELEASE/spring-jcl-5.1.7.RELEASE.jar
+2019-06-14 12:57:37,219 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.1.7.RELEASE/spring-jcl-5.1.7.RELEASE.jar
+2019-06-14 12:57:37,289 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.jar
+2019-06-14 12:57:37,477 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.jar
+2019-06-14 12:57:42,513 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.2/maven-surefire-plugin-2.22.2.pom
+2019-06-14 12:57:42,592 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.22.2/maven-surefire-plugin-2.22.2.pom
+2019-06-14 12:57:42,693 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.22.2/surefire-2.22.2.pom
+2019-06-14 12:57:42,764 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.22.2/surefire-2.22.2.pom
+2019-06-14 12:57:42,869 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.1.2/maven-jar-plugin-3.1.2.pom
+2019-06-14 12:57:42,942 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.1.2/maven-jar-plugin-3.1.2.pom
+2019-06-14 12:57:43,244 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.0.0/file-management-3.0.0.pom
+2019-06-14 12:57:43,311 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.0.0/file-management-3.0.0.pom
+2019-06-14 12:57:43,404 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/3.0.0/maven-shared-io-3.0.0.pom
+2019-06-14 12:57:43,478 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/3.0.0/maven-shared-io-3.0.0.pom
+2019-06-14 12:57:43,586 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.0/maven-compat-3.0.pom
+2019-06-14 12:57:43,665 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.0/maven-compat-3.0.pom
+2019-06-14 12:57:43,773 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.pom
+2019-06-14 12:57:43,853 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.pom
+2019-06-14 12:57:43,953 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-6/wagon-1.0-beta-6.pom
+2019-06-14 12:57:44,048 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-6/wagon-1.0-beta-6.pom
+2019-06-14 12:57:44,163 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.2/plexus-utils-1.4.2.pom
+2019-06-14 12:57:44,236 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.2/plexus-utils-1.4.2.pom
+2019-06-14 12:57:44,373 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10.pom
+2019-06-14 12:57:44,442 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10.pom
+2019-06-14 12:57:44,542 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/2.10/wagon-2.10.pom
+2019-06-14 12:57:44,636 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/2.10/wagon-2.10.pom
+2019-06-14 12:57:44,743 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom
+2019-06-14 12:57:44,835 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/26/maven-parent-26.pom
+2019-06-14 12:57:44,943 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom
+2019-06-14 12:57:45,018 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom
+2019-06-14 12:57:45,183 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.4.0/maven-archiver-3.4.0.pom
+2019-06-14 12:57:45,263 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.4.0/maven-archiver-3.4.0.pom
+2019-06-14 12:57:45,414 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.1.0/plexus-archiver-4.1.0.pom
+2019-06-14 12:57:45,507 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.1.0/plexus-archiver-4.1.0.pom
+2019-06-14 12:57:45,623 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.1/plexus-utils-3.1.1.pom
+2019-06-14 12:57:45,708 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.1/plexus-utils-3.1.1.pom
+2019-06-14 12:57:45,798 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.1.1/plexus-io-3.1.1.pom
+2019-06-14 12:57:45,884 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.1.1/plexus-io-3.1.1.pom
+2019-06-14 12:57:46,044 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.pom
+2019-06-14 12:57:46,112 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.pom
+2019-06-14 12:57:46,251 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.0.0/file-management-3.0.0.jar
+2019-06-14 12:57:46,338 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.0.0/file-management-3.0.0.jar
+2019-06-14 12:57:46,402 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/3.0.0/maven-shared-io-3.0.0.jar
+2019-06-14 12:57:46,501 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/3.0.0/maven-shared-io-3.0.0.jar
+2019-06-14 12:57:46,582 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar
+2019-06-14 12:57:46,865 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-compat/3.0/maven-compat-3.0.jar
+2019-06-14 12:57:46,922 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10.jar
+2019-06-14 12:57:47,001 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/2.10/wagon-provider-api-2.10.jar
+2019-06-14 12:57:47,075 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.4.0/maven-archiver-3.4.0.jar
+2019-06-14 12:57:47,155 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/3.4.0/maven-archiver-3.4.0.jar
+2019-06-14 12:57:47,218 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.1.0/plexus-archiver-4.1.0.jar
+2019-06-14 12:57:47,351 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.1.0/plexus-archiver-4.1.0.jar
+2019-06-14 12:57:47,421 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.1.1/plexus-io-3.1.1.jar
+2019-06-14 12:57:47,561 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.1.1/plexus-io-3.1.1.jar
+2019-06-14 12:57:47,634 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar
+2019-06-14 12:57:47,785 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.2.0/plexus-utils-3.2.0.jar
+2019-06-14 12:57:49,822 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DW/src/main/java
+2019-06-14 12:57:49,823 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DW/src/main/resources
+2019-06-14 12:57:49,837 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DW/src/main/resources
+2019-06-14 12:57:49,857 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DW/src/test/java
+2019-06-14 12:57:51,303 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/2.1.5.RELEASE/spring-boot-starter-data-rest-2.1.5.RELEASE-sources.jar
+2019-06-14 12:57:51,340 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-data-rest:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-rest:jar:sources:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:57:51,423 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.1.5.RELEASE/spring-boot-starter-web-2.1.5.RELEASE-sources.jar
+2019-06-14 12:57:51,448 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-web:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-web:jar:sources:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:57:51,513 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.1.5.RELEASE/spring-boot-starter-json-2.1.5.RELEASE-sources.jar
+2019-06-14 12:57:51,536 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-json:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-json:jar:sources:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:57:51,602 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.1.5.RELEASE/spring-boot-starter-tomcat-2.1.5.RELEASE-sources.jar
+2019-06-14 12:57:51,662 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-tomcat:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-tomcat:jar:sources:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:57:51,738 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19-sources.jar
+2019-06-14 12:57:52,573 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-core/9.0.19/tomcat-embed-core-9.0.19-sources.jar
+2019-06-14 12:57:52,580 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 41 sec
+2019-06-14 12:57:52,586 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-06-14 12:57:52,889 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-core:9.0.19
+2019-06-14 12:57:52,967 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.19/tomcat-embed-el-9.0.19-sources.jar
+2019-06-14 12:57:53,055 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-el/9.0.19/tomcat-embed-el-9.0.19-sources.jar
+2019-06-14 12:57:53,904 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-el:9.0.19
+2019-06-14 12:57:53,987 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.19/tomcat-embed-websocket-9.0.19-sources.jar
+2019-06-14 12:57:54,005 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DW:0.0.1-SNAPSHOT @ C:\Users\mmaquinghen\Documents\Ambroise\DW-Back\DW\pom.xml.
+2019-06-14 12:57:54,373 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.19/tomcat-embed-websocket-9.0.19-sources.jar
+2019-06-14 12:57:54,823 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-websocket:9.0.19
+2019-06-14 12:57:54,950 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.16.Final/hibernate-validator-6.0.16.Final-sources.jar
+2019-06-14 12:57:55,258 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/validator/hibernate-validator/6.0.16.Final/hibernate-validator-6.0.16.Final-sources.jar
+2019-06-14 12:57:55,778 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.validator:hibernate-validator:6.0.16.Final
+2019-06-14 12:57:56,353 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE-sources.jar
+2019-06-14 12:57:56,640 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE-sources.jar
+2019-06-14 12:57:56,976 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DW/src/main/java
+2019-06-14 12:57:56,976 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DW/src/main/resources
+2019-06-14 12:57:56,977 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DW/src/main/resources
+2019-06-14 12:57:56,979 [Worker-8: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DW/src/test/java
+2019-06-14 12:57:57,424 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.1.7.RELEASE
+2019-06-14 12:57:57,513 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE-sources.jar
+2019-06-14 12:57:57,668 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE-sources.jar
+2019-06-14 12:57:57,822 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.1.7.RELEASE
+2019-06-14 12:57:57,882 [Worker-8: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2019-06-14 12:57:57,891 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar
+2019-06-14 12:57:58,136 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE-sources.jar
+2019-06-14 12:57:58,312 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.1.7.RELEASE
+2019-06-14 12:57:58,425 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar
+2019-06-14 12:57:58,597 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/5.1.7.RELEASE/spring-aop-5.1.7.RELEASE-sources.jar
+2019-06-14 12:57:58,745 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.1.7.RELEASE
+2019-06-14 12:57:58,828 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.1.7.RELEASE/spring-expression-5.1.7.RELEASE-sources.jar
+2019-06-14 12:57:58,840 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-14 12:57:58,847 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-06-14 12:57:58,878 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-14 12:57:58,886 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-14 12:57:58,887 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mmaquinghen\Documents\Ambroise\DW-Back\DW\src\test\resources
+2019-06-14 12:57:58,955 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/5.1.7.RELEASE/spring-expression-5.1.7.RELEASE-sources.jar
+2019-06-14 12:57:59,072 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.1.7.RELEASE
+2019-06-14 12:57:59,162 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/3.1.8.RELEASE/spring-data-rest-webmvc-3.1.8.RELEASE-sources.jar
+2019-06-14 12:57:59,289 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/3.1.8.RELEASE/spring-data-rest-webmvc-3.1.8.RELEASE-sources.jar
+2019-06-14 12:57:59,390 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-webmvc:3.1.8.RELEASE
+2019-06-14 12:57:59,475 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/3.1.8.RELEASE/spring-data-rest-core-3.1.8.RELEASE-sources.jar
+2019-06-14 12:57:59,556 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/3.1.8.RELEASE/spring-data-rest-core-3.1.8.RELEASE-sources.jar
+2019-06-14 12:57:59,745 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-core:3.1.8.RELEASE
+2019-06-14 12:57:59,846 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.7.RELEASE/spring-tx-5.1.7.RELEASE-sources.jar
+2019-06-14 12:57:59,995 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/5.1.7.RELEASE/spring-tx-5.1.7.RELEASE-sources.jar
+2019-06-14 12:58:00,152 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:5.1.7.RELEASE
+2019-06-14 12:58:00,226 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/0.25.1.RELEASE/spring-hateoas-0.25.1.RELEASE-sources.jar
+2019-06-14 12:58:00,315 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/0.25.1.RELEASE/spring-hateoas-0.25.1.RELEASE-sources.jar
+2019-06-14 12:58:00,406 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.hateoas:spring-hateoas:0.25.1.RELEASE
+2019-06-14 12:58:00,475 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE-sources.jar
+2019-06-14 12:58:00,693 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.1.8.RELEASE/spring-data-commons-2.1.8.RELEASE-sources.jar
+2019-06-14 12:58:00,783 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.1.8.RELEASE
+2019-06-14 12:58:00,847 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-sources.jar
+2019-06-14 12:58:00,916 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE-sources.jar
+2019-06-14 12:58:01,005 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE
+2019-06-14 12:58:01,103 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.2.2/evo-inflector-1.2.2-sources.jar
+2019-06-14 12:58:01,194 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.2.2/evo-inflector-1.2.2-sources.jar
+2019-06-14 12:58:01,355 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.atteo:evo-inflector:1.2.2
+2019-06-14 12:58:01,423 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar
+2019-06-14 12:58:01,515 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26-sources.jar
+2019-06-14 12:58:01,613 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.26
+2019-06-14 12:58:01,676 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.1.5.RELEASE/spring-boot-devtools-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:01,771 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.1.5.RELEASE/spring-boot-devtools-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:01,898 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:2.1.5.RELEASE
+2019-06-14 12:58:01,986 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.1.5.RELEASE/spring-boot-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:02,241 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot/2.1.5.RELEASE/spring-boot-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:02,377 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot:2.1.5.RELEASE
+2019-06-14 12:58:02,468 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar
+2019-06-14 12:58:02,752 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE-sources.jar
+2019-06-14 12:58:02,964 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.1.7.RELEASE
+2019-06-14 12:58:03,037 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:03,263 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:03,443 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-autoconfigure:2.1.5.RELEASE
+2019-06-14 12:58:03,505 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16-sources.jar
+2019-06-14 12:58:03,822 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16-sources.jar
+2019-06-14 12:58:03,950 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:8.0.16
+2019-06-14 12:58:04,012 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.1.5.RELEASE/spring-boot-starter-test-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:04,021 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-test:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-test:jar:sources:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:58:04,091 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.1.5.RELEASE/spring-boot-starter-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:04,099 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter:jar:sources:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:58:04,162 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.1.5.RELEASE/spring-boot-starter-logging-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:04,170 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.boot:spring-boot-starter-logging:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-logging:jar:sources:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:58:04,232 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26-sources.jar
+2019-06-14 12:58:04,315 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.26/jul-to-slf4j-1.7.26-sources.jar
+2019-06-14 12:58:04,418 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jul-to-slf4j:1.7.26
+2019-06-14 12:58:04,492 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.1.5.RELEASE/spring-boot-test-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:04,575 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test/2.1.5.RELEASE/spring-boot-test-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:04,672 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:2.1.5.RELEASE
+2019-06-14 12:58:04,767 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.1.5.RELEASE/spring-boot-test-autoconfigure-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:04,858 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-test-autoconfigure/2.1.5.RELEASE/spring-boot-test-autoconfigure-2.1.5.RELEASE-sources.jar
+2019-06-14 12:58:04,988 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:2.1.5.RELEASE
+2019-06-14 12:58:05,061 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12-sources.jar
+2019-06-14 12:58:05,391 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.12/byte-buddy-1.9.12-sources.jar
+2019-06-14 12:58:05,524 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.9.12
+2019-06-14 12:58:05,596 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.12/byte-buddy-agent-1.9.12-sources.jar
+2019-06-14 12:58:05,686 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.12/byte-buddy-agent-1.9.12-sources.jar
+2019-06-14 12:58:05,802 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy-agent:1.9.12
+2019-06-14 12:58:05,876 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar
+2019-06-14 12:58:06,054 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE-sources.jar
+2019-06-14 12:58:06,187 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.1.7.RELEASE
+2019-06-14 12:58:06,260 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.1.7.RELEASE/spring-jcl-5.1.7.RELEASE-sources.jar
+2019-06-14 12:58:06,331 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/5.1.7.RELEASE/spring-jcl-5.1.7.RELEASE-sources.jar
+2019-06-14 12:58:06,517 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.1.7.RELEASE
+2019-06-14 12:58:06,595 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE-sources.jar
+2019-06-14 12:58:06,716 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE-sources.jar
+2019-06-14 12:58:06,821 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.1.7.RELEASE
+2019-06-14 12:58:07,237 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-14 12:58:07,239 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-14 12:58:07,239 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-14 12:58:07,241 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-14 12:58:07,242 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mmaquinghen\Documents\Ambroise\DW-Back\DW\src\test\resources
+2019-06-14 12:58:08,362 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/2.1.5.RELEASE/spring-boot-starter-data-rest-2.1.5.RELEASE-javadoc.jar
+2019-06-14 12:58:08,371 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-data-rest:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-rest:jar:javadoc:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:58:08,453 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web/2.1.5.RELEASE/spring-boot-starter-web-2.1.5.RELEASE-javadoc.jar
+2019-06-14 12:58:08,466 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-web:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-web:jar:javadoc:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:58:08,543 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-json/2.1.5.RELEASE/spring-boot-starter-json-2.1.5.RELEASE-javadoc.jar
+2019-06-14 12:58:08,548 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-json:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-json:jar:javadoc:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:58:08,612 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-tomcat/2.1.5.RELEASE/spring-boot-starter-tomcat-2.1.5.RELEASE-javadoc.jar
+2019-06-14 12:58:08,617 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-tomcat:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-tomcat:jar:javadoc:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:58:08,621 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-core:9.0.19
+2019-06-14 12:58:08,624 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-el:9.0.19
+2019-06-14 12:58:08,627 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.tomcat.embed:tomcat-embed-websocket:9.0.19
+2019-06-14 12:58:08,630 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.validator:hibernate-validator:6.0.16.Final
+2019-06-14 12:58:08,633 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.1.7.RELEASE
+2019-06-14 12:58:08,636 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.1.7.RELEASE
+2019-06-14 12:58:08,640 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.1.7.RELEASE
+2019-06-14 12:58:08,644 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.1.7.RELEASE
+2019-06-14 12:58:08,649 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.1.7.RELEASE
+2019-06-14 12:58:08,652 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-webmvc:3.1.8.RELEASE
+2019-06-14 12:58:08,656 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-core:3.1.8.RELEASE
+2019-06-14 12:58:08,660 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:5.1.7.RELEASE
+2019-06-14 12:58:08,663 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.hateoas:spring-hateoas:0.25.1.RELEASE
+2019-06-14 12:58:08,666 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.1.8.RELEASE
+2019-06-14 12:58:08,671 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE
+2019-06-14 12:58:08,679 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.atteo:evo-inflector:1.2.2
+2019-06-14 12:58:08,685 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.26
+2019-06-14 12:58:08,690 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:2.1.5.RELEASE
+2019-06-14 12:58:08,694 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot:2.1.5.RELEASE
+2019-06-14 12:58:08,706 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.1.7.RELEASE
+2019-06-14 12:58:08,715 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-autoconfigure:2.1.5.RELEASE
+2019-06-14 12:58:08,718 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:8.0.16
+2019-06-14 12:58:08,782 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-test/2.1.5.RELEASE/spring-boot-starter-test-2.1.5.RELEASE-javadoc.jar
+2019-06-14 12:58:08,789 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-test:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-test:jar:javadoc:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:58:08,849 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter/2.1.5.RELEASE/spring-boot-starter-2.1.5.RELEASE-javadoc.jar
+2019-06-14 12:58:08,856 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter:jar:javadoc:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:58:08,922 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-logging/2.1.5.RELEASE/spring-boot-starter-logging-2.1.5.RELEASE-javadoc.jar
+2019-06-14 12:58:08,927 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.boot:spring-boot-starter-logging:2.1.5.RELEASE
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-logging:jar:javadoc:2.1.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2019-06-14 12:58:08,932 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jul-to-slf4j:1.7.26
+2019-06-14 12:58:08,937 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:2.1.5.RELEASE
+2019-06-14 12:58:08,941 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:2.1.5.RELEASE
+2019-06-14 12:58:08,945 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.9.12
+2019-06-14 12:58:08,948 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy-agent:1.9.12
+2019-06-14 12:58:08,952 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.1.7.RELEASE
+2019-06-14 12:58:08,956 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.1.7.RELEASE
+2019-06-14 12:58:08,960 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.1.7.RELEASE
+2019-06-14 12:58:08,971 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-web:5.1.7.RELEASE
+2019-06-14 12:58:08,975 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.1.7.RELEASE
+2019-06-14 12:58:08,978 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.1.7.RELEASE
+2019-06-14 12:58:08,981 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.1.7.RELEASE
+2019-06-14 12:58:08,984 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.1.7.RELEASE
+2019-06-14 12:58:08,988 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-webmvc:3.1.8.RELEASE
+2019-06-14 12:58:08,991 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-core:3.1.8.RELEASE
+2019-06-14 12:58:08,995 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:5.1.7.RELEASE
+2019-06-14 12:58:08,998 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.hateoas:spring-hateoas:0.25.1.RELEASE
+2019-06-14 12:58:09,001 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.1.8.RELEASE
+2019-06-14 12:58:09,003 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE
+2019-06-14 12:58:09,006 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.atteo:evo-inflector:1.2.2
+2019-06-14 12:58:09,009 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.26
+2019-06-14 12:58:09,012 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:2.1.5.RELEASE
+2019-06-14 12:58:09,014 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot:2.1.5.RELEASE
+2019-06-14 12:58:09,017 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.1.7.RELEASE
+2019-06-14 12:58:09,019 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-autoconfigure:2.1.5.RELEASE
+2019-06-14 12:58:09,022 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:8.0.16
+2019-06-14 12:58:09,029 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jul-to-slf4j:1.7.26
+2019-06-14 12:58:09,033 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:2.1.5.RELEASE
+2019-06-14 12:58:09,037 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:2.1.5.RELEASE
+2019-06-14 12:58:09,040 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.9.12
+2019-06-14 12:58:09,046 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy-agent:1.9.12
+2019-06-14 12:58:09,050 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.1.7.RELEASE
+2019-06-14 12:58:09,053 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.1.7.RELEASE
+2019-06-14 12:58:09,058 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.1.7.RELEASE
+2019-06-14 12:58:09,071 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:5.1.7.RELEASE
+2019-06-14 12:58:09,076 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:5.1.7.RELEASE
+2019-06-14 12:58:09,081 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:5.1.7.RELEASE
+2019-06-14 12:58:09,088 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:5.1.7.RELEASE
+2019-06-14 12:58:09,101 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-webmvc:3.1.8.RELEASE
+2019-06-14 12:58:09,104 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-core:3.1.8.RELEASE
+2019-06-14 12:58:09,108 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:5.1.7.RELEASE
+2019-06-14 12:58:09,111 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.hateoas:spring-hateoas:0.25.1.RELEASE
+2019-06-14 12:58:09,114 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.1.8.RELEASE
+2019-06-14 12:58:09,132 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE
+2019-06-14 12:58:09,147 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.atteo:evo-inflector:1.2.2
+2019-06-14 12:58:09,149 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.26
+2019-06-14 12:58:09,152 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:2.1.5.RELEASE
+2019-06-14 12:58:09,154 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot:2.1.5.RELEASE
+2019-06-14 12:58:09,156 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:5.1.7.RELEASE
+2019-06-14 12:58:09,159 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-autoconfigure:2.1.5.RELEASE
+2019-06-14 12:58:09,170 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for mysql:mysql-connector-java:8.0.16
+2019-06-14 12:58:09,178 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:jul-to-slf4j:1.7.26
+2019-06-14 12:58:09,182 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test:2.1.5.RELEASE
+2019-06-14 12:58:09,186 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-test-autoconfigure:2.1.5.RELEASE
+2019-06-14 12:58:09,189 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.9.12
+2019-06-14 12:58:09,193 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy-agent:1.9.12
+2019-06-14 12:58:09,196 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:5.1.7.RELEASE
+2019-06-14 12:58:09,200 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jcl:5.1.7.RELEASE
+2019-06-14 12:58:09,203 [Worker-13: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-test:5.1.7.RELEASE
+2019-06-14 12:58:09,483 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-14 12:58:09,483 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-14 12:58:09,483 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-14 12:58:09,486 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-14 12:58:09,486 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mmaquinghen\Documents\Ambroise\DW-Back\DW\src\test\resources
+2019-06-14 13:02:32,228 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
