@@ -137,6 +137,4 @@ public class Study_annotation implements Serializable {
 	public void setAuthor_user_name(string author_user_name) {
 		this.author_user_name = author_user_name;
 	}
-	
-	
 }
