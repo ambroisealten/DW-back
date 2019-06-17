@@ -1,4 +1,4 @@
-package fr.alten.dw.model.beans;
+package fr.alten.dw.model.beans.Study;
 
 public class Study_range {
 

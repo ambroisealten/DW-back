@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fr.alten.dw.model.beans;
+package fr.alten.dw.model.beans.Study;
 
 import java.io.Serializable;
 import java.sql.Date;
