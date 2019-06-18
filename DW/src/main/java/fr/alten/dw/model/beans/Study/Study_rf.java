@@ -27,6 +27,7 @@ public class Study_rf implements Serializable {
 	@Id
 	private transient ObjectId _id;
 
+	private Long id;
 	private int instance_key;
 	private double entrance_dose_total;
 	private double dose_area_product_total;
@@ -78,6 +79,15 @@ public class Study_rf implements Serializable {
         super();
 	}
 	
+	public Long getId() {
+		return id;
+	}
+
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
 	public int getInstance_key() {
 		return instance_key;
 	}

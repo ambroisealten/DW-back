@@ -26,6 +26,7 @@ public class Study_mg implements Serializable {
 	@Id
 	private transient ObjectId _id;
 
+	private Long id;
 	private int instance_key;
 	private int total_number_of_exposures;
 	private double accumulated_average_glandular_dose_left;
@@ -84,6 +85,15 @@ public class Study_mg implements Serializable {
 		super();
 	}
 
+
+	public Long getId() {
+		return id;
+	}
+
+
+	public void setId(Long id) {
+		this.id = id;
+	}
 
 	public int getInstance_key() {
 		return instance_key;

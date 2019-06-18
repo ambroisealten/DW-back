@@ -27,6 +27,7 @@ public class Study_mr implements Serializable {
 	@Id
 	private transient ObjectId _id;
 
+	private Long id;
 	private String study_instance_uid;
 	private String patient_id;
 	private Date study_date;
@@ -80,6 +81,16 @@ public class Study_mr implements Serializable {
     public Study_mr() {
         super();
     }
+
+	
+	public Long getId() {
+		return id;
+	}
+
+
+	public void setId(Long id) {
+		this.id = id;
+	}
 
 	public String getStudy_instance_uid() {
 		return study_instance_uid;

@@ -27,6 +27,7 @@ public class Study implements Serializable {
 	@Id
 	private transient ObjectId _id;
 
+	private Long id;
 	private int instance_key = 0;
 	private String instance_name;
 	private double patient_height;
@@ -65,6 +66,15 @@ public class Study implements Serializable {
 		super();
 	}
 
+
+	public Long getId() {
+		return id;
+	}
+
+
+	public void setId(Long id) {
+		this.id = id;
+	}
 
 	public int getInstance_key() {
 		return instance_key;

@@ -27,6 +27,7 @@ public class Serie implements Serializable {
 	@Id
 	private transient ObjectId _id;
 	
+	private Long id;
 	private int instance_key;
 	private String target_region_key;
 	private int series_number;
@@ -71,6 +72,15 @@ public class Serie implements Serializable {
 		super();
 	}
 
+
+	public Long getId() {
+		return id;
+	}
+
+
+	public void setId(Long id) {
+		this.id = id;
+	}
 
 	public int getInstance_key() {
 		return instance_key;

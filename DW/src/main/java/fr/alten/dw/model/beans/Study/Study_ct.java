@@ -27,6 +27,7 @@ public class Study_ct implements Serializable  {
 	@Id
 	private transient ObjectId _id;
 
+	private Long id;
 	private int instance_key;
 	private String instance_name;
 	private String study_instance_uid;
@@ -86,6 +87,15 @@ public class Study_ct implements Serializable  {
 		super();
 	}
 
+
+	public Long getId() {
+		return id;
+	}
+
+
+	public void setId(Long id) {
+		this.id = id;
+	}
 
 	public int getInstance_key() {
 		return instance_key;

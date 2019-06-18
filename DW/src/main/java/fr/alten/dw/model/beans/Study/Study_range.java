@@ -28,6 +28,7 @@ public class Study_range implements Serializable {
 	@Id
 	private transient ObjectId _id;
 	
+	private Long id;
 	private int instance_key;
 	private int range_key;
 	private String range_value;
@@ -37,6 +38,16 @@ public class Study_range implements Serializable {
     public Study_range() {
         super();
     }
+
+	
+	public Long getId() {
+		return id;
+	}
+
+
+	public void setId(Long id) {
+		this.id = id;
+	}
 
 	public int getInstance_key() {
 		return instance_key;
