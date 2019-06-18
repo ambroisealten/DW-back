@@ -7,8 +7,6 @@ import java.io.Serializable;
 import java.sql.Date;
 import java.sql.Time;
 import java.sql.Timestamp;
-
-import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 
 import java.lang.String;
@@ -24,8 +22,6 @@ public class Study_mr implements Serializable {
 	 */
 	private static final long serialVersionUID = -3789233219931556803L;
 
-	@Id
-	private transient ObjectId _id;
 
 	private Long id;
 	private String study_instance_uid;
