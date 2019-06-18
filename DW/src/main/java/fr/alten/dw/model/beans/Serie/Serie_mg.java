@@ -7,8 +7,6 @@ import java.io.Serializable;
 import java.sql.Date;
 import java.sql.Time;
 import java.sql.Timestamp;
-
-import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 
 import java.lang.String;
@@ -25,8 +23,6 @@ public class Serie_mg implements Serializable {
 	 */
 	private static final long serialVersionUID = 5779224045486052567L;
 
-	@Id
-	private transient ObjectId _id;
 	
 
 	private Long id;

@@ -6,8 +6,6 @@ package fr.alten.dw.model.beans.Study;
 import java.io.Serializable;
 import java.sql.Date;
 import java.sql.Timestamp;
-
-import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 
 import java.lang.String;
@@ -24,8 +22,6 @@ public class Study_us implements Serializable {
 	 */
 	private static final long serialVersionUID = -1554349587541451866L;
 
-	@Id
-	private transient ObjectId _id;
 
 	private Long id;
 	private int instance_key;
