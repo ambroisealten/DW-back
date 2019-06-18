@@ -4,11 +4,8 @@
 package fr.alten.dw.model.beans.Serie;
 
 import java.io.Serializable;
-import java.sql.Date;
 import java.sql.Time;
 import java.sql.Timestamp;
-import org.springframework.data.annotation.Id;
-
 import java.lang.String;
 
 /**
