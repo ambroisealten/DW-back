@@ -12,8 +12,6 @@ import java.lang.String;
  * @author Thomas Decamp
  */
 
-import java.io.Serializable;
-
 public class Drl_mapping_study_desc implements Serializable {
 
 	/**
