@@ -103,3 +103,6 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+target/classes/META-INF/maven/dw/dw/pom.properties
+target/classes/META-INF/MANIFEST.MF
+.classpath
