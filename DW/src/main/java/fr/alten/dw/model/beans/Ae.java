@@ -5,14 +5,19 @@ package fr.alten.dw.model.beans;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
-import java.lang.String;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * 
  * @author Thomas Decamp
  */
+@Entity
+@Table(name="ae")
 public class Ae implements Serializable {
-
 	/**
 	 * 
 	 */
@@ -20,6 +25,8 @@ public class Ae implements Serializable {
 
 	
 	private int instance_key;
+	@Id
+	@Column(name="id")
 	private int id;
 	private double ap_left_level;
 	private double ap_right_level;

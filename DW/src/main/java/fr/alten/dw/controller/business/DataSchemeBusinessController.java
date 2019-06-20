@@ -14,6 +14,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import fr.alten.dw.model.beans.BeanScheme;
+import fr.alten.dw.model.beans.Data;
 
 /**
  * @author Andy Chabalier
@@ -27,7 +28,7 @@ public class DataSchemeBusinessController {
 		ArrayList<BeanScheme> result = new ArrayList<BeanScheme>();
 		Package pack = BeanScheme.class.getPackage();
 		for (Class classFound: getClasses(pack.getName())) {
-			if (classFound.getName() != BeanScheme.class.getName()) {
+			if (classFound.getName() != BeanScheme.class.getName() && classFound.getName() != Data.class.getName()) {
 				BeanScheme bean = new BeanScheme(classFound.getSimpleName());
 				for (Field fieldFound : classFound.getDeclaredFields()) {
 					bean.addField(fieldFound.getName());
