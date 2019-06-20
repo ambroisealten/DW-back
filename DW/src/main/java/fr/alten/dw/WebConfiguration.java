@@ -20,7 +20,7 @@ public class WebConfiguration implements WebMvcConfigurer {
 	@Override
 	public void addCorsMappings(final CorsRegistry registry) {
 		registry.addMapping("/**")
-				.allowedOrigins("http://localhost:4200", ctx.getEnvironment().getProperty("security.allowOrigin"))
+				.allowedOrigins(ctx.getEnvironment().getProperty("security.allowOrigin"))
 				.allowedMethods("GET", "PUT", "POST", "DELETE", "OPTIONS");
 	}
 }
