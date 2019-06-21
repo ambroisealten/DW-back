@@ -27,8 +27,7 @@ public class Count_study implements Serializable {
 	private static final long serialVersionUID = -7308052773756676197L;
 	
 	@Id
-	@Column(name="id")
-	private Long id;
+	@Column(name="instance_key")
 	private Integer instance_key;
 	private Date study_date;
 	private String modality;
