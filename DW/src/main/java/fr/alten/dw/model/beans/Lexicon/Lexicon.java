@@ -38,31 +38,31 @@ public class Lexicon implements Serializable {
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return this.dt_last_update_dwh;
+		return dt_last_update_dwh;
 	}
 
 	public String getDtype() {
-		return this.dtype;
+		return dtype;
 	}
 
 	public Integer getFacility_key() {
-		return this.facility_key;
+		return facility_key;
 	}
 
 	public String getField1() {
-		return this.field1;
+		return field1;
 	}
 
 	public String getField2() {
-		return this.field2;
+		return field2;
 	}
 
 	public Long getId() {
-		return this.id;
+		return id;
 	}
 
 	public Integer getInstance_key() {
-		return this.instance_key;
+		return instance_key;
 	}
 
 	public void setDt_last_update_dwh(final Timestamp dt_last_update_dwh) {

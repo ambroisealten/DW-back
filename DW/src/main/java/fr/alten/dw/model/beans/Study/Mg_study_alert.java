@@ -4,15 +4,20 @@
 package fr.alten.dw.model.beans.Study;
 
 import java.io.Serializable;
-import java.sql.Date;
 import java.sql.Timestamp;
-import java.lang.String;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * 
  * @author Thomas Decamp
  *
  */
+@Entity
+@Table(name="dwh_mg_study_alert")
 public class Mg_study_alert implements Serializable {
 	
 	/**
@@ -20,8 +25,8 @@ public class Mg_study_alert implements Serializable {
 	 */
 	private static final long serialVersionUID = 8064950366647588287L;
 
-	
-	
+	@Id
+	@Column(name="id")
 	private Long id;
 	private int instance_key;
 	private double od_lvl_2;
