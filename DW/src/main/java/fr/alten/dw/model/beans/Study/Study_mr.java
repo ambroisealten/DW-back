@@ -68,8 +68,8 @@ public class Study_mr implements Serializable {
 	private Integer week_number;
 	private Integer day_number;
 	private Integer study_hour;
-	private String hour_Integererval;
-	private Integer patient_appoIntegerment_delay;
+	private String hour_interval;
+	private Integer patient_appointment_delay;
 	private Integer patient_waiting_time;
 	private Integer exam_duration;
 	private Boolean contrast_bolus_agent_use_detected;
@@ -406,19 +406,19 @@ public class Study_mr implements Serializable {
 	}
 
 	public String getHour_Integererval() {
-		return hour_Integererval;
+		return hour_interval;
 	}
 
 	public void setHour_Integererval(String hour_Integererval) {
-		this.hour_Integererval = hour_Integererval;
+		this.hour_interval = hour_Integererval;
 	}
 
 	public Integer getPatient_appoIntegerment_delay() {
-		return patient_appoIntegerment_delay;
+		return patient_appointment_delay;
 	}
 
 	public void setPatient_appoIntegerment_delay(Integer patient_appoIntegerment_delay) {
-		this.patient_appoIntegerment_delay = patient_appoIntegerment_delay;
+		this.patient_appointment_delay = patient_appoIntegerment_delay;
 	}
 
 	public Integer getPatient_waiting_time() {

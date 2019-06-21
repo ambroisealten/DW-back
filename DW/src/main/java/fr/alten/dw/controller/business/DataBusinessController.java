@@ -32,7 +32,7 @@ public class DataBusinessController {
 //		String packageName = "fr.alten.dw.model.beans." + objectSearched.substring(0, objectSearched.indexOf("_"))+".";
 //		System.out.println(packageName);
 //		Class<?> className = Class.forName(packageName + objectSearched);
-		return this.dataRepository.findByTable(Study_xa.class);
+		return this.dataRepository.findByTable(Study.class);
 	}
 
 	public String getAllDatasWithinDates(String dateStart, String dateEnd) {
