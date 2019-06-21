@@ -16,7 +16,7 @@ import javax.persistence.Table;
  * @author Thomas Decamp
  */
 @Entity
-@Table(name="ae")
+@Table(name="dwh_ae")
 public class Ae implements Serializable {
 	/**
 	 * 
@@ -24,55 +24,55 @@ public class Ae implements Serializable {
 	private static final long serialVersionUID = 5513883269016376307L;
 
 	
-	private int instance_key;
+	private Integer instance_key;
 	@Id
 	@Column(name="id")
-	private int id;
-	private double ap_left_level;
-	private double ap_right_level;
-	private double lat_left_level;
-	private double lat_right_level;
-	private double table_level;
-	private double enhance_contrast;
-	private double ap_distortion;
-	private double lat_distortion;
-	private double min_contrast_value;
-	private double max_contrast_value;
+	private Long id;
+	private Double ap_left_level;
+	private Double ap_right_level;
+	private Double lat_left_level;
+	private Double lat_right_level;
+	private Double table_level;
+	private Double enhance_contrast;
+	private Double ap_distortion;
+	private Double lat_distortion;
+	private Double min_contrast_value;
+	private Double max_contrast_value;
 	private Long dicom_over_the_web_connection_key;
 	private Long device_key;
 	private Long ae_table_key;
-	private double patient_head_position_x;
-	private double patient_head_position_z;
-	private double table_attenuation_factor;
-	private int checksum;
-	private int license_key;
-	private int department_key;
-	private int sdm_key;
-	private int translator_key;
-	private int image_translator_key;
-	private int port;
-	private int facility_key;
-	private int innova_log_ftp_connection_key;
-	private int ct_log_sftp_connection_key;
-	private int ris_ae_key;
-	private int headrest_thickness;
-	private int median_filter_radius;
-	private int space_btw_table_headrest;
-	private int table_thickness;
-	private int table_thickness_min;
-	private int secondary_translator_key;
-	private int secondary_image_translator_key;
-	private int tertiary_translator_key;
-	private int tertiary_image_translator_key;
-	private int domain_key;
-	private int screenshot_translator_key;
+	private Double patient_head_position_x;
+	private Double patient_head_position_z;
+	private Double table_attenuation_factor;
+	private Integer checksum;
+	private Integer license_key;
+	private Integer department_key;
+	private Integer sdm_key;
+	private Integer translator_key;
+	private Integer image_translator_key;
+	private Integer port;
+	private Integer facility_key;
+	private Integer innova_log_ftp_connection_key;
+	private Integer ct_log_sftp_connection_key;
+	private Integer ris_ae_key;
+	private Integer headrest_thickness;
+	private Integer median_filter_radius;
+	private Integer space_btw_table_headrest;
+	private Integer table_thickness;
+	private Integer table_thickness_min;
+	private Integer secondary_translator_key;
+	private Integer secondary_image_translator_key;
+	private Integer tertiary_translator_key;
+	private Integer tertiary_image_translator_key;
+	private Integer domain_key;
+	private Integer screenshot_translator_key;
 	private Timestamp dt_created;
 	private Timestamp dt_updated;
 	private Timestamp dt_deleted;
-	private int dmwl_query_frequency_in_min;
-	private int modality_worklist_translator_key;
+	private Integer dmwl_query_frequency_in_min;
+	private Integer modality_worklist_translator_key;
 	private Timestamp dt_last_query_to_ris;
-	private int qr_advanced_operation_delay;
+	private Integer qr_advanced_operation_delay;
 	private Timestamp dt_last_update_dwh;
 	private Boolean deleted;
 	private Boolean modality_worklist_enabled;
@@ -80,7 +80,7 @@ public class Ae implements Serializable {
 	private Boolean ivrle_ts_forced;
 	private Boolean mpps_series_duplicate_removal;
 	private Boolean peak_skin_dose_enabled;
-	private int query_retrieve_capable;
+	private Integer query_retrieve_capable;
 	private String device_type;
 	private String ip;
 	private String software_version;
@@ -103,122 +103,122 @@ public class Ae implements Serializable {
 	}
 
 
-	public int getInstance_key() {
+	public Integer getInstance_key() {
 		return instance_key;
 	}
 
 
-	public void setInstance_key(int instance_key) {
+	public void setInstance_key(Integer instance_key) {
 		this.instance_key = instance_key;
 	}
 
 
-	public int getId() {
+	public Long getId() {
 		return id;
 	}
 
 
-	public void setId(int id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
 
-	public double getAp_left_level() {
+	public Double getAp_left_level() {
 		return ap_left_level;
 	}
 
 
-	public void setAp_left_level(double ap_left_level) {
+	public void setAp_left_level(Double ap_left_level) {
 		this.ap_left_level = ap_left_level;
 	}
 
 
-	public double getAp_right_level() {
+	public Double getAp_right_level() {
 		return ap_right_level;
 	}
 
 
-	public void setAp_right_level(double ap_right_level) {
+	public void setAp_right_level(Double ap_right_level) {
 		this.ap_right_level = ap_right_level;
 	}
 
 
-	public double getLat_left_level() {
+	public Double getLat_left_level() {
 		return lat_left_level;
 	}
 
 
-	public void setLat_left_level(double lat_left_level) {
+	public void setLat_left_level(Double lat_left_level) {
 		this.lat_left_level = lat_left_level;
 	}
 
 
-	public double getLat_right_level() {
+	public Double getLat_right_level() {
 		return lat_right_level;
 	}
 
 
-	public void setLat_right_level(double lat_right_level) {
+	public void setLat_right_level(Double lat_right_level) {
 		this.lat_right_level = lat_right_level;
 	}
 
 
-	public double getTable_level() {
+	public Double getTable_level() {
 		return table_level;
 	}
 
 
-	public void setTable_level(double table_level) {
+	public void setTable_level(Double table_level) {
 		this.table_level = table_level;
 	}
 
 
-	public double getEnhance_contrast() {
+	public Double getEnhance_contrast() {
 		return enhance_contrast;
 	}
 
 
-	public void setEnhance_contrast(double enhance_contrast) {
+	public void setEnhance_contrast(Double enhance_contrast) {
 		this.enhance_contrast = enhance_contrast;
 	}
 
 
-	public double getAp_distortion() {
+	public Double getAp_distortion() {
 		return ap_distortion;
 	}
 
 
-	public void setAp_distortion(double ap_distortion) {
+	public void setAp_distortion(Double ap_distortion) {
 		this.ap_distortion = ap_distortion;
 	}
 
 
-	public double getLat_distortion() {
+	public Double getLat_distortion() {
 		return lat_distortion;
 	}
 
 
-	public void setLat_distortion(double lat_distortion) {
+	public void setLat_distortion(Double lat_distortion) {
 		this.lat_distortion = lat_distortion;
 	}
 
 
-	public double getMin_contrast_value() {
+	public Double getMin_contrast_value() {
 		return min_contrast_value;
 	}
 
 
-	public void setMin_contrast_value(double min_contrast_value) {
+	public void setMin_contrast_value(Double min_contrast_value) {
 		this.min_contrast_value = min_contrast_value;
 	}
 
 
-	public double getMax_contrast_value() {
+	public Double getMax_contrast_value() {
 		return max_contrast_value;
 	}
 
 
-	public void setMax_contrast_value(double max_contrast_value) {
+	public void setMax_contrast_value(Double max_contrast_value) {
 		this.max_contrast_value = max_contrast_value;
 	}
 
@@ -253,252 +253,252 @@ public class Ae implements Serializable {
 	}
 
 
-	public double getPatient_head_position_x() {
+	public Double getPatient_head_position_x() {
 		return patient_head_position_x;
 	}
 
 
-	public void setPatient_head_position_x(double patient_head_position_x) {
+	public void setPatient_head_position_x(Double patient_head_position_x) {
 		this.patient_head_position_x = patient_head_position_x;
 	}
 
 
-	public double getPatient_head_position_z() {
+	public Double getPatient_head_position_z() {
 		return patient_head_position_z;
 	}
 
 
-	public void setPatient_head_position_z(double patient_head_position_z) {
+	public void setPatient_head_position_z(Double patient_head_position_z) {
 		this.patient_head_position_z = patient_head_position_z;
 	}
 
 
-	public double getTable_attenuation_factor() {
+	public Double getTable_attenuation_factor() {
 		return table_attenuation_factor;
 	}
 
 
-	public void setTable_attenuation_factor(double table_attenuation_factor) {
+	public void setTable_attenuation_factor(Double table_attenuation_factor) {
 		this.table_attenuation_factor = table_attenuation_factor;
 	}
 
 
-	public int getChecksum() {
+	public Integer getChecksum() {
 		return checksum;
 	}
 
 
-	public void setChecksum(int checksum) {
+	public void setChecksum(Integer checksum) {
 		this.checksum = checksum;
 	}
 
 
-	public int getLicense_key() {
+	public Integer getLicense_key() {
 		return license_key;
 	}
 
 
-	public void setLicense_key(int license_key) {
+	public void setLicense_key(Integer license_key) {
 		this.license_key = license_key;
 	}
 
 
-	public int getDepartment_key() {
+	public Integer getDepartment_key() {
 		return department_key;
 	}
 
 
-	public void setDepartment_key(int department_key) {
+	public void setDepartment_key(Integer department_key) {
 		this.department_key = department_key;
 	}
 
 
-	public int getSdm_key() {
+	public Integer getSdm_key() {
 		return sdm_key;
 	}
 
 
-	public void setSdm_key(int sdm_key) {
+	public void setSdm_key(Integer sdm_key) {
 		this.sdm_key = sdm_key;
 	}
 
 
-	public int getTranslator_key() {
+	public Integer getTranslator_key() {
 		return translator_key;
 	}
 
 
-	public void setTranslator_key(int translator_key) {
+	public void setTranslator_key(Integer translator_key) {
 		this.translator_key = translator_key;
 	}
 
 
-	public int getImage_translator_key() {
+	public Integer getImage_translator_key() {
 		return image_translator_key;
 	}
 
 
-	public void setImage_translator_key(int image_translator_key) {
+	public void setImage_translator_key(Integer image_translator_key) {
 		this.image_translator_key = image_translator_key;
 	}
 
 
-	public int getPort() {
+	public Integer getPort() {
 		return port;
 	}
 
 
-	public void setPort(int port) {
+	public void setPort(Integer port) {
 		this.port = port;
 	}
 
 
-	public int getFacility_key() {
+	public Integer getFacility_key() {
 		return facility_key;
 	}
 
 
-	public void setFacility_key(int facility_key) {
+	public void setFacility_key(Integer facility_key) {
 		this.facility_key = facility_key;
 	}
 
 
-	public int getInnova_log_ftp_connection_key() {
+	public Integer getInnova_log_ftp_connection_key() {
 		return innova_log_ftp_connection_key;
 	}
 
 
-	public void setInnova_log_ftp_connection_key(int innova_log_ftp_connection_key) {
+	public void setInnova_log_ftp_connection_key(Integer innova_log_ftp_connection_key) {
 		this.innova_log_ftp_connection_key = innova_log_ftp_connection_key;
 	}
 
 
-	public int getCt_log_sftp_connection_key() {
+	public Integer getCt_log_sftp_connection_key() {
 		return ct_log_sftp_connection_key;
 	}
 
 
-	public void setCt_log_sftp_connection_key(int ct_log_sftp_connection_key) {
+	public void setCt_log_sftp_connection_key(Integer ct_log_sftp_connection_key) {
 		this.ct_log_sftp_connection_key = ct_log_sftp_connection_key;
 	}
 
 
-	public int getRis_ae_key() {
+	public Integer getRis_ae_key() {
 		return ris_ae_key;
 	}
 
 
-	public void setRis_ae_key(int ris_ae_key) {
+	public void setRis_ae_key(Integer ris_ae_key) {
 		this.ris_ae_key = ris_ae_key;
 	}
 
 
-	public int getHeadrest_thickness() {
+	public Integer getHeadrest_thickness() {
 		return headrest_thickness;
 	}
 
 
-	public void setHeadrest_thickness(int headrest_thickness) {
+	public void setHeadrest_thickness(Integer headrest_thickness) {
 		this.headrest_thickness = headrest_thickness;
 	}
 
 
-	public int getMedian_filter_radius() {
+	public Integer getMedian_filter_radius() {
 		return median_filter_radius;
 	}
 
 
-	public void setMedian_filter_radius(int median_filter_radius) {
+	public void setMedian_filter_radius(Integer median_filter_radius) {
 		this.median_filter_radius = median_filter_radius;
 	}
 
 
-	public int getSpace_btw_table_headrest() {
+	public Integer getSpace_btw_table_headrest() {
 		return space_btw_table_headrest;
 	}
 
 
-	public void setSpace_btw_table_headrest(int space_btw_table_headrest) {
+	public void setSpace_btw_table_headrest(Integer space_btw_table_headrest) {
 		this.space_btw_table_headrest = space_btw_table_headrest;
 	}
 
 
-	public int getTable_thickness() {
+	public Integer getTable_thickness() {
 		return table_thickness;
 	}
 
 
-	public void setTable_thickness(int table_thickness) {
+	public void setTable_thickness(Integer table_thickness) {
 		this.table_thickness = table_thickness;
 	}
 
 
-	public int getTable_thickness_min() {
+	public Integer getTable_thickness_min() {
 		return table_thickness_min;
 	}
 
 
-	public void setTable_thickness_min(int table_thickness_min) {
+	public void setTable_thickness_min(Integer table_thickness_min) {
 		this.table_thickness_min = table_thickness_min;
 	}
 
 
-	public int getSecondary_translator_key() {
+	public Integer getSecondary_translator_key() {
 		return secondary_translator_key;
 	}
 
 
-	public void setSecondary_translator_key(int secondary_translator_key) {
+	public void setSecondary_translator_key(Integer secondary_translator_key) {
 		this.secondary_translator_key = secondary_translator_key;
 	}
 
 
-	public int getSecondary_image_translator_key() {
+	public Integer getSecondary_image_translator_key() {
 		return secondary_image_translator_key;
 	}
 
 
-	public void setSecondary_image_translator_key(int secondary_image_translator_key) {
+	public void setSecondary_image_translator_key(Integer secondary_image_translator_key) {
 		this.secondary_image_translator_key = secondary_image_translator_key;
 	}
 
 
-	public int getTertiary_translator_key() {
+	public Integer getTertiary_translator_key() {
 		return tertiary_translator_key;
 	}
 
 
-	public void setTertiary_translator_key(int tertiary_translator_key) {
+	public void setTertiary_translator_key(Integer tertiary_translator_key) {
 		this.tertiary_translator_key = tertiary_translator_key;
 	}
 
 
-	public int getTertiary_image_translator_key() {
+	public Integer getTertiary_image_translator_key() {
 		return tertiary_image_translator_key;
 	}
 
 
-	public void setTertiary_image_translator_key(int tertiary_image_translator_key) {
+	public void setTertiary_image_translator_key(Integer tertiary_image_translator_key) {
 		this.tertiary_image_translator_key = tertiary_image_translator_key;
 	}
 
 
-	public int getDomain_key() {
+	public Integer getDomain_key() {
 		return domain_key;
 	}
 
 
-	public void setDomain_key(int domain_key) {
+	public void setDomain_key(Integer domain_key) {
 		this.domain_key = domain_key;
 	}
 
 
-	public int getScreenshot_translator_key() {
+	public Integer getScreenshot_translator_key() {
 		return screenshot_translator_key;
 	}
 
 
-	public void setScreenshot_translator_key(int screenshot_translator_key) {
+	public void setScreenshot_translator_key(Integer screenshot_translator_key) {
 		this.screenshot_translator_key = screenshot_translator_key;
 	}
 
@@ -533,22 +533,22 @@ public class Ae implements Serializable {
 	}
 
 
-	public int getDmwl_query_frequency_in_min() {
+	public Integer getDmwl_query_frequency_in_min() {
 		return dmwl_query_frequency_in_min;
 	}
 
 
-	public void setDmwl_query_frequency_in_min(int dmwl_query_frequency_in_min) {
+	public void setDmwl_query_frequency_in_min(Integer dmwl_query_frequency_in_min) {
 		this.dmwl_query_frequency_in_min = dmwl_query_frequency_in_min;
 	}
 
 
-	public int getModality_worklist_translator_key() {
+	public Integer getModality_worklist_translator_key() {
 		return modality_worklist_translator_key;
 	}
 
 
-	public void setModality_worklist_translator_key(int modality_worklist_translator_key) {
+	public void setModality_worklist_translator_key(Integer modality_worklist_translator_key) {
 		this.modality_worklist_translator_key = modality_worklist_translator_key;
 	}
 
@@ -563,12 +563,12 @@ public class Ae implements Serializable {
 	}
 
 
-	public int getQr_advanced_operation_delay() {
+	public Integer getQr_advanced_operation_delay() {
 		return qr_advanced_operation_delay;
 	}
 
 
-	public void setQr_advanced_operation_delay(int qr_advanced_operation_delay) {
+	public void setQr_advanced_operation_delay(Integer qr_advanced_operation_delay) {
 		this.qr_advanced_operation_delay = qr_advanced_operation_delay;
 	}
 
@@ -643,12 +643,12 @@ public class Ae implements Serializable {
 	}
 
 
-	public int getQuery_retrieve_capable() {
+	public Integer getQuery_retrieve_capable() {
 		return query_retrieve_capable;
 	}
 
 
-	public void setQuery_retrieve_capable(int query_retrieve_capable) {
+	public void setQuery_retrieve_capable(Integer query_retrieve_capable) {
 		this.query_retrieve_capable = query_retrieve_capable;
 	}
 

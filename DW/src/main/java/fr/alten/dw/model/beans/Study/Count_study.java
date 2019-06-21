@@ -6,26 +6,34 @@ package fr.alten.dw.model.beans.Study;
 import java.io.Serializable;
 import java.sql.Date;
 import java.sql.Timestamp;
-import java.lang.String;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * 
  * @author Thomas Decamp
  *
  */
+@Entity
+@Table(name="dwh_count_study")
 public class Count_study implements Serializable {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -7308052773756676197L;
-
-
-	private int instance_key;
+	
+	@Id
+	@Column(name="id")
+	private Long id;
+	private Integer instance_key;
 	private Date study_date;
 	private String modality;
-	private int nb_days;
-	private int count_study;
+	private Integer nb_days;
+	private Integer count_study;
 	private Timestamp dt_last_update_dwh;
 	
 	
@@ -34,12 +42,12 @@ public class Count_study implements Serializable {
 	}
 
 
-	public int getInstance_key() {
+	public Integer getInstance_key() {
 		return instance_key;
 	}
 
 
-	public void setInstance_key(int instance_key) {
+	public void setInstance_key(Integer instance_key) {
 		this.instance_key = instance_key;
 	}
 
@@ -64,22 +72,22 @@ public class Count_study implements Serializable {
 	}
 
 
-	public int getNb_days() {
+	public Integer getNb_days() {
 		return nb_days;
 	}
 
 
-	public void setNb_days(int nb_days) {
+	public void setNb_days(Integer nb_days) {
 		this.nb_days = nb_days;
 	}
 
 
-	public int getCount_study() {
+	public Integer getCount_study() {
 		return count_study;
 	}
 
 
-	public void setCount_study(int count_study) {
+	public void setCount_study(Integer count_study) {
 		this.count_study = count_study;
 	}
 

@@ -7,25 +7,32 @@ import java.io.Serializable;
 import java.sql.Date;
 import java.sql.Time;
 import java.sql.Timestamp;
-import java.lang.String;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * 
  * @author Thomas Decamp
  *
  */
+@Entity
+@Table(name="dwh_study_mr")
 public class Study_mr implements Serializable {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -3789233219931556803L;
 
-
+	@Id
+	@Column(name="id")
 	private Long id;
 	private String study_instance_uid;
 	private String patient_id;
 	private Date study_date;
-	private double total_duration;
+	private Double total_duration;
 	private Timestamp study_start_timestamp;
 	private Timestamp study_end_estimated;
 	private String body_region;
@@ -38,14 +45,14 @@ public class Study_mr implements Serializable {
 	private Time bench_p50_duration;
 	private Time bench_p75_duration;
 	private Time target_duration;
-	private int exam_duration_sched;
-	private int exam_prep_time_before;
-	private int exam_prep_time_after;
+	private Integer exam_duration_sched;
+	private Integer exam_prep_time_before;
+	private Integer exam_prep_time_after;
 	private Timestamp study_start_calculated;
-	private double patient_height;
+	private Double patient_height;
 	private String study_id;
-	private int study_id_calculated;
-	private double patient_weight;
+	private Integer study_id_calculated;
+	private Double patient_weight;
 	private Timestamp study_datetime;
 	private Timestamp study_datetime_utc;
 	private String modality;
@@ -55,16 +62,16 @@ public class Study_mr implements Serializable {
 	private Timestamp patient_birth_date;
 	private String patient_first_name;
 	private String nature_of_exam;
-	private double patient_age;
-	private int total_study_last_month;
-	private int total_number_of_exposures;
-	private int week_number;
-	private int day_number;
-	private int study_hour;
-	private String hour_interval;
-	private int patient_appointment_delay;
-	private int patient_waiting_time;
-	private int exam_duration;
+	private Double patient_age;
+	private Integer total_study_last_month;
+	private Integer total_number_of_exposures;
+	private Integer week_number;
+	private Integer day_number;
+	private Integer study_hour;
+	private String hour_Integererval;
+	private Integer patient_appoIntegerment_delay;
+	private Integer patient_waiting_time;
+	private Integer exam_duration;
 	private Boolean contrast_bolus_agent_use_detected;
 	private String patient_age_range;
 	private Timestamp study_end_date;
@@ -110,11 +117,11 @@ public class Study_mr implements Serializable {
 		this.study_date = study_date;
 	}
 
-	public double getTotal_duration() {
+	public Double getTotal_duration() {
 		return total_duration;
 	}
 
-	public void setTotal_duration(double total_duration) {
+	public void setTotal_duration(Double total_duration) {
 		this.total_duration = total_duration;
 	}
 
@@ -214,27 +221,27 @@ public class Study_mr implements Serializable {
 		this.target_duration = target_duration;
 	}
 
-	public int getExam_duration_sched() {
+	public Integer getExam_duration_sched() {
 		return exam_duration_sched;
 	}
 
-	public void setExam_duration_sched(int exam_duration_sched) {
+	public void setExam_duration_sched(Integer exam_duration_sched) {
 		this.exam_duration_sched = exam_duration_sched;
 	}
 
-	public int getExam_prep_time_before() {
+	public Integer getExam_prep_time_before() {
 		return exam_prep_time_before;
 	}
 
-	public void setExam_prep_time_before(int exam_prep_time_before) {
+	public void setExam_prep_time_before(Integer exam_prep_time_before) {
 		this.exam_prep_time_before = exam_prep_time_before;
 	}
 
-	public int getExam_prep_time_after() {
+	public Integer getExam_prep_time_after() {
 		return exam_prep_time_after;
 	}
 
-	public void setExam_prep_time_after(int exam_prep_time_after) {
+	public void setExam_prep_time_after(Integer exam_prep_time_after) {
 		this.exam_prep_time_after = exam_prep_time_after;
 	}
 
@@ -246,11 +253,11 @@ public class Study_mr implements Serializable {
 		this.study_start_calculated = study_start_calculated;
 	}
 
-	public double getPatient_height() {
+	public Double getPatient_height() {
 		return patient_height;
 	}
 
-	public void setPatient_height(double patient_height) {
+	public void setPatient_height(Double patient_height) {
 		this.patient_height = patient_height;
 	}
 
@@ -262,19 +269,19 @@ public class Study_mr implements Serializable {
 		this.study_id = study_id;
 	}
 
-	public int getStudy_id_calculated() {
+	public Integer getStudy_id_calculated() {
 		return study_id_calculated;
 	}
 
-	public void setStudy_id_calculated(int study_id_calculated) {
+	public void setStudy_id_calculated(Integer study_id_calculated) {
 		this.study_id_calculated = study_id_calculated;
 	}
 
-	public double getPatient_weight() {
+	public Double getPatient_weight() {
 		return patient_weight;
 	}
 
-	public void setPatient_weight(double patient_weight) {
+	public void setPatient_weight(Double patient_weight) {
 		this.patient_weight = patient_weight;
 	}
 
@@ -350,83 +357,83 @@ public class Study_mr implements Serializable {
 		this.nature_of_exam = nature_of_exam;
 	}
 
-	public double getPatient_age() {
+	public Double getPatient_age() {
 		return patient_age;
 	}
 
-	public void setPatient_age(double patient_age) {
+	public void setPatient_age(Double patient_age) {
 		this.patient_age = patient_age;
 	}
 
-	public int getTotal_study_last_month() {
+	public Integer getTotal_study_last_month() {
 		return total_study_last_month;
 	}
 
-	public void setTotal_study_last_month(int total_study_last_month) {
+	public void setTotal_study_last_month(Integer total_study_last_month) {
 		this.total_study_last_month = total_study_last_month;
 	}
 
-	public int getTotal_number_of_exposures() {
+	public Integer getTotal_number_of_exposures() {
 		return total_number_of_exposures;
 	}
 
-	public void setTotal_number_of_exposures(int total_number_of_exposures) {
+	public void setTotal_number_of_exposures(Integer total_number_of_exposures) {
 		this.total_number_of_exposures = total_number_of_exposures;
 	}
 
-	public int getWeek_number() {
+	public Integer getWeek_number() {
 		return week_number;
 	}
 
-	public void setWeek_number(int week_number) {
+	public void setWeek_number(Integer week_number) {
 		this.week_number = week_number;
 	}
 
-	public int getDay_number() {
+	public Integer getDay_number() {
 		return day_number;
 	}
 
-	public void setDay_number(int day_number) {
+	public void setDay_number(Integer day_number) {
 		this.day_number = day_number;
 	}
 
-	public int getStudy_hour() {
+	public Integer getStudy_hour() {
 		return study_hour;
 	}
 
-	public void setStudy_hour(int study_hour) {
+	public void setStudy_hour(Integer study_hour) {
 		this.study_hour = study_hour;
 	}
 
-	public String getHour_interval() {
-		return hour_interval;
+	public String getHour_Integererval() {
+		return hour_Integererval;
 	}
 
-	public void setHour_interval(String hour_interval) {
-		this.hour_interval = hour_interval;
+	public void setHour_Integererval(String hour_Integererval) {
+		this.hour_Integererval = hour_Integererval;
 	}
 
-	public int getPatient_appointment_delay() {
-		return patient_appointment_delay;
+	public Integer getPatient_appoIntegerment_delay() {
+		return patient_appoIntegerment_delay;
 	}
 
-	public void setPatient_appointment_delay(int patient_appointment_delay) {
-		this.patient_appointment_delay = patient_appointment_delay;
+	public void setPatient_appoIntegerment_delay(Integer patient_appoIntegerment_delay) {
+		this.patient_appoIntegerment_delay = patient_appoIntegerment_delay;
 	}
 
-	public int getPatient_waiting_time() {
+	public Integer getPatient_waiting_time() {
 		return patient_waiting_time;
 	}
 
-	public void setPatient_waiting_time(int patient_waiting_time) {
+	public void setPatient_waiting_time(Integer patient_waiting_time) {
 		this.patient_waiting_time = patient_waiting_time;
 	}
 
-	public int getExam_duration() {
+	public Integer getExam_duration() {
 		return exam_duration;
 	}
 
-	public void setExam_duration(int exam_duration) {
+	public void setExam_duration(Integer exam_duration) {
 		this.exam_duration = exam_duration;
 	}
 

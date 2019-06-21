@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import fr.alten.dw.controller.business.DataBusinessController;
 
@@ -25,13 +26,14 @@ public class DataRestController {
 	private Gson gson;
 	
 	public DataRestController() {
-		
+		final GsonBuilder builder = new GsonBuilder();
+		this.gson = builder.create();
 	}
 	
 	@GetMapping(value="/data/{object}")
 	@ResponseBody
-	public String getDataForObject(@PathVariable("object") final String objectSearched) {
-		return dataBusinessController.getDataForObject(objectSearched);
+	public String getDataForObject(@PathVariable("object") final String objectSearched) throws ClassNotFoundException {
+		return gson.toJson(dataBusinessController.getDataForObject(objectSearched));
 	}
 	
 	@GetMapping(value="/data/all/{start]/{end}")

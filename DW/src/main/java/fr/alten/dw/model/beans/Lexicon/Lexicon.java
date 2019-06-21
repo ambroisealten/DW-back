@@ -5,23 +5,32 @@ package fr.alten.dw.model.beans.Lexicon;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
-import java.lang.String;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import fr.alten.dw.model.beans.Data;
 
 /**
  * 
  * @author Thomas Decamp
  */
-public class Lexicon implements Serializable {
+@Entity
+@Table(name="dwh_lexicon")
+public class Lexicon extends Data implements Serializable {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -310434008802129054L;
 
-
+	@Id
+	@Column(name="id")
 	private Long id;
-	private int instance_key;
-	private int facility_key;
+	private Integer instance_key;
+	private Integer facility_key;
 	private String dtype;
 	private String field1;
 	private String field2;
@@ -43,22 +52,22 @@ public class Lexicon implements Serializable {
 	}
 
 
-	public int getInstance_key() {
+	public Integer getInstance_key() {
 		return instance_key;
 	}
 
 
-	public void setInstance_key(int instance_key) {
+	public void setInstance_key(Integer instance_key) {
 		this.instance_key = instance_key;
 	}
 
 
-	public int getFacility_key() {
+	public Integer getFacility_key() {
 		return facility_key;
 	}
 
 
-	public void setFacility_key(int facility_key) {
+	public void setFacility_key(Integer facility_key) {
 		this.facility_key = facility_key;
 	}
 

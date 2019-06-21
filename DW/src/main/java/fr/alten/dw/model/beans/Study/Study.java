@@ -6,13 +6,19 @@ package fr.alten.dw.model.beans.Study;
 import java.io.Serializable;
 import java.sql.Date;
 import java.sql.Timestamp;
-import java.lang.String;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * 
  * @author Thomas Decamp
  *
  */
+@Entity
+@Table(name="dwh_study")
 public class Study implements Serializable {
 
 	/**
@@ -20,14 +26,15 @@ public class Study implements Serializable {
 	 */
 	private static final long serialVersionUID = -2572382951123092563L;
 
-
+	@Id
+	@Column(name="id")
 	private Long id;
-	private int instance_key = 0;
+	private Integer instance_key = 0;
 	private String instance_name;
-	private double patient_height;
+	private Double patient_height;
 	private String study_id;
-	private byte study_comment_difficult_procedure;
-	private double patient_weight;
+	private Byte study_comment_difficult_procedure;
+	private Double patient_weight;
 	private Date study_datetime;
 	private String patient_id;
 	private String patient_last_name;
@@ -35,25 +42,25 @@ public class Study implements Serializable {
 	private Date patient_birth_date;
 	private String patient_first_name;
 	private String nature_of_exam;
-	private double patient_age;
+	private Double patient_age;
 	private Date study_date;
 	private Date study_end_date;
-	private int week_number;
-	private int day_number;
-	private int study_hour;
-	private String hour_interval;
-	private int exam_duration_sched;
-	private int exam_prep_time_before;
-	private int exam_prep_time_after;
-	private int exam_duration;
+	private Integer week_number;
+	private Integer day_number;
+	private Integer study_hour;
+	private String hour_Integererval;
+	private Integer exam_duration_sched;
+	private Integer exam_prep_time_before;
+	private Integer exam_prep_time_after;
+	private Integer exam_duration;
 	private String contrast_enhancement;
-	private int number_series;
+	private Integer number_series;
 	private Timestamp study_end_estimated;
 	private Timestamp study_start_estimated;
-	private int total_number_of_exposures;
+	private Integer total_number_of_exposures;
 	private String patient_age_range;
-	private int alert_date_diff;
-	private int exam_total_duration; 											
+	private Integer alert_date_diff;
+	private Integer exam_total_duration; 											
 
 	
 	public Study() {
@@ -70,12 +77,12 @@ public class Study implements Serializable {
 		this.id = id;
 	}
 
-	public int getInstance_key() {
+	public Integer getInstance_key() {
 		return instance_key;
 	}
 
 
-	public void setInstance_key(int instance_key) {
+	public void setInstance_key(Integer instance_key) {
 		this.instance_key = instance_key;
 	}
 
@@ -90,12 +97,12 @@ public class Study implements Serializable {
 	}
 
 
-	public double getPatient_height() {
+	public Double getPatient_height() {
 		return patient_height;
 	}
 
 
-	public void setPatient_height(double patient_height) {
+	public void setPatient_height(Double patient_height) {
 		this.patient_height = patient_height;
 	}
 
@@ -110,22 +117,22 @@ public class Study implements Serializable {
 	}
 
 
-	public byte getStudy_comment_difficult_procedure() {
+	public Byte getStudy_comment_difficult_procedure() {
 		return study_comment_difficult_procedure;
 	}
 
 
-	public void setStudy_comment_difficult_procedure(byte study_comment_difficult_procedure) {
+	public void setStudy_comment_difficult_procedure(Byte study_comment_difficult_procedure) {
 		this.study_comment_difficult_procedure = study_comment_difficult_procedure;
 	}
 
 
-	public double getPatient_weight() {
+	public Double getPatient_weight() {
 		return patient_weight;
 	}
 
 
-	public void setPatient_weight(double patient_weight) {
+	public void setPatient_weight(Double patient_weight) {
 		this.patient_weight = patient_weight;
 	}
 
@@ -200,12 +207,12 @@ public class Study implements Serializable {
 	}
 
 
-	public double getPatient_age() {
+	public Double getPatient_age() {
 		return patient_age;
 	}
 
 
-	public void setPatient_age(double patient_age) {
+	public void setPatient_age(Double patient_age) {
 		this.patient_age = patient_age;
 	}
 
@@ -230,82 +237,82 @@ public class Study implements Serializable {
 	}
 
 
-	public int getWeek_number() {
+	public Integer getWeek_number() {
 		return week_number;
 	}
 
 
-	public void setWeek_number(int week_number) {
+	public void setWeek_number(Integer week_number) {
 		this.week_number = week_number;
 	}
 
 
-	public int getDay_number() {
+	public Integer getDay_number() {
 		return day_number;
 	}
 
 
-	public void setDay_number(int day_number) {
+	public void setDay_number(Integer day_number) {
 		this.day_number = day_number;
 	}
 
 
-	public int getStudy_hour() {
+	public Integer getStudy_hour() {
 		return study_hour;
 	}
 
 
-	public void setStudy_hour(int study_hour) {
+	public void setStudy_hour(Integer study_hour) {
 		this.study_hour = study_hour;
 	}
 
 
-	public String getHour_interval() {
-		return hour_interval;
+	public String getHour_Integererval() {
+		return hour_Integererval;
 	}
 
 
-	public void setHour_interval(String hour_interval) {
-		this.hour_interval = hour_interval;
+	public void setHour_Integererval(String hour_Integererval) {
+		this.hour_Integererval = hour_Integererval;
 	}
 
 
-	public int getExam_duration_sched() {
+	public Integer getExam_duration_sched() {
 		return exam_duration_sched;
 	}
 
 
-	public void setExam_duration_sched(int exam_duration_sched) {
+	public void setExam_duration_sched(Integer exam_duration_sched) {
 		this.exam_duration_sched = exam_duration_sched;
 	}
 
 
-	public int getExam_prep_time_before() {
+	public Integer getExam_prep_time_before() {
 		return exam_prep_time_before;
 	}
 
 
-	public void setExam_prep_time_before(int exam_prep_time_before) {
+	public void setExam_prep_time_before(Integer exam_prep_time_before) {
 		this.exam_prep_time_before = exam_prep_time_before;
 	}
 
 
-	public int getExam_prep_time_after() {
+	public Integer getExam_prep_time_after() {
 		return exam_prep_time_after;
 	}
 
 
-	public void setExam_prep_time_after(int exam_prep_time_after) {
+	public void setExam_prep_time_after(Integer exam_prep_time_after) {
 		this.exam_prep_time_after = exam_prep_time_after;
 	}
 
 
-	public int getExam_duration() {
+	public Integer getExam_duration() {
 		return exam_duration;
 	}
 
 
-	public void setExam_duration(int exam_duration) {
+	public void setExam_duration(Integer exam_duration) {
 		this.exam_duration = exam_duration;
 	}
 
@@ -320,12 +327,12 @@ public class Study implements Serializable {
 	}
 
 
-	public int getNumber_series() {
+	public Integer getNumber_series() {
 		return number_series;
 	}
 
 
-	public void setNumber_series(int number_series) {
+	public void setNumber_series(Integer number_series) {
 		this.number_series = number_series;
 	}
 
@@ -350,12 +357,12 @@ public class Study implements Serializable {
 	}
 
 
-	public int getTotal_number_of_exposures() {
+	public Integer getTotal_number_of_exposures() {
 		return total_number_of_exposures;
 	}
 
 
-	public void setTotal_number_of_exposures(int total_number_of_exposures) {
+	public void setTotal_number_of_exposures(Integer total_number_of_exposures) {
 		this.total_number_of_exposures = total_number_of_exposures;
 	}
 
@@ -370,22 +377,22 @@ public class Study implements Serializable {
 	}
 
 
-	public int getAlert_date_diff() {
+	public Integer getAlert_date_diff() {
 		return alert_date_diff;
 	}
 
 
-	public void setAlert_date_diff(int alert_date_diff) {
+	public void setAlert_date_diff(Integer alert_date_diff) {
 		this.alert_date_diff = alert_date_diff;
 	}
 
 
-	public int getExam_total_duration() {
+	public Integer getExam_total_duration() {
 		return exam_total_duration;
 	}
 
 
-	public void setExam_total_duration(int exam_total_duration) {
+	public void setExam_total_duration(Integer exam_total_duration) {
 		this.exam_total_duration = exam_total_duration;
 	}
 }
