@@ -48,7 +48,7 @@ public class Study implements Serializable {
 	private Integer week_number;
 	private Integer day_number;
 	private Integer study_hour;
-	private String hour_Integererval;
+	private String hour_interval;
 	private Integer exam_duration_sched;
 	private Integer exam_prep_time_before;
 	private Integer exam_prep_time_after;
@@ -268,12 +268,12 @@ public class Study implements Serializable {
 
 
 	public String getHour_Integererval() {
-		return hour_Integererval;
+		return hour_interval;
 	}
 
 
 	public void setHour_Integererval(String hour_Integererval) {
-		this.hour_Integererval = hour_Integererval;
+		this.hour_interval = hour_Integererval;
 	}
 
 
