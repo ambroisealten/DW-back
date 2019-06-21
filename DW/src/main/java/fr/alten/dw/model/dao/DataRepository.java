@@ -12,12 +12,6 @@ import org.springframework.stereotype.Service;
  * @author Lucas Royackkers
  *
  */
-/*
- * public interface DataRepository extends JpaRepository<Lexicon ,Long> {
- *
- * @Query(value = "SELECT * FROM #{?2} WHERE id = ?1", nativeQuery = true)
- * List<Lexicon> findDataWithId(long id,String table);
- */
 @Service
 public class DataRepository {
 	@Autowired

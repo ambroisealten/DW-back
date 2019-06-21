@@ -22,14 +22,7 @@ public class DataBusinessController {
 		// this.dataRepository = new DataRepository();
 	}
 
-	public Object getDataForObject(String objectSearched) throws ClassNotFoundException {
-//		String packageName = "fr.alten.dw.model.beans." + objectSearched.substring(0, objectSearched.indexOf("_"))+".";
-//		System.out.println(packageName);
-//		Class<?> className = Class.forName(packageName + objectSearched);
-		return this.dataRepository.findByTable(Study.class);
-	}
-
-	public String getAllDatasWithinDates(String dateStart, String dateEnd) {
+	public String getAllDatasWithinDates(final String dateStart, final String dateEnd) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -44,4 +37,5 @@ public class DataBusinessController {
 		}
 		return new ArrayList<>();
 	}
+
 }
