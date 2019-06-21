@@ -16,16 +16,15 @@ import javax.persistence.Table;
  * @author Thomas Decamp
  */
 @Entity
-@Table(name="dwh_ct_lexicon_mapping")
+@Table(name = "dwh_ct_lexicon_mapping")
 public class Ct_lexicon_mapping implements Serializable {
 
 	/**
 	 *
 	 */
-	private static final long serialVersionUID = 6081988667082508179L;
-
+	private static final long serialVersionUID = -1681928227590565438L;
 	@Id
-	@Column(name="id")
+	@Column(name = "id")
 	private Long ssd_key;
 	private Integer lexicon_item_key;
 	private Integer instance_key;
@@ -53,87 +52,87 @@ public class Ct_lexicon_mapping implements Serializable {
 	}
 
 	public String getAge_info() {
-		return age_info;
+		return this.age_info;
 	}
 
 	public String getBmi_info() {
-		return bmi_info;
+		return this.bmi_info;
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return dt_last_update_dwh;
+		return this.dt_last_update_dwh;
 	}
 
 	public Integer getFacility_key() {
-		return facility_key;
+		return this.facility_key;
 	}
 
 	public String getField_1_name() {
-		return field_1_name;
+		return this.field_1_name;
 	}
 
 	public String getField_1_type() {
-		return field_1_type;
+		return this.field_1_type;
 	}
 
 	public Long getField_1_value() {
-		return field_1_value;
+		return this.field_1_value;
 	}
 
 	public String getField_2_name() {
-		return field_2_name;
+		return this.field_2_name;
 	}
 
 	public String getField_2_type() {
-		return field_2_type;
+		return this.field_2_type;
 	}
 
 	public Long getField_2_value() {
-		return field_2_value;
+		return this.field_2_value;
 	}
 
 	public Integer getInstance_key() {
-		return instance_key;
+		return this.instance_key;
 	}
 
 	public Long getLexicon_element_key() {
-		return lexicon_element_key;
+		return this.lexicon_element_key;
 	}
 
 	public Integer getLexicon_item_key() {
-		return lexicon_item_key;
+		return this.lexicon_item_key;
 	}
 
 	public Long getLexicon_key() {
-		return lexicon_key;
+		return this.lexicon_key;
 	}
 
 	public String getRadlex_dtype() {
-		return radlex_dtype;
+		return this.radlex_dtype;
 	}
 
 	public String getRadlex_lexicon_type() {
-		return radlex_lexicon_type;
+		return this.radlex_lexicon_type;
 	}
 
 	public String getRadlex_long_description() {
-		return radlex_long_description;
+		return this.radlex_long_description;
 	}
 
 	public String getRadlex_long_name() {
-		return radlex_long_name;
+		return this.radlex_long_name;
 	}
 
 	public String getRadlex_short_name() {
-		return radlex_short_name;
+		return this.radlex_short_name;
 	}
 
 	public String getRpid() {
-		return rpid;
+		return this.rpid;
 	}
 
 	public Long getSsd_key() {
-		return ssd_key;
+		return this.ssd_key;
 	}
 
 	public void setAge_info(final String age_info) {
@@ -219,6 +218,5 @@ public class Ct_lexicon_mapping implements Serializable {
 	public void setSsd_key(final Long ssd_key) {
 		this.ssd_key = ssd_key;
 	}
-
 
 }

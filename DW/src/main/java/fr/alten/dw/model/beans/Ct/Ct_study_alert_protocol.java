@@ -16,16 +16,15 @@ import javax.persistence.Table;
  * @author Thomas Decamp
  */
 @Entity
-@Table(name="dwh_ct_study_alert_protocol")
+@Table(name = "dwh_ct_study_alert_protocol")
 public class Ct_study_alert_protocol implements Serializable {
 
 	/**
 	 *
 	 */
-	private static final long serialVersionUID = -8652939664891133868L;
-
+	private static final long serialVersionUID = 6664567773449054426L;
 	@Id
-	@Column(name="id")
+	@Column(name = "id")
 	private Long id;
 	private Integer instance_key;
 	private Integer facility_key;
@@ -41,39 +40,39 @@ public class Ct_study_alert_protocol implements Serializable {
 	}
 
 	public Double getDlp_lvl_1() {
-		return dlp_lvl_1;
+		return this.dlp_lvl_1;
 	}
 
 	public Double getDlp_lvl_2() {
-		return dlp_lvl_2;
+		return this.dlp_lvl_2;
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return dt_last_update_dwh;
+		return this.dt_last_update_dwh;
 	}
 
 	public Integer getFacility_key() {
-		return facility_key;
+		return this.facility_key;
 	}
 
 	public Long getId() {
-		return id;
+		return this.id;
 	}
 
 	public Integer getInstance_key() {
-		return instance_key;
+		return this.instance_key;
 	}
 
 	public String getProtocol() {
-		return protocol;
+		return this.protocol;
 	}
 
 	public Double getTnie_lvl_1() {
-		return tnie_lvl_1;
+		return this.tnie_lvl_1;
 	}
 
 	public Double getTnie_lvl_2() {
-		return tnie_lvl_2;
+		return this.tnie_lvl_2;
 	}
 
 	public void setDlp_lvl_1(final Double dlp_lvl_1) {
@@ -111,6 +110,5 @@ public class Ct_study_alert_protocol implements Serializable {
 	public void setTnie_lvl_2(final Double tnie_lvl_2) {
 		this.tnie_lvl_2 = tnie_lvl_2;
 	}
-
 
 }
