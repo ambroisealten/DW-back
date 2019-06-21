@@ -18,7 +18,15 @@ public class DataRepository {
 	private EntityManager entityManager;
 
 	public <T, ID> List<?> findByTable(final Class<T> type) {
-		return entityManager.createQuery("SELECT d FROM "+type.getName()+" d").getResultList();
+		return entityManager.createQuery("SELECT d FROM " + type.getSimpleName() + " d").getResultList();
+	}
+
+	public <T, ID> List<?> findByTableWithLimits(final Class<T> type,final int lineStart, final int lineNumber){
+		return entityManager.createQuery("SELECT d FROM "+type.getSimpleName()+" d ")
+				.setFirstResult(lineStart)
+				.setMaxResults(lineNumber)
+				.getResultList();
+				
 	}
 
 }

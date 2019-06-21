@@ -32,10 +32,11 @@ public class DataRestController {
 		gson = builder.create();
 	}
 
-	@GetMapping(value="/data/all/{start]/{end}")
+	
+	@GetMapping(value="/data/{object}/{start}/{end}")
 	@ResponseBody
-	public String getAllDatasWithinDates(@PathVariable("start") final String dateStart, @PathVariable("end") final String dateEnd) {
-		return dataBusinessController.getAllDatasWithinDates(dateStart,dateEnd);
+	public String getAllDataOfAnObjectWithinStartAndEnd(@PathVariable("object") final String objectSearched, @PathVariable("start") String lineStart, @PathVariable("end") String lineNumber) throws ClassNotFoundException, IOException {
+		return gson.toJson(dataBusinessController.getAllDataOfAnObjectWithinStartAndEnd(objectSearched,Integer.parseInt(lineStart),Integer.parseInt(lineNumber)));
 	}
 
 	@GetMapping(value="/data/{object}")
