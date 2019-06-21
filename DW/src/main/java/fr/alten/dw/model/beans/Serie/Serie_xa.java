@@ -65,7 +65,7 @@ public class Serie_xa implements Serializable {
 	private double pulse_width;
 	private double table_longitudinal_position;
 	private double table_lateral_position;
-	private String reference_poInteger_definition;
+	private String reference_point_definition;
 	private double xray_tube_current;
 	private double exposure;
 	private double irradiation_duration;
@@ -88,7 +88,7 @@ public class Serie_xa implements Serializable {
 	private double collimated_field_area;
 	private double collimated_field_height;
 	private double collimated_field_width;
-	private double distance_source_to_ref_poInteger;
+	private double distance_source_to_ref_point;
 	private double table_horizontal_rotation_angle;
 	private double table_longitudinal_position_end;
 	private double table_lateral_position_end;
@@ -144,451 +144,451 @@ public class Serie_xa implements Serializable {
 	}
 
 	public String getAccession_number() {
-		return this.accession_number;
+		return accession_number;
 	}
 
 	public String getAcquired_image() {
-		return this.acquired_image;
+		return acquired_image;
 	}
 
 	public String getAcquisition_plane() {
-		return this.acquisition_plane;
+		return acquisition_plane;
 	}
 
 	public String getAe_device_groups() {
-		return this.ae_device_groups;
+		return ae_device_groups;
 	}
 
 	public Integer getAe_key() {
-		return this.ae_key;
+		return ae_key;
 	}
 
 	public String getAe_name() {
-		return this.ae_name;
+		return ae_name;
 	}
 
 	public String getAet() {
-		return this.aet;
+		return aet;
 	}
 
 	public String getAuto_exposure_preference() {
-		return this.auto_exposure_preference;
+		return auto_exposure_preference;
 	}
 
 	public double getCollimated_field_area() {
-		return this.collimated_field_area;
+		return collimated_field_area;
 	}
 
 	public double getCollimated_field_height() {
-		return this.collimated_field_height;
+		return collimated_field_height;
 	}
 
 	public double getCollimated_field_width() {
-		return this.collimated_field_width;
+		return collimated_field_width;
 	}
 
 	public double getDistance_source_detector() {
-		return this.distance_source_detector;
+		return distance_source_detector;
 	}
 
 	public double getDistance_source_isocenter() {
-		return this.distance_source_isocenter;
+		return distance_source_isocenter;
 	}
 
-	public double getDistance_source_to_ref_poInteger() {
-		return this.distance_source_to_ref_poInteger;
+	public double getDistance_source_to_ref_point() {
+		return distance_source_to_ref_point;
 	}
 
 	public String getDivision_name() {
-		return this.division_name;
+		return division_name;
 	}
 
 	public Integer getDomain_key() {
-		return this.domain_key;
+		return domain_key;
 	}
 
 	public double getDose_area_product() {
-		return this.dose_area_product;
+		return dose_area_product;
 	}
 
 	public double getDose_rp() {
-		return this.dose_rp;
+		return dose_rp;
 	}
 
 	public String getDosewatch_generated_uid() {
-		return this.dosewatch_generated_uid;
+		return dosewatch_generated_uid;
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return this.dt_last_update_dwh;
+		return dt_last_update_dwh;
 	}
 
 	public double getExposure() {
-		return this.exposure;
+		return exposure;
 	}
 
 	public double getExposure_time() {
-		return this.exposure_time;
+		return exposure_time;
 	}
 
 	public String getFacility_description() {
-		return this.facility_description;
+		return facility_description;
 	}
 
 	public Integer getFacility_key() {
-		return this.facility_key;
+		return facility_key;
 	}
 
 	public double getField_of_view() {
-		return this.field_of_view;
+		return field_of_view;
 	}
 
 	public String getFilter_material_1() {
-		return this.filter_material_1;
+		return filter_material_1;
 	}
 
 	public String getFilter_material_2() {
-		return this.filter_material_2;
+		return filter_material_2;
 	}
 
 	public String getFilter_material_3() {
-		return this.filter_material_3;
+		return filter_material_3;
 	}
 
 	public double getFilter_thickness_maximum_1() {
-		return this.filter_thickness_maximum_1;
+		return filter_thickness_maximum_1;
 	}
 
 	public double getFilter_thickness_maximum_2() {
-		return this.filter_thickness_maximum_2;
+		return filter_thickness_maximum_2;
 	}
 
 	public double getFilter_thickness_maximum_3() {
-		return this.filter_thickness_maximum_3;
+		return filter_thickness_maximum_3;
 	}
 
 	public double getFilter_thickness_minimum_1() {
-		return this.filter_thickness_minimum_1;
+		return filter_thickness_minimum_1;
 	}
 
 	public double getFilter_thickness_minimum_2() {
-		return this.filter_thickness_minimum_2;
+		return filter_thickness_minimum_2;
 	}
 
 	public double getFilter_thickness_minimum_3() {
-		return this.filter_thickness_minimum_3;
+		return filter_thickness_minimum_3;
 	}
 
 	public String getFilter_type_1() {
-		return this.filter_type_1;
+		return filter_type_1;
 	}
 
 	public String getFilter_type_2() {
-		return this.filter_type_2;
+		return filter_type_2;
 	}
 
 	public String getFilter_type_3() {
-		return this.filter_type_3;
+		return filter_type_3;
 	}
 
 	public double getFocal_spot_size() {
-		return this.focal_spot_size;
+		return focal_spot_size;
 	}
 
 	public double getFrames_per_second() {
-		return this.frames_per_second;
+		return frames_per_second;
 	}
 
 	public String getGroup_name() {
-		return this.group_name;
+		return group_name;
 	}
 
 	public Long getId() {
-		return this.id;
+		return id;
 	}
 
 	public Integer getId_division() {
-		return this.id_division;
+		return id_division;
 	}
 
 	public Integer getId_group() {
-		return this.id_group;
+		return id_group;
 	}
 
 	public Integer getInstance_key() {
-		return this.instance_key;
+		return instance_key;
 	}
 
 	public String getInstance_name() {
-		return this.instance_name;
+		return instance_name;
 	}
 
 	public String getIqvote() {
-		return this.iqvote;
+		return iqvote;
 	}
 
 	public double getIrradiation_duration() {
-		return this.irradiation_duration;
+		return irradiation_duration;
 	}
 
 	public String getIrradiation_event_type() {
-		return this.irradiation_event_type;
+		return irradiation_event_type;
 	}
 
 	public String getIrradiation_event_uid() {
-		return this.irradiation_event_uid;
+		return irradiation_event_uid;
 	}
 
 	public double getKv() {
-		return this.kv;
+		return kv;
 	}
 
 	public String getManufacturer_name() {
-		return this.manufacturer_name;
+		return manufacturer_name;
 	}
 
 	public String getNature_of_exam() {
-		return this.nature_of_exam;
+		return nature_of_exam;
 	}
 
 	public Integer getNumber_of_frames() {
-		return this.number_of_frames;
+		return number_of_frames;
 	}
 
 	public Integer getNumber_of_pulses() {
-		return this.number_of_pulses;
+		return number_of_pulses;
 	}
 
 	public String getOld_study_description() {
-		return this.old_study_description;
+		return old_study_description;
 	}
 
 	public String getOperator_first_name() {
-		return this.operator_first_name;
+		return operator_first_name;
 	}
 
 	public String getOperator_last_name() {
-		return this.operator_last_name;
+		return operator_last_name;
 	}
 
 	public double getPatient_age() {
-		return this.patient_age;
+		return patient_age;
 	}
 
 	public String getPatient_bmi() {
-		return this.patient_bmi;
+		return patient_bmi;
 	}
 
 	public double getPatient_height() {
-		return this.patient_height;
+		return patient_height;
 	}
 
 	public String getPatient_id() {
-		return this.patient_id;
+		return patient_id;
 	}
 
 	public Long getPatient_key() {
-		return this.patient_key;
+		return patient_key;
 	}
 
 	public String getPatient_orientation() {
-		return this.patient_orientation;
+		return patient_orientation;
 	}
 
 	public String getPatient_orientation_modifier() {
-		return this.patient_orientation_modifier;
+		return patient_orientation_modifier;
 	}
 
 	public String getPatient_table_relationship() {
-		return this.patient_table_relationship;
+		return patient_table_relationship;
 	}
 
 	public double getPatient_thickness_radiological() {
-		return this.patient_thickness_radiological;
+		return patient_thickness_radiological;
 	}
 
 	public String getPerformed_ae_title() {
-		return this.performed_ae_title;
+		return performed_ae_title;
 	}
 
 	public String getPerforming_physician_first_name() {
-		return this.performing_physician_first_name;
+		return performing_physician_first_name;
 	}
 
 	public String getPerforming_physician_last_name() {
-		return this.performing_physician_last_name;
+		return performing_physician_last_name;
 	}
 
 	public double getPositioner_primary_angle() {
-		return this.positioner_primary_angle;
+		return positioner_primary_angle;
 	}
 
 	public double getPositioner_primary_angle_end() {
-		return this.positioner_primary_angle_end;
+		return positioner_primary_angle_end;
 	}
 
 	public double getPositioner_secondary_angle() {
-		return this.positioner_secondary_angle;
+		return positioner_secondary_angle;
 	}
 
 	public double getPositioner_secondary_angle_end() {
-		return this.positioner_secondary_angle_end;
+		return positioner_secondary_angle_end;
 	}
 
 	public String getProprietary_type() {
-		return this.proprietary_type;
+		return proprietary_type;
 	}
 
 	public Long getProtocol_key() {
-		return this.protocol_key;
+		return protocol_key;
 	}
 
 	public String getProtocol_name() {
-		return this.protocol_name;
+		return protocol_name;
 	}
 
 	public double getPulse_width() {
-		return this.pulse_width;
+		return pulse_width;
 	}
 
 	public String getRadiation_mode() {
-		return this.radiation_mode;
+		return radiation_mode;
 	}
 
-	public String getReference_poInteger_definition() {
-		return this.reference_poInteger_definition;
+	public String getReference_point_definition() {
+		return reference_point_definition;
 	}
 
 	public String getReferring_physician_first_name() {
-		return this.referring_physician_first_name;
+		return referring_physician_first_name;
 	}
 
 	public String getReferring_physician_last_name() {
-		return this.referring_physician_last_name;
+		return referring_physician_last_name;
 	}
 
 	public String getRequesting_physician_first_name() {
-		return this.requesting_physician_first_name;
+		return requesting_physician_first_name;
 	}
 
 	public String getRequesting_physician_last_name() {
-		return this.requesting_physician_last_name;
+		return requesting_physician_last_name;
 	}
 
 	public Integer getRun_number() {
-		return this.run_number;
+		return run_number;
 	}
 
 	public Long getSd_key() {
-		return this.sd_key;
+		return sd_key;
 	}
 
 	public String getSdm_model() {
-		return this.sdm_model;
+		return sdm_model;
 	}
 
 	public Timestamp getSeries_datetime() {
-		return this.series_datetime;
+		return series_datetime;
 	}
 
 	public Long getSeries_description_key() {
-		return this.series_description_key;
+		return series_description_key;
 	}
 
 	public String getSeries_description_name() {
-		return this.series_description_name;
+		return series_description_name;
 	}
 
 	public String getSeries_instance_uid() {
-		return this.series_instance_uid;
+		return series_instance_uid;
 	}
 
 	public Integer getSeries_number() {
-		return this.series_number;
+		return series_number;
 	}
 
 	public String getSeries_type() {
-		return this.series_type;
+		return series_type;
 	}
 
 	public Long getSsd_key() {
-		return this.ssd_key;
+		return ssd_key;
 	}
 
 	public String getStandard_study_description() {
-		return this.standard_study_description;
+		return standard_study_description;
 	}
 
 	public String getStudy_comments() {
-		return this.study_comments;
+		return study_comments;
 	}
 
 	public Timestamp getStudy_datetime() {
-		return this.study_datetime;
+		return study_datetime;
 	}
 
 	public String getStudy_description_name() {
-		return this.study_description_name;
+		return study_description_name;
 	}
 
 	public String getStudy_id() {
-		return this.study_id;
+		return study_id;
 	}
 
 	public String getStudy_instance_uid() {
-		return this.study_instance_uid;
+		return study_instance_uid;
 	}
 
 	public Long getStudy_key() {
-		return this.study_key;
+		return study_key;
 	}
 
 	public double getTable_cradle_tilt_angle() {
-		return this.table_cradle_tilt_angle;
+		return table_cradle_tilt_angle;
 	}
 
 	public double getTable_head_tilt_angle() {
-		return this.table_head_tilt_angle;
+		return table_head_tilt_angle;
 	}
 
 	public double getTable_height_position_end() {
-		return this.table_height_position_end;
+		return table_height_position_end;
 	}
 
 	public double getTable_horizontal_rotation_angle() {
-		return this.table_horizontal_rotation_angle;
+		return table_horizontal_rotation_angle;
 	}
 
 	public double getTable_lateral_position() {
-		return this.table_lateral_position;
+		return table_lateral_position;
 	}
 
 	public double getTable_lateral_position_end() {
-		return this.table_lateral_position_end;
+		return table_lateral_position_end;
 	}
 
 	public double getTable_longitudinal_position() {
-		return this.table_longitudinal_position;
+		return table_longitudinal_position;
 	}
 
 	public double getTable_longitudinal_position_end() {
-		return this.table_longitudinal_position_end;
+		return table_longitudinal_position_end;
 	}
 
 	public double getTable_vertical_position() {
-		return this.table_vertical_position;
+		return table_vertical_position;
 	}
 
 	public String getTarget_region_key() {
-		return this.target_region_key;
+		return target_region_key;
 	}
 
 	public String getXray_grid() {
-		return this.xray_grid;
+		return xray_grid;
 	}
 
 	public double getXray_tube_current() {
-		return this.xray_tube_current;
+		return xray_tube_current;
 	}
 
 	public void setAccession_number(final String accession_number) {
@@ -643,8 +643,8 @@ public class Serie_xa implements Serializable {
 		this.distance_source_isocenter = distance_source_isocenter;
 	}
 
-	public void setDistance_source_to_ref_poInteger(final double distance_source_to_ref_poInteger) {
-		this.distance_source_to_ref_poInteger = distance_source_to_ref_poInteger;
+	public void setDistance_source_to_ref_point(final double distance_source_to_ref_point) {
+		this.distance_source_to_ref_point = distance_source_to_ref_point;
 	}
 
 	public void setDivision_name(final String division_name) {
@@ -903,8 +903,8 @@ public class Serie_xa implements Serializable {
 		this.radiation_mode = radiation_mode;
 	}
 
-	public void setReference_poInteger_definition(final String reference_poInteger_definition) {
-		this.reference_poInteger_definition = reference_poInteger_definition;
+	public void setReference_point_definition(final String reference_point_definition) {
+		this.reference_point_definition = reference_point_definition;
 	}
 
 	public void setReferring_physician_first_name(final String referring_physician_first_name) {

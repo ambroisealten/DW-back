@@ -24,7 +24,7 @@ public class Drl_mapping_protocol implements Serializable {
 	 */
 	private static final long serialVersionUID = -940381350281072106L;
 	@Id
-	@Column(name = "id")
+	@Column(name = "drl_definition_key")
 	private Integer drl_definition_key;
 	private Integer instance_key;
 	private Long protocol_key;
@@ -37,27 +37,27 @@ public class Drl_mapping_protocol implements Serializable {
 	}
 
 	public Integer getDrl_definition_key() {
-		return this.drl_definition_key;
+		return drl_definition_key;
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return this.dt_last_update_dwh;
+		return dt_last_update_dwh;
 	}
 
 	public Integer getInstance_key() {
-		return this.instance_key;
+		return instance_key;
 	}
 
 	public Long getProtocol_key() {
-		return this.protocol_key;
+		return protocol_key;
 	}
 
 	public String getProtocol_modality() {
-		return this.protocol_modality;
+		return protocol_modality;
 	}
 
 	public String getProtocol_name() {
-		return this.protocol_name;
+		return protocol_name;
 	}
 
 	public void setDrl_definition_key(final Integer drl_definition_key) {

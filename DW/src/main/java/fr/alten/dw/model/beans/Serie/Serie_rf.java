@@ -51,7 +51,7 @@ public class Serie_rf implements Serializable {
 	private Double start_height;
 	private Double end_height;
 	private Double sampling_factor;
-	private Double slice_Integererval;
+	private Double slice_interval;
 	private Date content_date;
 	private Time content_time;
 	private Date acquisition_date;
@@ -89,7 +89,7 @@ public class Serie_rf implements Serializable {
 	private Integer bits_allocated;
 	private Integer bits_stored;
 	private Integer high_bit;
-	private Integer rescale_Integerercept;
+	private Integer rescale_intercept;
 	private Integer rescale_slope;
 	private Integer window_center;
 	private Integer window_width;
@@ -115,14 +115,14 @@ public class Serie_rf implements Serializable {
 	private String focal_spot_positions;
 	private String sweep_direction;
 	private String receptor_type;
-	private String presentation_Integerent_type;
+	private String presentation_intent_type;
 	private String image_type;
 	private String derivation_description;
 	private String quality_control_image;
 	private String lossy_image_compression;
-	private String photometric_Integererpretation;
+	private String photometric_interpretation;
 	private String pixel_representation;
-	private String pixel_Integerensity_relationship;
+	private String pixel_intensity_relationship;
 	private String anatomic_region;
 	private String rescale_type;
 	private String presentation_lut_shape;
@@ -180,587 +180,587 @@ public class Serie_rf implements Serializable {
 	}
 
 	public Date getAcquisition_date() {
-		return this.acquisition_date;
+		return acquisition_date;
 	}
 
 	public String getAcquisition_device_processing_code() {
-		return this.acquisition_device_processing_code;
+		return acquisition_device_processing_code;
 	}
 
 	public String getAcquisition_device_processing_description() {
-		return this.acquisition_device_processing_description;
+		return acquisition_device_processing_description;
 	}
 
 	public Time getAcquisition_time() {
-		return this.acquisition_time;
+		return acquisition_time;
 	}
 
 	public String getAcquisition_type() {
-		return this.acquisition_type;
+		return acquisition_type;
 	}
 
 	public String getAcquisition_uid() {
-		return this.acquisition_uid;
+		return acquisition_uid;
 	}
 
 	public String getAdjusted_field_of_view() {
-		return this.adjusted_field_of_view;
+		return adjusted_field_of_view;
 	}
 
 	public String getAnatomic_region() {
-		return this.anatomic_region;
+		return anatomic_region;
 	}
 
 	public Integer getBits_allocated() {
-		return this.bits_allocated;
+		return bits_allocated;
 	}
 
 	public Integer getBits_stored() {
-		return this.bits_stored;
+		return bits_stored;
 	}
 
 	public Boolean getBurned_in_annotation() {
-		return this.burned_in_annotation;
+		return burned_in_annotation;
 	}
 
 	public Boolean getCollimator_rotation() {
-		return this.collimator_rotation;
+		return collimator_rotation;
 	}
 
 	public String getCollimator_shape() {
-		return this.collimator_shape;
+		return collimator_shape;
 	}
 
 	public String getCollimator_vertices() {
-		return this.collimator_vertices;
+		return collimator_vertices;
 	}
 
 	public String getComments_on_radiation_dose() {
-		return this.comments_on_radiation_dose;
+		return comments_on_radiation_dose;
 	}
 
 	public Double getCompensated_detector_exposure() {
-		return this.compensated_detector_exposure;
+		return compensated_detector_exposure;
 	}
 
 	public Date getContent_date() {
-		return this.content_date;
+		return content_date;
 	}
 
 	public Time getContent_time() {
-		return this.content_time;
+		return content_time;
 	}
 
 	public String getDerivation_description() {
-		return this.derivation_description;
+		return derivation_description;
 	}
 
 	public String getDetected_field_of_view() {
-		return this.detected_field_of_view;
+		return detected_field_of_view;
 	}
 
 	public String getDetector_active_dimensions() {
-		return this.detector_active_dimensions;
+		return detector_active_dimensions;
 	}
 
 	public String getDetector_active_shape() {
-		return this.detector_active_shape;
+		return detector_active_shape;
 	}
 
 	public Double getDetector_arc_gain() {
-		return this.detector_arc_gain;
+		return detector_arc_gain;
 	}
 
 	public String getDetector_binning() {
-		return this.detector_binning;
+		return detector_binning;
 	}
 
 	public Boolean getDetector_conditions_nominal_flag() {
-		return this.detector_conditions_nominal_flag;
+		return detector_conditions_nominal_flag;
 	}
 
 	public String getDetector_configuration() {
-		return this.detector_configuration;
+		return detector_configuration;
 	}
 
 	public Integer getDetector_element_physical_size() {
-		return this.detector_element_physical_size;
+		return detector_element_physical_size;
 	}
 
 	public Integer getDetector_element_spacing() {
-		return this.detector_element_spacing;
+		return detector_element_spacing;
 	}
 
 	public String getDetector_id() {
-		return this.detector_id;
+		return detector_id;
 	}
 
 	public Double getDetector_primary_angle() {
-		return this.detector_primary_angle;
+		return detector_primary_angle;
 	}
 
 	public Double getDetector_secondary_angle() {
-		return this.detector_secondary_angle;
+		return detector_secondary_angle;
 	}
 
 	public Double getDetector_sensitivity() {
-		return this.detector_sensitivity;
+		return detector_sensitivity;
 	}
 
 	public Double getDetector_temperature() {
-		return this.detector_temperature;
+		return detector_temperature;
 	}
 
 	public String getDetector_type() {
-		return this.detector_type;
+		return detector_type;
 	}
 
 	public Double getDeviation_index() {
-		return this.deviation_index;
+		return deviation_index;
 	}
 
 	public String getDeviation_index_control_limits() {
-		return this.deviation_index_control_limits;
+		return deviation_index_control_limits;
 	}
 
 	public Double getDistance_source_to_detector() {
-		return this.distance_source_to_detector;
+		return distance_source_to_detector;
 	}
 
 	public Double getDistance_source_to_patient() {
-		return this.distance_source_to_patient;
+		return distance_source_to_patient;
 	}
 
 	public Double getDose_area_product() {
-		return this.dose_area_product;
+		return dose_area_product;
 	}
 
 	public String getDosewatch_generated_uid() {
-		return this.dosewatch_generated_uid;
+		return dosewatch_generated_uid;
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return this.dt_last_update_dwh;
+		return dt_last_update_dwh;
 	}
 
 	public Double getEnd_height() {
-		return this.end_height;
+		return end_height;
 	}
 
 	public Double getEntrance_dose() {
-		return this.entrance_dose;
+		return entrance_dose;
 	}
 
 	public String getExposure_control_mode() {
-		return this.exposure_control_mode;
+		return exposure_control_mode;
 	}
 
 	public String getExposure_control_mode_description() {
-		return this.exposure_control_mode_description;
+		return exposure_control_mode_description;
 	}
 
 	public Double getExposure_in_mas() {
-		return this.exposure_in_mas;
+		return exposure_in_mas;
 	}
 
 	public Double getExposure_in_uas() {
-		return this.exposure_in_uas;
+		return exposure_in_uas;
 	}
 
 	public Double getExposure_index() {
-		return this.exposure_index;
+		return exposure_index;
 	}
 
 	public Double getExposure_time() {
-		return this.exposure_time;
+		return exposure_time;
 	}
 
 	public String getFacility_description() {
-		return this.facility_description;
+		return facility_description;
 	}
 
 	public Integer getFacility_key() {
-		return this.facility_key;
+		return facility_key;
 	}
 
 	public String getField_of_view_dimensions() {
-		return this.field_of_view_dimensions;
+		return field_of_view_dimensions;
 	}
 
 	public Boolean getField_of_view_horizontal_flip() {
-		return this.field_of_view_horizontal_flip;
+		return field_of_view_horizontal_flip;
 	}
 
 	public Double getField_of_view_origin() {
-		return this.field_of_view_origin;
+		return field_of_view_origin;
 	}
 
 	public Double getField_of_view_rotation() {
-		return this.field_of_view_rotation;
+		return field_of_view_rotation;
 	}
 
 	public String getField_of_view_shape() {
-		return this.field_of_view_shape;
+		return field_of_view_shape;
 	}
 
 	public Double getFilm_speed_selection() {
-		return this.film_speed_selection;
+		return film_speed_selection;
 	}
 
 	public String getFilter_material() {
-		return this.filter_material;
+		return filter_material;
 	}
 
 	public Double getFilter_thickness_maximum() {
-		return this.filter_thickness_maximum;
+		return filter_thickness_maximum;
 	}
 
 	public Double getFilter_thickness_minimum() {
-		return this.filter_thickness_minimum;
+		return filter_thickness_minimum;
 	}
 
 	public String getFilter_type() {
-		return this.filter_type;
+		return filter_type;
 	}
 
 	public String getFocal_spot_positions() {
-		return this.focal_spot_positions;
+		return focal_spot_positions;
 	}
 
 	public Double getFocal_spot_size() {
-		return this.focal_spot_size;
+		return focal_spot_size;
 	}
 
 	public String getFrame_of_reference_uid() {
-		return this.frame_of_reference_uid;
+		return frame_of_reference_uid;
 	}
 
 	public Double getFrame_rate() {
-		return this.frame_rate;
+		return frame_rate;
 	}
 
 	public Integer getHigh_bit() {
-		return this.high_bit;
+		return high_bit;
 	}
 
 	public Long getId() {
-		return this.id;
+		return id;
 	}
 
 	public Double getImage_dose() {
-		return this.image_dose;
+		return image_dose;
 	}
 
 	public Double getImage_dose_area_product() {
-		return this.image_dose_area_product;
+		return image_dose_area_product;
 	}
 
 	public String getImage_laterality() {
-		return this.image_laterality;
+		return image_laterality;
 	}
 
 	public Integer getImage_number_for_pasting() {
-		return this.image_number_for_pasting;
+		return image_number_for_pasting;
 	}
 
 	public String getImage_type() {
-		return this.image_type;
+		return image_type;
 	}
 
 	public Double getImager_pixel_spacing() {
-		return this.imager_pixel_spacing;
+		return imager_pixel_spacing;
 	}
 
 	public Integer getInstance_key() {
-		return this.instance_key;
+		return instance_key;
 	}
 
 	public String getInstance_name() {
-		return this.instance_name;
+		return instance_name;
 	}
 
 	public Integer getInstance_number() {
-		return this.instance_number;
+		return instance_number;
 	}
 
 	public String getIrradiation_event_uid() {
-		return this.irradiation_event_uid;
+		return irradiation_event_uid;
 	}
 
 	public String getKey_stone_coordinates() {
-		return this.key_stone_coordinates;
+		return key_stone_coordinates;
 	}
 
 	public Double getKvp() {
-		return this.kvp;
+		return kvp;
 	}
 
 	public String getLossy_image_compression() {
-		return this.lossy_image_compression;
+		return lossy_image_compression;
 	}
 
 	public Double getMedian_anatomy_count_value() {
-		return this.median_anatomy_count_value;
+		return median_anatomy_count_value;
 	}
 
 	public Integer getNumber_of_tomosynthesis_source_images() {
-		return this.number_of_tomosynthesis_source_images;
+		return number_of_tomosynthesis_source_images;
 	}
 
 	public Double getOts_column_rotation_angle() {
-		return this.ots_column_rotation_angle;
+		return ots_column_rotation_angle;
 	}
 
 	public Boolean getOverride_mode() {
-		return this.override_mode;
+		return override_mode;
 	}
 
 	public Long getPasting_overlap() {
-		return this.pasting_overlap;
+		return pasting_overlap;
 	}
 
 	public String getPatient_ganrty_relationship() {
-		return this.patient_ganrty_relationship;
+		return patient_ganrty_relationship;
 	}
 
 	public String getPatient_orientation() {
-		return this.patient_orientation;
+		return patient_orientation;
 	}
 
 	public String getPatient_orientation_modifier() {
-		return this.patient_orientation_modifier;
+		return patient_orientation_modifier;
 	}
 
 	public String getPatient_size_string() {
-		return this.patient_size_string;
+		return patient_size_string;
 	}
 
-	public String getPhotometric_Integererpretation() {
-		return this.photometric_Integererpretation;
+	public String getPhotometric_interpretation() {
+		return photometric_interpretation;
 	}
 
-	public String getPixel_Integerensity_relationship() {
-		return this.pixel_Integerensity_relationship;
+	public String getpixel_intensity_relationship() {
+		return pixel_intensity_relationship;
 	}
 
 	public String getPixel_representation() {
-		return this.pixel_representation;
+		return pixel_representation;
 	}
 
 	public Double getPixel_spacing() {
-		return this.pixel_spacing;
+		return pixel_spacing;
 	}
 
 	public String getPosition_reference_indicator() {
-		return this.position_reference_indicator;
+		return position_reference_indicator;
 	}
 
 	public String getPositioner_type() {
-		return this.positioner_type;
+		return positioner_type;
 	}
 
-	public String getPresentation_Integerent_type() {
-		return this.presentation_Integerent_type;
+	public String getpresentation_intent_type() {
+		return presentation_intent_type;
 	}
 
 	public String getPresentation_lut_shape() {
-		return this.presentation_lut_shape;
+		return presentation_lut_shape;
 	}
 
 	public Long getProtocol_key() {
-		return this.protocol_key;
+		return protocol_key;
 	}
 
 	public String getProtocol_name() {
-		return this.protocol_name;
+		return protocol_name;
 	}
 
 	public String getQuality_control_image() {
-		return this.quality_control_image;
+		return quality_control_image;
 	}
 
 	public String getReceptor_type() {
-		return this.receptor_type;
+		return receptor_type;
 	}
 
 	public Integer getRequested_detector_entrance_dose() {
-		return this.requested_detector_entrance_dose;
+		return requested_detector_entrance_dose;
 	}
 
-	public Integer getRescale_Integerercept() {
-		return this.rescale_Integerercept;
+	public Integer getrescale_intercept() {
+		return rescale_intercept;
 	}
 
 	public Integer getRescale_slope() {
-		return this.rescale_slope;
+		return rescale_slope;
 	}
 
 	public String getRescale_type() {
-		return this.rescale_type;
+		return rescale_type;
 	}
 
 	public Integer getSamples_per_pixel() {
-		return this.samples_per_pixel;
+		return samples_per_pixel;
 	}
 
 	public Double getSampling_factor() {
-		return this.sampling_factor;
+		return sampling_factor;
 	}
 
 	public Integer getSeries_columns() {
-		return this.series_columns;
+		return series_columns;
 	}
 
 	public Timestamp getSeries_datetime() {
-		return this.series_datetime;
+		return series_datetime;
 	}
 
 	public Long getSeries_description_key() {
-		return this.series_description_key;
+		return series_description_key;
 	}
 
 	public String getSeries_description_name() {
-		return this.series_description_name;
+		return series_description_name;
 	}
 
 	public Integer getSeries_duration() {
-		return this.series_duration;
+		return series_duration;
 	}
 
 	public Timestamp getSeries_end_datetime() {
-		return this.series_end_datetime;
+		return series_end_datetime;
 	}
 
 	public String getSeries_grid() {
-		return this.series_grid;
+		return series_grid;
 	}
 
 	public String getSeries_instance_uid() {
-		return this.series_instance_uid;
+		return series_instance_uid;
 	}
 
 	public String getSeries_modality() {
-		return this.series_modality;
+		return series_modality;
 	}
 
 	public Integer getSeries_number() {
-		return this.series_number;
+		return series_number;
 	}
 
 	public Integer getSeries_rows() {
-		return this.series_rows;
+		return series_rows;
 	}
 
 	public String getSeries_view() {
-		return this.series_view;
+		return series_view;
 	}
 
 	public Long getShift_vector_for_pasting() {
-		return this.shift_vector_for_pasting;
+		return shift_vector_for_pasting;
 	}
 
-	public Double getSlice_Integererval() {
-		return this.slice_Integererval;
+	public Double getslice_interval() {
+		return slice_interval;
 	}
 
 	public Double getSlice_location() {
-		return this.slice_location;
+		return slice_location;
 	}
 
 	public Double getSlice_thickness() {
-		return this.slice_thickness;
+		return slice_thickness;
 	}
 
 	public Double getStart_height() {
-		return this.start_height;
+		return start_height;
 	}
 
 	public Long getStudy_key() {
-		return this.study_key;
+		return study_key;
 	}
 
 	public Integer getSub_image_collimator_vertices() {
-		return this.sub_image_collimator_vertices;
+		return sub_image_collimator_vertices;
 	}
 
 	public String getSweep_direction() {
-		return this.sweep_direction;
+		return sweep_direction;
 	}
 
 	public String getTarget_region_key() {
-		return this.target_region_key;
+		return target_region_key;
 	}
 
 	public Double getTomo_angle() {
-		return this.tomo_angle;
+		return tomo_angle;
 	}
 
 	public String getTomo_class() {
-		return this.tomo_class;
+		return tomo_class;
 	}
 
 	public Double getTomo_layer_height() {
-		return this.tomo_layer_height;
+		return tomo_layer_height;
 	}
 
 	public Integer getTomo_time() {
-		return this.tomo_time;
+		return tomo_time;
 	}
 
 	public String getTomo_type() {
-		return this.tomo_type;
+		return tomo_type;
 	}
 
 	public Double getTube_to_detector_angle() {
-		return this.tube_to_detector_angle;
+		return tube_to_detector_angle;
 	}
 
 	public Double getUncompensated_detector_exposure() {
-		return this.uncompensated_detector_exposure;
+		return uncompensated_detector_exposure;
 	}
 
 	public Integer getUser_window_center() {
-		return this.user_window_center;
+		return user_window_center;
 	}
 
 	public Integer getUser_window_width() {
-		return this.user_window_width;
+		return user_window_width;
 	}
 
 	public String getView_position() {
-		return this.view_position;
+		return view_position;
 	}
 
 	public String getVoi_lut_data() {
-		return this.voi_lut_data;
+		return voi_lut_data;
 	}
 
 	public String getVoi_lut_descriptor() {
-		return this.voi_lut_descriptor;
+		return voi_lut_descriptor;
 	}
 
 	public String getVoi_lut_explanation() {
-		return this.voi_lut_explanation;
+		return voi_lut_explanation;
 	}
 
 	public Integer getWindow_center() {
-		return this.window_center;
+		return window_center;
 	}
 
 	public String getWindow_center_and_width_explanation() {
-		return this.window_center_and_width_explanation;
+		return window_center_and_width_explanation;
 	}
 
 	public Integer getWindow_width() {
-		return this.window_width;
+		return window_width;
 	}
 
 	public Double getXray_tube_current_ma() {
-		return this.xray_tube_current_ma;
+		return xray_tube_current_ma;
 	}
 
 	public Double getXray_tube_current_ua() {
-		return this.xray_tube_current_ua;
+		return xray_tube_current_ua;
 	}
 
 	public void setAcquisition_date(final Date acquisition_date) {
@@ -1119,12 +1119,12 @@ public class Serie_rf implements Serializable {
 		this.patient_size_string = patient_size_string;
 	}
 
-	public void setPhotometric_Integererpretation(final String photometric_Integererpretation) {
-		this.photometric_Integererpretation = photometric_Integererpretation;
+	public void setPhotometric_interpretation(final String photometric_interpretation) {
+		this.photometric_interpretation = photometric_interpretation;
 	}
 
-	public void setPixel_Integerensity_relationship(final String pixel_Integerensity_relationship) {
-		this.pixel_Integerensity_relationship = pixel_Integerensity_relationship;
+	public void setpixel_intensity_relationship(final String pixel_intensity_relationship) {
+		this.pixel_intensity_relationship = pixel_intensity_relationship;
 	}
 
 	public void setPixel_representation(final String pixel_representation) {
@@ -1143,8 +1143,8 @@ public class Serie_rf implements Serializable {
 		this.positioner_type = positioner_type;
 	}
 
-	public void setPresentation_Integerent_type(final String presentation_Integerent_type) {
-		this.presentation_Integerent_type = presentation_Integerent_type;
+	public void setpresentation_intent_type(final String presentation_intent_type) {
+		this.presentation_intent_type = presentation_intent_type;
 	}
 
 	public void setPresentation_lut_shape(final String presentation_lut_shape) {
@@ -1171,8 +1171,8 @@ public class Serie_rf implements Serializable {
 		this.requested_detector_entrance_dose = requested_detector_entrance_dose;
 	}
 
-	public void setRescale_Integerercept(final Integer rescale_Integerercept) {
-		this.rescale_Integerercept = rescale_Integerercept;
+	public void setrescale_intercept(final Integer rescale_intercept) {
+		this.rescale_intercept = rescale_intercept;
 	}
 
 	public void setRescale_slope(final Integer rescale_slope) {
@@ -1243,8 +1243,8 @@ public class Serie_rf implements Serializable {
 		this.shift_vector_for_pasting = shift_vector_for_pasting;
 	}
 
-	public void setSlice_Integererval(final Double slice_Integererval) {
-		this.slice_Integererval = slice_Integererval;
+	public void setslice_interval(final Double slice_interval) {
+		this.slice_interval = slice_interval;
 	}
 
 	public void setSlice_location(final Double slice_location) {

@@ -27,7 +27,7 @@ public class Rejected_serie_mr implements Serializable {
 	@Id
 	@Column(name = "id")
 	private Long id;
-	private Long old_Integerernal_id;
+	private Long old_internal_id;
 	private Long referring_physician_key;
 	private Long perfoming_physician_key;
 	private Long institution_key;
@@ -90,7 +90,7 @@ public class Rejected_serie_mr implements Serializable {
 	private String patient_position;
 	private String frame_of_reference_uid;
 	private Integer samples_per_pixel;
-	private String photometric_Integererpretation;
+	private String photometric_interpretation;
 	private Integer series_rows;
 	private Integer series_columns;
 	private Integer bits_allocated;
@@ -361,7 +361,7 @@ public class Rejected_serie_mr implements Serializable {
 	}
 
 	public Long getOld_Integerernal_id() {
-		return this.old_Integerernal_id;
+		return this.old_internal_id;
 	}
 
 	public String getOperator_first_name() {
@@ -449,7 +449,7 @@ public class Rejected_serie_mr implements Serializable {
 	}
 
 	public String getPhotometric_Integererpretation() {
-		return this.photometric_Integererpretation;
+		return this.photometric_interpretation;
 	}
 
 	public Double getPixel_bandwidth() {
@@ -845,7 +845,7 @@ public class Rejected_serie_mr implements Serializable {
 	}
 
 	public void setOld_Integerernal_id(final Long old_Integerernal_id) {
-		this.old_Integerernal_id = old_Integerernal_id;
+		this.old_internal_id = old_Integerernal_id;
 	}
 
 	public void setOperator_first_name(final String operator_first_name) {
@@ -933,7 +933,7 @@ public class Rejected_serie_mr implements Serializable {
 	}
 
 	public void setPhotometric_Integererpretation(final String photometric_Integererpretation) {
-		this.photometric_Integererpretation = photometric_Integererpretation;
+		this.photometric_interpretation = photometric_Integererpretation;
 	}
 
 	public void setPixel_bandwidth(final Double pixel_bandwidth) {

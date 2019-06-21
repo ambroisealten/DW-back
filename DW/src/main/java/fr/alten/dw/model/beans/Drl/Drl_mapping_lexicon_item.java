@@ -24,7 +24,7 @@ public class Drl_mapping_lexicon_item implements Serializable {
 	 */
 	private static final long serialVersionUID = 5378982680590282362L;
 	@Id
-	@Column(name = "id")
+	@Column(name = "drl_definition_key")
 	private Integer drl_definition_key;
 	private Integer instance_key;
 	private Long lexicon_key;
@@ -45,59 +45,59 @@ public class Drl_mapping_lexicon_item implements Serializable {
 	}
 
 	public Integer getDrl_definition_key() {
-		return this.drl_definition_key;
+		return drl_definition_key;
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return this.dt_last_update_dwh;
+		return dt_last_update_dwh;
 	}
 
 	public Integer getInstance_key() {
-		return this.instance_key;
+		return instance_key;
 	}
 
 	public String getLexicon_age_info() {
-		return this.lexicon_age_info;
+		return lexicon_age_info;
 	}
 
 	public String getLexicon_bmi_info() {
-		return this.lexicon_bmi_info;
+		return lexicon_bmi_info;
 	}
 
 	public Long getLexicon_element_key() {
-		return this.lexicon_element_key;
+		return lexicon_element_key;
 	}
 
 	public String getLexicon_field1() {
-		return this.lexicon_field1;
+		return lexicon_field1;
 	}
 
 	public String getLexicon_field2() {
-		return this.lexicon_field2;
+		return lexicon_field2;
 	}
 
 	public Integer getLexicon_item_key() {
-		return this.lexicon_item_key;
+		return lexicon_item_key;
 	}
 
 	public Long getLexicon_key() {
-		return this.lexicon_key;
+		return lexicon_key;
 	}
 
 	public String getLexicon_long_description() {
-		return this.lexicon_long_description;
+		return lexicon_long_description;
 	}
 
 	public String getLexicon_long_name() {
-		return this.lexicon_long_name;
+		return lexicon_long_name;
 	}
 
 	public String getLexicon_rpid() {
-		return this.lexicon_rpid;
+		return lexicon_rpid;
 	}
 
 	public String getLexicon_short_name() {
-		return this.lexicon_short_name;
+		return lexicon_short_name;
 	}
 
 	public void setDrl_definition_key(final Integer drl_definition_key) {

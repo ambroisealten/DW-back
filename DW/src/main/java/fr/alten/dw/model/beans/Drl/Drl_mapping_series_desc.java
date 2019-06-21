@@ -24,7 +24,7 @@ public class Drl_mapping_series_desc implements Serializable {
 	 */
 	private static final long serialVersionUID = -5516523754878359070L;
 	@Id
-	@Column(name = "id")
+	@Column(name = "drl_definition_key")
 	private Integer drl_definition_key;
 	private Integer instance_key;
 	private Long series_desc_key;
@@ -37,27 +37,27 @@ public class Drl_mapping_series_desc implements Serializable {
 	}
 
 	public Integer getDrl_definition_key() {
-		return this.drl_definition_key;
+		return drl_definition_key;
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return this.dt_last_update_dwh;
+		return dt_last_update_dwh;
 	}
 
 	public Integer getInstance_key() {
-		return this.instance_key;
+		return instance_key;
 	}
 
 	public Long getSeries_desc_key() {
-		return this.series_desc_key;
+		return series_desc_key;
 	}
 
 	public String getSeries_desc_modality() {
-		return this.series_desc_modality;
+		return series_desc_modality;
 	}
 
 	public String getSeries_desc_name() {
-		return this.series_desc_name;
+		return series_desc_name;
 	}
 
 	public void setDrl_definition_key(final Integer drl_definition_key) {
