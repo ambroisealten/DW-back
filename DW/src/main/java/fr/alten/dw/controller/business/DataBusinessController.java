@@ -19,12 +19,6 @@ public class DataBusinessController {
 	private DataRepository dataRepository;
 
 	public DataBusinessController() throws InstantiationException, IllegalAccessException {
-		// this.dataRepository = new DataRepository();
-	}
-
-	public String getAllDatasWithinDates(final String dateStart, final String dateEnd) {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 	@SuppressWarnings("unchecked")
@@ -33,6 +27,17 @@ public class DataBusinessController {
 		for( final Class classFound: ReflectionClass.getClasses(pack.getName())) {
 			if(classFound.getSimpleName().equals(objectSearched)) {
 				return dataRepository.findByTable(classFound);
+			}
+		}
+		return new ArrayList<>();
+	}
+
+	@SuppressWarnings("unchecked")
+	public List<?> getAllDataOfAnObjectWithinStartAndEnd(String objectSearched, Integer lineStart, Integer lineEnd) throws ClassNotFoundException, IOException {
+		final Package pack = BeanScheme.class.getPackage();
+		for( final Class classFound: ReflectionClass.getClasses(pack.getName())) {
+			if(classFound.getSimpleName().equals(objectSearched)) {
+				return dataRepository.findByTableWithLimits(classFound,lineStart,lineEnd);
 			}
 		}
 		return new ArrayList<>();
