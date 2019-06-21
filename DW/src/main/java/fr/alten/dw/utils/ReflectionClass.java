@@ -5,10 +5,16 @@ package fr.alten.dw.utils;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Field;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
 
 /**
  * @author Andy Chabalier
@@ -26,7 +32,8 @@ public class ReflectionClass {
 	 * @return The classes
 	 * @throws ClassNotFoundException
 	 */
-	public static List<Class> findClasses(final File directory, final String packageName) throws ClassNotFoundException {
+	public static List<Class> findClasses(final File directory, final String packageName)
+			throws ClassNotFoundException {
 		final List<Class> classes = new ArrayList<Class>();
 		if (!directory.exists()) {
 			return classes;
@@ -42,6 +49,23 @@ public class ReflectionClass {
 			}
 		}
 		return classes;
+	}
+
+	/**
+	 * Scan all fields of the provided class to fetch the column id
+	 * @param classToExtract the class that we want to get the column id
+	 * @return the name of the column id
+	 */
+	public static String getBeanId(final Class classToExtract) {
+		for (final Field field : classToExtract.getDeclaredFields()) {
+			final Annotation[] annotations = field.getAnnotations();
+			final String annotationList = Arrays.asList(annotations).toString();
+			if (annotationList.contains(Id.class.getCanonicalName())
+					&& annotationList.contains(Column.class.getCanonicalName())) {
+				return field.getAnnotation(Column.class).name();
+			}
+		}
+		return null;
 	}
 
 	/**
