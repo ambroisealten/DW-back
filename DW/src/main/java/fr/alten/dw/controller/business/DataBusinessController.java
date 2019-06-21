@@ -37,7 +37,7 @@ public class DataBusinessController {
 		final Package pack = BeanScheme.class.getPackage();
 		for( final Class classFound: ReflectionClass.getClasses(pack.getName())) {
 			if(classFound.getSimpleName().equals(objectSearched)) {
-				return dataRepository.findByTableWithLimits(classFound,lineStart,lineEnd);
+				return dataRepository.findByTableWithLimits(classFound,ReflectionClass.getBeanId(classFound),lineStart,lineEnd);
 			}
 		}
 		return new ArrayList<>();
