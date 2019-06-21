@@ -1,24 +1,18 @@
 package fr.alten.dw.controller.business;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import fr.alten.dw.model.beans.Ae;
-import fr.alten.dw.model.beans.Lexicon.Lexicon;
-import fr.alten.dw.model.beans.Study.Count_study;
-import fr.alten.dw.model.beans.Study.Mg_study_alert;
-import fr.alten.dw.model.beans.Study.Rf_study_alert;
-import fr.alten.dw.model.beans.Study.Study;
-import fr.alten.dw.model.beans.Study.Study_mg;
-import fr.alten.dw.model.beans.Study.Study_mr;
-import fr.alten.dw.model.beans.Study.Study_range;
-import fr.alten.dw.model.beans.Study.Study_rf;
-import fr.alten.dw.model.beans.Study.Study_us;
-import fr.alten.dw.model.beans.Study.Study_xa;
-import fr.alten.dw.model.beans.Study.Xa_study_alert;
+import fr.alten.dw.model.beans.BeanScheme;
 import fr.alten.dw.model.dao.DataRepository;
+import fr.alten.dw.utils.ReflectionClass;
 
 @Service
+@SuppressWarnings("rawtypes")
 public class DataBusinessController {
 
 	@Autowired
@@ -28,16 +22,19 @@ public class DataBusinessController {
 		// this.dataRepository = new DataRepository();
 	}
 
-	public Object getDataForObject(String objectSearched) throws ClassNotFoundException {
-//		String packageName = "fr.alten.dw.model.beans." + objectSearched.substring(0, objectSearched.indexOf("_"))+".";
-//		System.out.println(packageName);
-//		Class<?> className = Class.forName(packageName + objectSearched);
-		return this.dataRepository.findByTable(Study_xa.class);
-	}
-
-	public String getAllDatasWithinDates(String dateStart, String dateEnd) {
+	public String getAllDatasWithinDates(final String dateStart, final String dateEnd) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
+	@SuppressWarnings("unchecked")
+	public List<?> getDataForObject(final String objectSearched) throws ClassNotFoundException, IOException {
+		final Package pack = BeanScheme.class.getPackage();
+		for( final Class classFound: ReflectionClass.getClasses(pack.getName())) {
+			if(classFound.getSimpleName().equals(objectSearched)) {
+				return dataRepository.findByTable(classFound);
+			}
+		}
+		return new ArrayList<>();
+	}
 }
