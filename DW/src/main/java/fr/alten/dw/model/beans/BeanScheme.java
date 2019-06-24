@@ -1,10 +1,9 @@
 /**
- * 
+ *
  */
 package fr.alten.dw.model.beans;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
 
 /**
  * @author Andy Chabalier
@@ -13,31 +12,31 @@ import java.util.List;
 public class BeanScheme {
 
 	private String name;
-	private List<String> fields = new ArrayList<String>();
+	private HashMap<String, String> fields = new HashMap<String, String>();
 
-	public BeanScheme(String name) {
+	public BeanScheme(final String name) {
 		super();
 		this.name = name;
 	}
 
-	public void addField(String field) {
-		this.fields.add(field);
+	public void addField(final String field, final String type) {
+		this.fields.put(field, type);
+	}
+
+	public HashMap<String, ?> getFields() {
+		return this.fields;
 	}
 
 	public String getName() {
-		return name;
+		return this.name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public List<String> getFields() {
-		return fields;
-	}
-
-	public void setFields(List<String> fields) {
+	public void setFields(final HashMap<String, String> fields) {
 		this.fields = fields;
+	}
+
+	public void setName(final String name) {
+		this.name = name;
 	}
 
 }

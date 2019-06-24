@@ -24,11 +24,13 @@ public class DataSchemeBusinessController {
 	public ArrayList<BeanScheme> getDataScheme() throws ClassNotFoundException, SecurityException, IOException {
 		final ArrayList<BeanScheme> result = new ArrayList<BeanScheme>();
 		final Package pack = BeanScheme.class.getPackage();
-		for (final Class classFound: ReflectionClass.getClasses(pack.getName())) {
+		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
 			if (classFound.getName() != BeanScheme.class.getName() && classFound.getName() != Data.class.getName()) {
 				final BeanScheme bean = new BeanScheme(classFound.getSimpleName());
 				for (final Field fieldFound : classFound.getDeclaredFields()) {
-					bean.addField(fieldFound.getName());
+					if (!fieldFound.getName().equals("serialVersionUID")) {
+						bean.addField(fieldFound.getName(), fieldFound.getType().getSimpleName());
+					}
 				}
 				result.add(bean);
 			}
