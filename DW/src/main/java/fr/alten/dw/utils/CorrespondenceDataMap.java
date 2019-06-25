@@ -160,19 +160,43 @@ public class CorrespondenceDataMap {
 	}
 	
 	public String getColumnWithName(String columnName) {
-		return this.correspondenceToColumnTable.get(columnName);
+		String translated = this.correspondenceToColumnTable.get(columnName);
+		if(translated != null) {
+			return translated;
+		}
+		else {
+			return columnName;
+		}
 	}
 	
 	public String getColumnName(String column) {
-		return this.correspondenceColumnTable.get(column);
+		String translated = this.correspondenceColumnTable.get(column);
+		if(translated != null) {
+			return translated;
+		}
+		else {
+			return column;
+		}
 	}
 
 	public String getTableWithName(String tableName) {
-		return this.correspondenceToTable.get(tableName);
+		String translated = this.correspondenceToTable.get(tableName);
+		if(translated != null) {
+			return translated;
+		}
+		else {
+			return tableName;
+		}
 	}
 	
 	public String getTableName(String table) {
-		return this.correspondenceTable.get(table);
+		String translated = this.correspondenceTable.get(table);
+		if(translated != null) {
+			return translated;
+		}
+		else {
+			return table;
+		}
 	}
 	
 }

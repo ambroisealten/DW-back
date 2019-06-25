@@ -30,18 +30,13 @@ public class DataSchemeBusinessController {
 		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
 			if (classFound.getName() != BeanScheme.class.getName() && classFound.getName() != Data.class.getName()) {
 				String translatedClassName = dataMap.getTableName(classFound.getSimpleName());
-				final BeanScheme bean;
-				if (translatedClassName != null) {
-					bean = new BeanScheme(translatedClassName);
-				} else {
-					bean = new BeanScheme(classFound.getSimpleName());
-				}
+				final BeanScheme bean = new BeanScheme(translatedClassName);
+				
 				for (final Field fieldFound : classFound.getDeclaredFields()) {
 					if (!fieldFound.getName().equals("serialVersionUID")) {
-						String translatedColumnName = dataMap.getColumnName(fieldFound.getName());
-						if (translatedColumnName != null) {
-							bean.addField(translatedColumnName, fieldFound.getType().getSimpleName());
-						}
+						final String translatedColumnName = dataMap.getColumnName(fieldFound.getName());
+						
+						bean.addField(translatedColumnName, fieldFound.getType().getSimpleName());
 					}
 				}
 				result.add(bean);

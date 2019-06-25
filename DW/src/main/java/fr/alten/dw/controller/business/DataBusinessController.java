@@ -26,10 +26,10 @@ public class DataBusinessController {
 	public List<?> getDataForObject(final String objectSearched) throws ClassNotFoundException, IOException {
 		final Package pack = BeanScheme.class.getPackage();
 		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
-		final String test = dataMap.getTableWithName(objectSearched);
+		String translatedTableName = dataMap.getTableWithName(objectSearched);
 		
 		for( final Class classFound: ReflectionClass.getClasses(pack.getName())) {
-			if(classFound.getSimpleName().equals(test)) {
+			if(classFound.getSimpleName().equals(translatedTableName)) {
 				return dataRepository.findByTable(classFound);
 			}
 		}
