@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import fr.alten.dw.model.beans.BeanScheme;
 import fr.alten.dw.model.dao.DataRepository;
+import fr.alten.dw.utils.CorrespondenceDataMap;
 import fr.alten.dw.utils.ReflectionClass;
 
 @Service
@@ -24,8 +25,11 @@ public class DataBusinessController {
 	@SuppressWarnings("unchecked")
 	public List<?> getDataForObject(final String objectSearched) throws ClassNotFoundException, IOException {
 		final Package pack = BeanScheme.class.getPackage();
+		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
+		final String test = dataMap.getTableWithName(objectSearched);
+		
 		for( final Class classFound: ReflectionClass.getClasses(pack.getName())) {
-			if(classFound.getSimpleName().equals(objectSearched)) {
+			if(classFound.getSimpleName().equals(test)) {
 				return dataRepository.findByTable(classFound);
 			}
 		}

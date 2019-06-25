@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import fr.alten.dw.model.beans.BeanScheme;
 import fr.alten.dw.model.beans.Data;
+import fr.alten.dw.utils.CorrespondenceDataMap;
 import fr.alten.dw.utils.ReflectionClass;
 
 /**
@@ -22,14 +23,25 @@ import fr.alten.dw.utils.ReflectionClass;
 public class DataSchemeBusinessController {
 
 	public ArrayList<BeanScheme> getDataScheme() throws ClassNotFoundException, SecurityException, IOException {
+		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
+
 		final ArrayList<BeanScheme> result = new ArrayList<BeanScheme>();
 		final Package pack = BeanScheme.class.getPackage();
 		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
 			if (classFound.getName() != BeanScheme.class.getName() && classFound.getName() != Data.class.getName()) {
-				final BeanScheme bean = new BeanScheme(classFound.getSimpleName());
+				String translatedClassName = dataMap.getTableName(classFound.getSimpleName());
+				final BeanScheme bean;
+				if (translatedClassName != null) {
+					bean = new BeanScheme(translatedClassName);
+				} else {
+					bean = new BeanScheme(classFound.getSimpleName());
+				}
 				for (final Field fieldFound : classFound.getDeclaredFields()) {
 					if (!fieldFound.getName().equals("serialVersionUID")) {
-						bean.addField(fieldFound.getName(), fieldFound.getType().getSimpleName());
+						String translatedColumnName = dataMap.getColumnName(fieldFound.getName());
+						if (translatedColumnName != null) {
+							bean.addField(translatedColumnName, fieldFound.getType().getSimpleName());
+						}
 					}
 				}
 				result.add(bean);
@@ -37,4 +49,5 @@ public class DataSchemeBusinessController {
 		}
 		return result;
 	}
+
 }

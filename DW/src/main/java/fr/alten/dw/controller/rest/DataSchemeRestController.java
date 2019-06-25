@@ -22,11 +22,12 @@ import fr.alten.dw.model.beans.BeanScheme;
 public class DataSchemeRestController {
 
 	@Autowired
-	private DataSchemeBusinessController dataSchemeRestController;
+	private DataSchemeBusinessController dataSchemeBusinessController;
 	
 	@GetMapping("/dataScheme")
 	@ResponseBody
 	public ArrayList<BeanScheme> fetchDataScheme() throws ClassNotFoundException, SecurityException, IOException {
-		return this.dataSchemeRestController.getDataScheme();
+		return this.dataSchemeBusinessController.getDataScheme();
 	}
+	
 }
