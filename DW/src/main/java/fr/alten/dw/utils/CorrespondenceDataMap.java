@@ -33,6 +33,7 @@ public class CorrespondenceDataMap {
 	private void fillCorrespondenceToTable() {
 		this.correspondenceToTable.put("Entités applicatives (modalités)", "Ae");
 		this.correspondenceToTable.put("Alertes déclenchées", "Alert");
+		this.correspondenceToTable.put("Nombre d'études", "Count_study");
 		this.correspondenceToTable.put("Lexique", "Lexicon");
 		this.correspondenceToTable.put("Log entités", "Log");
 		this.correspondenceToTable.put("Message des logs", "Log_message");
@@ -43,7 +44,8 @@ public class CorrespondenceDataMap {
 		this.correspondenceToTable.put("Séries (groupement)", "Serie_range");
 		this.correspondenceToTable.put("Séries (radiologie)", "Serie_rf");
 		this.correspondenceToTable.put("Études", "Study");
-		this.correspondenceToTable.put("Alertes sur études", "Study_protocol");
+		this.correspondenceToTable.put("Alertes sur études", "Ct_study_alert");
+		this.correspondenceToTable.put("Alertes sur études (type)", "Ct_study_alert_protocol");
 		this.correspondenceToTable.put("Études (scanner)", "Study_ct");
 		this.correspondenceToTable.put("Études (mammographie)", "Study_mg");
 		this.correspondenceToTable.put("Études (divers)", "Study_mr");
@@ -55,6 +57,7 @@ public class CorrespondenceDataMap {
 	private void fillCorrespondenceTable() {
 		this.correspondenceTable.put("Ae", "Entités applicatives (modalités)");
 		this.correspondenceTable.put("Alert", "Alertes déclenchées");
+		this.correspondenceTable.put("Count_study", "Nombre d'études");
 		this.correspondenceTable.put("Lexicon", "Lexique");
 		this.correspondenceTable.put("Log", "Log entités");
 		this.correspondenceTable.put("Log_message", "Message des logs");
@@ -65,7 +68,8 @@ public class CorrespondenceDataMap {
 		this.correspondenceTable.put("Serie_range", "Séries (groupement)");
 		this.correspondenceTable.put("Serie_rf", "Séries (radiologie)");
 		this.correspondenceTable.put("Study", "Études");
-		this.correspondenceTable.put("Study_protocol", "Alertes sur études");
+		this.correspondenceTable.put("Ct_study_alert", "Alertes sur études");
+		this.correspondenceTable.put("Ct_study_alert_protocol", "Alertes sur études (type)");
 		this.correspondenceTable.put("Study_ct", "Études (scanner)");
 		this.correspondenceTable.put("Study_mg", "Études (mammographie)");
 		this.correspondenceTable.put("Study_mr", "Études (divers)");
@@ -102,12 +106,13 @@ public class CorrespondenceDataMap {
 		this.correspondenceColumnTable.put("facility_key", "Numéro d'hôpital");
 		this.correspondenceColumnTable.put("patient_key", "Numéro du patient");
 		
-		this.correspondenceColumnTable.put("study_key", "Numéro de study");
-		this.correspondenceColumnTable.put("study_date", "Date début study");
-		this.correspondenceColumnTable.put("study_end_date", "Date fin study");
-		this.correspondenceColumnTable.put("study_datetime", "Date début study");
-		this.correspondenceColumnTable.put("study_description", "Description de study");
-		this.correspondenceColumnTable.put("study_description_name", "Description de study");
+		this.correspondenceColumnTable.put("study_key", "Numéro d'étude");
+		this.correspondenceColumnTable.put("count_study", "Nombre d'études");
+		this.correspondenceColumnTable.put("study_date", "Date début étude");
+		this.correspondenceColumnTable.put("study_end_date", "Date fin étude");
+		this.correspondenceColumnTable.put("study_datetime", "Date début étude");
+		this.correspondenceColumnTable.put("study_description", "Description d'étude");
+		this.correspondenceColumnTable.put("study_description_name", "Description d'étude");
 		
 		this.correspondenceColumnTable.put("patient_sex", "Sexe du patient");
 		this.correspondenceColumnTable.put("patient_weight", "Poids du patient");
@@ -145,12 +150,13 @@ public class CorrespondenceDataMap {
 		this.correspondenceToColumnTable.put("Numéro d'hôpital","facility_key");
 		this.correspondenceToColumnTable.put("Numéro du patient","patient_key");
 		
-		this.correspondenceToColumnTable.put("Numéro de study", "study_key");
-		this.correspondenceToColumnTable.put("Date début study", "study_date");
-		this.correspondenceToColumnTable.put("Date fin study", "study_end_date");
-		this.correspondenceToColumnTable.put("Date début study", "study_datetime");
-		this.correspondenceToColumnTable.put("Description de study", "study_description");
-		this.correspondenceToColumnTable.put("Description de study", "study_description_name");
+		this.correspondenceToColumnTable.put("Numéro d'étude", "study_key");
+		this.correspondenceToColumnTable.put("Nombre d'études", "count_study");
+		this.correspondenceToColumnTable.put("Date début étude", "study_date");
+		this.correspondenceToColumnTable.put("Date fin étude", "study_end_date");
+		this.correspondenceToColumnTable.put("Date début étude", "study_datetime");
+		this.correspondenceToColumnTable.put("Description d'étude", "study_description");
+		this.correspondenceToColumnTable.put("Description d'étude", "study_description_name");
 		
 		this.correspondenceToColumnTable.put("Sexe du patient","patient_sex");
 		this.correspondenceToColumnTable.put("Poids du patient","patient_weight");
