@@ -5,12 +5,18 @@ package fr.alten.dw.model.beans;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
-import java.lang.String;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  * 
  * @author Thomas Decamp
  */
+@Entity
+@Table(name="dwh_alert")
 public class Alert implements Serializable {
 
 	/**
@@ -20,6 +26,8 @@ public class Alert implements Serializable {
 	
 	
 	private int instance_key;
+	@Id
+	@Column(name="id")
 	private Long id;
 	private String discriminator;
 	private int patient_key;

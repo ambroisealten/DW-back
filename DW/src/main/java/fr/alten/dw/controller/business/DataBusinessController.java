@@ -39,8 +39,11 @@ public class DataBusinessController {
 	@SuppressWarnings("unchecked")
 	public List<?> getAllDataOfAnObjectWithinStartAndEnd(String objectSearched, Integer lineStart, Integer lineEnd) throws ClassNotFoundException, IOException {
 		final Package pack = BeanScheme.class.getPackage();
+		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
+		String translatedTableName = dataMap.getTableWithName(objectSearched);
+		
 		for( final Class classFound: ReflectionClass.getClasses(pack.getName())) {
-			if(classFound.getSimpleName().equals(objectSearched)) {
+			if(classFound.getSimpleName().equals(translatedTableName)) {
 				return dataRepository.findByTableWithLimits(classFound,ReflectionClass.getBeanId(classFound),lineStart,lineEnd);
 			}
 		}

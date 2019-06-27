@@ -44,7 +44,6 @@ public class CorrespondenceDataMap {
 		this.correspondenceToTable.put("Séries (groupement)", "Serie_range");
 		this.correspondenceToTable.put("Séries (radiologie)", "Serie_rf");
 		this.correspondenceToTable.put("Études", "Study");
-		this.correspondenceToTable.put("Alertes sur études", "Ct_study_alert");
 		this.correspondenceToTable.put("Alertes sur études (type)", "Ct_study_alert_protocol");
 		this.correspondenceToTable.put("Études (scanner)", "Study_ct");
 		this.correspondenceToTable.put("Études (mammographie)", "Study_mg");
@@ -68,7 +67,6 @@ public class CorrespondenceDataMap {
 		this.correspondenceTable.put("Serie_range", "Séries (groupement)");
 		this.correspondenceTable.put("Serie_rf", "Séries (radiologie)");
 		this.correspondenceTable.put("Study", "Études");
-		this.correspondenceTable.put("Ct_study_alert", "Alertes sur études");
 		this.correspondenceTable.put("Ct_study_alert_protocol", "Alertes sur études (type)");
 		this.correspondenceTable.put("Study_ct", "Études (scanner)");
 		this.correspondenceTable.put("Study_mg", "Études (mammographie)");
