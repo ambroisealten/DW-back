@@ -108,7 +108,7 @@ public class CorrespondenceDataMap {
 		this.correspondenceColumnTable.put("count_study", "Nombre d'études");
 		this.correspondenceColumnTable.put("study_date", "Date début étude");
 		this.correspondenceColumnTable.put("study_end_date", "Date fin étude");
-		this.correspondenceColumnTable.put("study_datetime", "Date début étude");
+		this.correspondenceColumnTable.put("study_datetime", "Date étude");
 		this.correspondenceColumnTable.put("study_description", "Description d'étude");
 		this.correspondenceColumnTable.put("study_description_name", "Description d'étude");
 		
@@ -152,7 +152,7 @@ public class CorrespondenceDataMap {
 		this.correspondenceToColumnTable.put("Nombre d'études", "count_study");
 		this.correspondenceToColumnTable.put("Date début étude", "study_date");
 		this.correspondenceToColumnTable.put("Date fin étude", "study_end_date");
-		this.correspondenceToColumnTable.put("Date début étude", "study_datetime");
+		this.correspondenceToColumnTable.put("Date étude", "study_datetime");
 		this.correspondenceToColumnTable.put("Description d'étude", "study_description");
 		this.correspondenceToColumnTable.put("Description d'étude", "study_description_name");
 		
