@@ -23,28 +23,34 @@ public class DataBusinessController {
 	}
 
 	@SuppressWarnings("unchecked")
-	public List<?> getDataForObject(final String objectSearched) throws ClassNotFoundException, IOException {
+	public List<?> getAllDataOfAnObjectWithinStartAndEnd(final String objectSearched, final Integer lineStart,
+			final Integer lineEnd) throws ClassNotFoundException, IOException {
 		final Package pack = BeanScheme.class.getPackage();
 		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
-		String translatedTableName = dataMap.getTableWithName(objectSearched);
-		
-		for( final Class classFound: ReflectionClass.getClasses(pack.getName())) {
-			if(classFound.getSimpleName().equals(translatedTableName)) {
-				return dataRepository.findByTable(classFound);
+		final String translatedTableName = dataMap.getTableWithName(objectSearched);
+
+		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
+			if (classFound.getSimpleName().equals(translatedTableName)) {
+				return dataRepository.findByTableWithLimits(classFound, ReflectionClass.getBeanId(classFound),
+						lineStart, lineEnd);
 			}
 		}
 		return new ArrayList<>();
 	}
 
+	public long getCountOfDataForObject(final Class objectSearched) throws ClassNotFoundException, IOException {
+		return dataRepository.countNumberOfData(objectSearched);
+	}
+
 	@SuppressWarnings("unchecked")
-	public List<?> getAllDataOfAnObjectWithinStartAndEnd(String objectSearched, Integer lineStart, Integer lineEnd) throws ClassNotFoundException, IOException {
+	public List<?> getDataForObject(final String objectSearched) throws ClassNotFoundException, IOException {
 		final Package pack = BeanScheme.class.getPackage();
 		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
-		String translatedTableName = dataMap.getTableWithName(objectSearched);
-		
-		for( final Class classFound: ReflectionClass.getClasses(pack.getName())) {
-			if(classFound.getSimpleName().equals(translatedTableName)) {
-				return dataRepository.findByTableWithLimits(classFound,ReflectionClass.getBeanId(classFound),lineStart,lineEnd);
+		final String translatedTableName = dataMap.getTableWithName(objectSearched);
+
+		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
+			if (classFound.getSimpleName().equals(translatedTableName)) {
+				return dataRepository.findByTable(classFound);
 			}
 		}
 		return new ArrayList<>();
