@@ -6,9 +6,12 @@ package fr.alten.dw.controller.business;
 import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.event.ApplicationReadyEvent;
+import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
 
 import fr.alten.dw.model.beans.BeanScheme;
@@ -25,6 +28,7 @@ import fr.alten.dw.utils.ReflectionClass;
 public class DataSchemeBusinessController {
 
 	private final List<Class> emptyOrForbiddenDataClass = new ArrayList<Class>();
+	private final List<Field> emptyOrForbiddenDataField = new ArrayList<Field>();
 
 	@Autowired
 	private DataBusinessController dataBusinessController;
@@ -45,11 +49,9 @@ public class DataSchemeBusinessController {
 			if (!getNoEmptyOrForbiddenDataClass().contains(classFound)) {
 				final String translatedClassName = dataMap.getTableName(classFound.getSimpleName());
 				final BeanScheme bean = new BeanScheme(translatedClassName);
-
 				for (final Field fieldFound : classFound.getDeclaredFields()) {
-					if (!fieldFound.getName().equals("serialVersionUID")) {
+					if (!fieldFound.getName().equals("serialVersionUID") && !getNoEmptyOrForbiddenDataField().contains(fieldFound) ) {
 						final String translatedColumnName = dataMap.getColumnName(fieldFound.getName());
-
 						bean.addField(translatedColumnName, fieldFound.getType().getSimpleName());
 					}
 				}
@@ -72,5 +74,30 @@ public class DataSchemeBusinessController {
 			}
 		}
 		return emptyOrForbiddenDataClass;
+	}
+
+	public List<Field> getNoEmptyOrForbiddenDataField() throws ClassNotFoundException, IOException {
+		if(emptyOrForbiddenDataField.size() == 0) {
+			Arrays.stream(ReflectionClass.getClasses(pack.getName())).filter(c -> {
+				try {
+					return !getNoEmptyOrForbiddenDataClass().contains(c);
+				} catch (ClassNotFoundException | IOException e) {
+					return false;
+				}
+			}).forEach(cl -> {
+				for(final Field field : cl.getDeclaredFields()) {
+					if(!field.getName().equals("serialVersionUID") && dataBusinessController.getCountOfDataForColumn(cl,field) == 0) {
+						emptyOrForbiddenDataField.add(field);
+					}
+				}
+			});
+		}
+		return emptyOrForbiddenDataField;
+	}
+
+	@EventListener(ApplicationReadyEvent.class)
+	public void init() throws ClassNotFoundException, IOException {
+		getNoEmptyOrForbiddenDataClass();
+		getNoEmptyOrForbiddenDataField();
 	}
 }

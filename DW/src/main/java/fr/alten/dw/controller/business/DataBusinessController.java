@@ -1,6 +1,7 @@
 package fr.alten.dw.controller.business;
 
 import java.io.IOException;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,6 +37,10 @@ public class DataBusinessController {
 			}
 		}
 		return new ArrayList<>();
+	}
+
+	public long getCountOfDataForColumn(final Class cl, final Field field) {
+		return dataRepository.countNumberOfDataField(cl,field);
 	}
 
 	public long getCountOfDataForObject(final Class objectSearched) throws ClassNotFoundException, IOException {

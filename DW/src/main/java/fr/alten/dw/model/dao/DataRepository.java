@@ -1,5 +1,6 @@
 package fr.alten.dw.model.dao;
 
+import java.lang.reflect.Field;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -17,8 +18,13 @@ public class DataRepository {
 	@Autowired
 	private EntityManager entityManager;
 
-	public long countNumberOfData(final Class<?> simpleName) {
-		return (long) entityManager.createQuery("SELECT COUNT(d) FROM " + simpleName.getSimpleName() + " d")
+	public long countNumberOfData(final Class<?> table) {
+		return (long) entityManager.createQuery("SELECT COUNT(d) FROM " + table.getSimpleName() + " d")
+				.getSingleResult();
+	}
+
+	public long countNumberOfDataField(final Class<?> table, final Field field) {
+		return (long) entityManager.createQuery("SELECT COUNT(d."+ field.getName() +") FROM " + table.getSimpleName() + " d")
 				.getSingleResult();
 	}
 
