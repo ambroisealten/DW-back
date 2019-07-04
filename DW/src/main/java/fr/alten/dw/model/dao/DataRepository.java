@@ -32,6 +32,11 @@ public class DataRepository {
 		return entityManager.createQuery("SELECT d FROM " + type.getSimpleName() + " d").getResultList();
 	}
 
+	public <T, ID> List<?> findByTableAndColumn(final Class<T> classFound, final String columnWithName) {
+		return entityManager.createQuery("SELECT d."+columnWithName+" FROM " + classFound.getSimpleName() + " d")
+				.getResultList();
+	}
+
 	public <T, ID> List<?> findByTableWithLimits(final Class<T> type, final String id, final int lineStart,
 			final int lineNumber) {
 		return entityManager.createQuery("SELECT d FROM " + type.getSimpleName() + " d ORDER BY " + id + " DESC")

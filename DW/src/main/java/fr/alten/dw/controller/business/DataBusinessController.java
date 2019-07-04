@@ -61,4 +61,18 @@ public class DataBusinessController {
 		return new ArrayList<>();
 	}
 
+	@SuppressWarnings("unchecked")
+	public List<?> getDataFromColumn(final String tableSearched, final String columnSearched) throws ClassNotFoundException, IOException {
+		final Package pack = BeanScheme.class.getPackage();
+		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
+		final String translatedTableName = dataMap.getTableWithName(tableSearched);
+
+		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
+			if (classFound.getSimpleName().equals(translatedTableName)) {
+				return dataRepository.findByTableAndColumn(classFound,dataMap.getColumnWithName(columnSearched));
+			}
+		}
+		return new ArrayList<>();
+	}
+
 }
