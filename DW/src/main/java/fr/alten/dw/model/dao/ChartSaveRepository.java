@@ -1,6 +1,8 @@
 package fr.alten.dw.model.dao;
 
 import java.math.BigInteger;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -23,17 +25,17 @@ public class ChartSaveRepository {
 
 	@Transactional
 	public int createChartSave(final String chartDisplayedName, final String chartConfiguration) {
-		BigInteger tableLength = (BigInteger) entityManager.createNativeQuery("SELECT COUNT(*) FROM dwh_chart_config").getSingleResult();
-		
+		BigInteger tableLength = (BigInteger) entityManager.createNativeQuery("SELECT COUNT(*) FROM dwh_chart_config")
+				.getSingleResult();
+
 		Query query = entityManager.createNativeQuery(
 				"INSERT INTO dwh_chart_config (id,displayed_name,chart_saved,date_of_creation) VALUES (?,?,?,?)");
-		
+
 		query.setParameter(1, 0).setParameter(2, chartDisplayedName).setParameter(3, chartConfiguration).setParameter(4,
-				"2018-12-12");
-		if(query.executeUpdate() > 0) {
-			return tableLength.intValue()+1;
-		}
-		else {
+				DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDateTime.now()).toString());
+		if (query.executeUpdate() > 0) {
+			return tableLength.intValue() + 1;
+		} else {
 			return 0;
 		}
 	}
