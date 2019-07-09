@@ -47,7 +47,7 @@ public class ChartSaveRestController {
 	public String saveChartConfiguration(@RequestBody final String chartConfiguration,
 			@PathVariable("displayedName") final String chartDisplayedName) {
 		final String configId = this.chartSaveBusinessController.saveConfig(chartConfiguration, chartDisplayedName);
-		return configId;
+		return "{ \"link\" : \""+configId+"\"}";
 	}
 
 	@GetMapping(value = "/getChartConfig/{id}/{displayedName}")

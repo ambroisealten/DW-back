@@ -16,7 +16,8 @@ public class ChartSaveBusinessController {
 
 	public String saveConfig(String chartConfiguration, String chartDisplayedName) {
 		int resultId = chartSaveRepository.createChartSave(chartDisplayedName, chartConfiguration);
-		return resultId+":"+chartDisplayedName;
+		if(resultId != 0) return resultId+":"+chartDisplayedName;
+		return "Sauvegarde non-effectuée";
 	}
 	
 	public ChartConfig getChartConfiguration(int chartId, String chartDisplayedName) {
