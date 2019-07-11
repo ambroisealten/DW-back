@@ -66,6 +66,7 @@ public class DataSchemeBusinessController {
 		if(emptyOrForbiddenDataClass.size() == 0) {
 			emptyOrForbiddenDataClass.add(BeanScheme.class);
 			emptyOrForbiddenDataClass.add(Data.class);
+			emptyOrForbiddenDataClass.add(ChartConfig.class);
 			for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
 				if (classFound.getName() != BeanScheme.class.getName() && classFound.getName() != ChartConfig.class.getName()  && classFound.getName() != Data.class.getName()) {
 					if (dataBusinessController.getCountOfDataForObject(classFound) == 0) {
