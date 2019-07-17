@@ -18,7 +18,7 @@ import javax.persistence.Id;
 
 /**
  * Utilities method for reflection and introspection
- * 
+ *
  * @author Andy Chabalier
  *
  */
@@ -56,7 +56,7 @@ public class ReflectionClass {
 
 	/**
 	 * Scan all fields of the provided class to fetch the column id
-	 * 
+	 *
 	 * @param classToExtract the class that we want to get the column id
 	 * @return the name of the column id
 	 */
@@ -64,6 +64,8 @@ public class ReflectionClass {
 		for (final Field field : classToExtract.getDeclaredFields()) {
 			final Annotation[] annotations = field.getAnnotations();
 			final String annotationList = Arrays.asList(annotations).toString();
+			// We check if the field have ID and Column annotation. That means this field is
+			// the column id.
 			if (annotationList.contains(Id.class.getCanonicalName())
 					&& annotationList.contains(Column.class.getCanonicalName())) {
 				return field.getAnnotation(Column.class).name();

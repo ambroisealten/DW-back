@@ -8,7 +8,9 @@ import java.util.HashMap;
  * the mapping is make with two hashMap to make bidirectional mapping. If there
  * is no correspondance, then the provided value is used. This allow to not
  * translate all data.
- * 
+ *
+ * This class is a singleton
+ *
  * @author Lucas Royackkers, Andy Chabalier
  *
  */
@@ -174,40 +176,26 @@ public class CorrespondenceDataMap {
 
 	}
 
-	public String getColumnName(final String column) {
-		final String translated = this.correspondenceColumnTable.get(column);
-		if (translated != null) {
-			return translated;
-		} else {
-			return column;
-		}
+	public String getColumnName(final String columnName) {
+		final String translated = this.correspondenceColumnTable.get(columnName);
+		return translated != null ? translated : columnName;
 	}
 
 	public String getColumnWithName(final String columnName) {
 		final String translated = this.correspondenceToColumnTable.get(columnName);
-		if (translated != null) {
-			return translated;
-		} else {
-			return columnName;
-		}
+		return translated != null ? translated : columnName;
 	}
 
-	public String getTableName(final String table) {
-		final String translated = this.correspondenceTable.get(table);
-		if (translated != null) {
-			return translated;
-		} else {
-			return table;
-		}
+	public String getTableName(final String tableName) {
+		final String translated = this.correspondenceTable.get(tableName);
+		return translated != null ? translated : tableName;
+
 	}
 
 	public String getTableWithName(final String tableName) {
 		final String translated = this.correspondenceToTable.get(tableName);
-		if (translated != null) {
-			return translated;
-		} else {
-			return tableName;
-		}
+		return translated != null ? translated : tableName;
+
 	}
 
 }

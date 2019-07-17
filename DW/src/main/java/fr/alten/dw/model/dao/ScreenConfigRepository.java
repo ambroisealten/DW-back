@@ -62,10 +62,7 @@ public class ScreenConfigRepository {
 
 		query.setParameter(1, 0).setParameter(2, screenDisplayedName).setParameter(3, screenConfiguration)
 				.setParameter(4, DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDateTime.now()).toString());
-		if (query.executeUpdate() > 0) {
-			return tableLength.intValue() + 1;
-		} else {
-			return 0;
-		}
+
+		return query.executeUpdate() > 0 ? tableLength.intValue() + 1 : 0;
 	}
 }

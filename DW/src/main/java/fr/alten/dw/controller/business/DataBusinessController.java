@@ -25,13 +25,17 @@ public class DataBusinessController {
 
 	@Autowired
 	private DataRepository dataRepository;
+	private final CorrespondenceDataMap dataMap;
+	private final Package basePackage;
 
 	public DataBusinessController() throws InstantiationException, IllegalAccessException {
+		this.dataMap = CorrespondenceDataMap.getInstance();
+		this.basePackage = BeanScheme.class.getPackage();
 	}
 
 	/**
 	 * Fetch data between two delimiters.
-	 * 
+	 *
 	 * @param tableToFetch the table to fetch
 	 * @param lineStart    the first line to fetch
 	 * @param numberLine   the number of line to fetch after lineStart
@@ -42,11 +46,10 @@ public class DataBusinessController {
 	@SuppressWarnings("unchecked")
 	public List<?> getAllDataOfAnObjectWithinStartAndEnd(final String tableToFetch, final Integer lineStart,
 			final Integer numberLine) throws ClassNotFoundException, IOException {
-		final Package pack = BeanScheme.class.getPackage();
-		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
-		final String translatedTableName = dataMap.getTableWithName(tableToFetch);
+		final String translatedTableName = this.dataMap.getTableWithName(tableToFetch);
 
-		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
+		// We use utility reflection method to get all beans
+		for (final Class classFound : ReflectionClass.getClasses(this.basePackage.getName())) {
 			if (classFound.getSimpleName().equals(translatedTableName)) {
 				return this.dataRepository.findByTableWithLimits(classFound, ReflectionClass.getBeanId(classFound),
 						lineStart, numberLine);
@@ -57,7 +60,7 @@ public class DataBusinessController {
 
 	/**
 	 * Fetch the number of row of a specific column of a table.
-	 * 
+	 *
 	 * @param table  the table to analyze
 	 * @param column the column to fetch
 	 * @return a long representing the number of row in the column
@@ -68,7 +71,7 @@ public class DataBusinessController {
 
 	/**
 	 * Fetch the number of row of a table.
-	 * 
+	 *
 	 * @param table the table to fetch
 	 * @return a long representing the number of row in a table
 	 */
@@ -87,13 +90,11 @@ public class DataBusinessController {
 	@SuppressWarnings("unchecked")
 	public List<?> getDataFromColumn(final String table, final String column)
 			throws ClassNotFoundException, IOException {
-		final Package pack = BeanScheme.class.getPackage();
-		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
-		final String translatedTableName = dataMap.getTableWithName(table);
+		final String translatedTableName = this.dataMap.getTableWithName(table);
 
-		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
+		for (final Class classFound : ReflectionClass.getClasses(this.basePackage.getName())) {
 			if (classFound.getSimpleName().equals(translatedTableName)) {
-				return this.dataRepository.findByTableAndColumn(classFound, dataMap.getColumnWithName(column));
+				return this.dataRepository.findByTableAndColumn(classFound, this.dataMap.getColumnWithName(column));
 			}
 		}
 		return new ArrayList<>();
@@ -101,7 +102,7 @@ public class DataBusinessController {
 
 	/**
 	 * Fetch all data from a specific table.
-	 * 
+	 *
 	 * @param table the table to fetch
 	 * @return the list of data from a table
 	 * @throws ClassNotFoundException if the class cannot be located
@@ -109,11 +110,9 @@ public class DataBusinessController {
 	 */
 	@SuppressWarnings("unchecked")
 	public List<?> getDataOfTable(final String table) throws ClassNotFoundException, IOException {
-		final Package pack = BeanScheme.class.getPackage();
-		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
-		final String translatedTableName = dataMap.getTableWithName(table);
+		final String translatedTableName = this.dataMap.getTableWithName(table);
 
-		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
+		for (final Class classFound : ReflectionClass.getClasses(this.basePackage.getName())) {
 			if (classFound.getSimpleName().equals(translatedTableName)) {
 				return this.dataRepository.findByTable(classFound);
 			}

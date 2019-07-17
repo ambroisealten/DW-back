@@ -38,11 +38,11 @@ public class DataSchemeBusinessController {
 
 	private final CorrespondenceDataMap dataMap;
 
-	private final Package pack;
+	private final Package basePackage;
 
 	public DataSchemeBusinessController() throws ClassNotFoundException, IOException {
 		this.dataMap = CorrespondenceDataMap.getInstance();
-		this.pack = BeanScheme.class.getPackage();
+		this.basePackage = BeanScheme.class.getPackage();
 	}
 
 	/**
@@ -67,11 +67,16 @@ public class DataSchemeBusinessController {
 	public List<BeanScheme> getDataScheme() throws ClassNotFoundException, SecurityException, IOException {
 		this.getEmptyOrForbiddenDataClass();
 		final ArrayList<BeanScheme> result = new ArrayList<BeanScheme>();
-		for (final Class classFound : ReflectionClass.getClasses(this.pack.getName())) {
+		// Use utility reflection class to fetch all beans class
+		for (final Class classFound : ReflectionClass.getClasses(this.basePackage.getName())) {
+			// If the class found is not a class with corresponding database table empty or
+			// a no-data beans.
 			if (!this.getEmptyOrForbiddenDataClass().contains(classFound)) {
 				final String translatedClassName = this.dataMap.getTableName(classFound.getSimpleName());
 				final BeanScheme bean = new BeanScheme(translatedClassName);
 				for (final Field fieldFound : classFound.getDeclaredFields()) {
+					// If the filed found is not a field with corresponding database column empty or
+					// a no-data field.
 					if (!fieldFound.getName().equals("serialVersionUID")
 							&& !this.getEmptyOrForbiddenDataField().contains(fieldFound)) {
 						final String translatedColumnName = this.dataMap.getColumnName(fieldFound.getName());
@@ -97,12 +102,16 @@ public class DataSchemeBusinessController {
 	 * @throws IOException            If I/O errors occur
 	 */
 	public List<Class> getEmptyOrForbiddenDataClass() throws ClassNotFoundException, IOException {
+		// Check if the emptyOrForbiddenDataClass field is empty. If true, that means
+		// this field could be not initialized
 		if (this.emptyOrForbiddenDataClass.size() == 0) {
+			// Add forbidden class
 			this.emptyOrForbiddenDataClass.add(BeanScheme.class);
 			this.emptyOrForbiddenDataClass.add(ScreenConfig.class);
-			for (final Class classFound : ReflectionClass.getClasses(this.pack.getName())) {
+			for (final Class classFound : ReflectionClass.getClasses(this.basePackage.getName())) {
 				if (classFound.getName() != BeanScheme.class.getName()
 						&& classFound.getName() != ScreenConfig.class.getName()) {
+					// Check if the table have some data
 					if (this.dataBusinessController.getCountOfDataForObject(classFound) == 0) {
 						this.emptyOrForbiddenDataClass.add(classFound);
 					}
@@ -125,8 +134,11 @@ public class DataSchemeBusinessController {
 	 * @throws IOException            If I/O errors occur
 	 */
 	public List<Field> getEmptyOrForbiddenDataField() throws ClassNotFoundException, IOException {
+		// Check if the emptyOrForbiddenDataField field is empty. If true, that means
+		// this field could be not initialized
 		if (this.emptyOrForbiddenDataField.size() == 0) {
-			Arrays.stream(ReflectionClass.getClasses(this.pack.getName())).filter(c -> {
+			Arrays.stream(ReflectionClass.getClasses(this.basePackage.getName())).filter(c -> {
+				// We filter the array to stay with only good beans
 				try {
 					return !this.getEmptyOrForbiddenDataClass().contains(c);
 				} catch (ClassNotFoundException | IOException e) {
@@ -134,6 +146,7 @@ public class DataSchemeBusinessController {
 				}
 			}).forEach(cl -> {
 				for (final Field field : cl.getDeclaredFields()) {
+					// Check if the column have some data
 					if (!field.getName().equals("serialVersionUID")
 							&& this.dataBusinessController.getCountOfDataForColumn(cl, field) == 0) {
 						this.emptyOrForbiddenDataField.add(field);

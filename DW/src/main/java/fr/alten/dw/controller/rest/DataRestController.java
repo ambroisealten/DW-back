@@ -31,7 +31,10 @@ public class DataRestController {
 	public DataRestController() {
 		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
 		final GsonBuilder builder = new GsonBuilder();
-		this.gson = builder.setFieldNamingStrategy(f -> dataMap.getColumnName(f.getName())).create();
+		// We use the builder pattern of the Gson object to add a Naming strategy for
+		// fields. This strategy is to change the field name with the mapped name on
+		// dataMap
+		this.gson = builder.setFieldNamingStrategy(field -> dataMap.getColumnName(field.getName())).create();
 	}
 
 	/**
