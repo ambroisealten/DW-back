@@ -1,5 +1,4 @@
 
-
 /**
  *
  */
@@ -39,27 +38,27 @@ public class Drl_definition_series_type implements Serializable {
 	}
 
 	public Integer getDrl_definition_key() {
-		return drl_definition_key;
+		return this.drl_definition_key;
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return dt_last_update_dwh;
+		return this.dt_last_update_dwh;
 	}
 
 	public Integer getInstance_key() {
-		return instance_key;
+		return this.instance_key;
 	}
 
 	public String getSeries_type() {
-		return series_type;
+		return this.series_type;
 	}
 
 	public Long getSeries_type_key() {
-		return series_type_key;
+		return this.series_type_key;
 	}
 
 	public String getSeries_type_modality() {
-		return series_type_modality;
+		return this.series_type_modality;
 	}
 
 	public void setDrl_definition_key(final Integer drl_definition_key) {

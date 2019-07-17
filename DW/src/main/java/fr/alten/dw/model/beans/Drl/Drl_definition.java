@@ -59,115 +59,115 @@ public class Drl_definition implements Serializable {
 	}
 
 	public Integer getAge_max() {
-		return age_max;
+		return this.age_max;
 	}
 
 	public Integer getAge_min() {
-		return age_min;
+		return this.age_min;
 	}
 
 	public Double getAlert_factor() {
-		return alert_factor;
+		return this.alert_factor;
 	}
 
 	public Double getBody_part_thickness_max() {
-		return body_part_thickness_max;
+		return this.body_part_thickness_max;
 	}
 
 	public Double getBody_part_thickness_min() {
-		return body_part_thickness_min;
+		return this.body_part_thickness_min;
 	}
 
 	public Double getCt_series_ctdi() {
-		return ct_series_ctdi;
+		return this.ct_series_ctdi;
 	}
 
 	public Double getCt_series_dlp() {
-		return ct_series_dlp;
+		return this.ct_series_dlp;
 	}
 
 	public Double getCt_study_dlp() {
-		return ct_study_dlp;
+		return this.ct_study_dlp;
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return dt_last_update_dwh;
+		return this.dt_last_update_dwh;
 	}
 
 	public String getExam_name() {
-		return exam_name;
+		return this.exam_name;
 	}
 
 	public Integer getFacility_key() {
-		return facility_key;
+		return this.facility_key;
 	}
 
 	public Double getHeight_max() {
-		return height_max;
+		return this.height_max;
 	}
 
 	public Double getHeight_min() {
-		return height_min;
+		return this.height_min;
 	}
 
 	public Integer getId() {
-		return id;
+		return this.id;
 	}
 
 	public Integer getInstance_key() {
-		return instance_key;
+		return this.instance_key;
 	}
 
 	public Double getMg_series_od() {
-		return mg_series_od;
+		return this.mg_series_od;
 	}
 
 	public Double getMg_study_od() {
-		return mg_study_od;
+		return this.mg_study_od;
 	}
 
 	public String getModality() {
-		return modality;
+		return this.modality;
 	}
 
 	public Double getRf_series_dap() {
-		return rf_series_dap;
+		return this.rf_series_dap;
 	}
 
 	public Double getRf_series_ed() {
-		return rf_series_ed;
+		return this.rf_series_ed;
 	}
 
 	public Double getRf_study_dap() {
-		return rf_study_dap;
+		return this.rf_study_dap;
 	}
 
 	public Double getRf_study_ed() {
-		return rf_study_ed;
+		return this.rf_study_ed;
 	}
 
 	public String getType() {
-		return type;
+		return this.type;
 	}
 
 	public Double getWeight_max() {
-		return weight_max;
+		return this.weight_max;
 	}
 
 	public Double getWeight_min() {
-		return weight_min;
+		return this.weight_min;
 	}
 
 	public Double getXa_air_kerma() {
-		return xa_air_kerma;
+		return this.xa_air_kerma;
 	}
 
 	public Double getXa_dap() {
-		return xa_dap;
+		return this.xa_dap;
 	}
 
 	public Integer getXa_fluoro_time() {
-		return xa_fluoro_time;
+		return this.xa_fluoro_time;
 	}
 
 	public void setAge_max(final Integer age_max) {

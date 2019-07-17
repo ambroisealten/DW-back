@@ -37,27 +37,27 @@ public class Drl_mapping_study_desc implements Serializable {
 	}
 
 	public Integer getDrl_definition_key() {
-		return drl_definition_key;
+		return this.drl_definition_key;
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return dt_last_update_dwh;
+		return this.dt_last_update_dwh;
 	}
 
 	public Integer getInstance_key() {
-		return instance_key;
+		return this.instance_key;
 	}
 
 	public Long getStudy_description_key() {
-		return study_description_key;
+		return this.study_description_key;
 	}
 
 	public String getStudy_description_modality() {
-		return study_description_modality;
+		return this.study_description_modality;
 	}
 
 	public String getStudy_description_name() {
-		return study_description_name;
+		return this.study_description_name;
 	}
 
 	public void setDrl_definition_key(final Integer drl_definition_key) {

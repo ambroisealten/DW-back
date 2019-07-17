@@ -17,6 +17,8 @@ import javax.persistence.Column;
 import javax.persistence.Id;
 
 /**
+ * Utilities method for reflection and introspection
+ * 
  * @author Andy Chabalier
  *
  */
@@ -24,13 +26,14 @@ import javax.persistence.Id;
 public class ReflectionClass {
 
 	/**
-	 * Recursive method used to find all classes in a given directory and subdirs.
+	 * Recursive method used to find all classes in a given directory and
+	 * sub-directory.
 	 *
 	 * @param directory   The base directory
 	 * @param packageName The package name for classes found inside the base
 	 *                    directory
-	 * @return The classes
-	 * @throws ClassNotFoundException
+	 * @return The list of class find
+	 * @throws ClassNotFoundException if the class cannot be located
 	 */
 	public static List<Class> findClasses(final File directory, final String packageName)
 			throws ClassNotFoundException {
@@ -53,6 +56,7 @@ public class ReflectionClass {
 
 	/**
 	 * Scan all fields of the provided class to fetch the column id
+	 * 
 	 * @param classToExtract the class that we want to get the column id
 	 * @return the name of the column id
 	 */
@@ -70,12 +74,12 @@ public class ReflectionClass {
 
 	/**
 	 * Scans all classes accessible from the context class loader which belong to
-	 * the given package and subpackages.
+	 * the given package and sub-packages.
 	 *
 	 * @param packageName The base package
 	 * @return The classes
-	 * @throws ClassNotFoundException
-	 * @throws IOException
+	 * @throws ClassNotFoundException if the class cannot be located
+	 * @throws IOException            If I/O errors occur
 	 */
 	public static Class[] getClasses(final String packageName) throws ClassNotFoundException, IOException {
 		final ClassLoader classLoader = Thread.currentThread().getContextClassLoader();

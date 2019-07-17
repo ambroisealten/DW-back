@@ -36,23 +36,23 @@ public class Drl_mapping_ae implements Serializable {
 	}
 
 	public Long getAe_key() {
-		return ae_key;
+		return this.ae_key;
 	}
 
 	public String getAet() {
-		return aet;
+		return this.aet;
 	}
 
 	public Integer getDrl_definition_key() {
-		return drl_definition_key;
+		return this.drl_definition_key;
 	}
 
 	public Timestamp getDt_last_update_dwh() {
-		return dt_last_update_dwh;
+		return this.dt_last_update_dwh;
 	}
 
 	public Integer getInstance_key() {
-		return instance_key;
+		return this.instance_key;
 	}
 
 	public void setAe_key(final Long ae_key) {

@@ -18,7 +18,7 @@ import javax.persistence.Table;
  *
  */
 @Entity
-@Table(name="dwh_study_rf")
+@Table(name = "dwh_study_rf")
 public class Study_rf implements Serializable {
 
 	/**
@@ -27,7 +27,7 @@ public class Study_rf implements Serializable {
 	private static final long serialVersionUID = -3221984735672048028L;
 
 	@Id
-	@Column(name="id")
+	@Column(name = "id")
 	private Long id;
 	private Integer instance_key;
 	private Double entrance_dose_total;
@@ -81,192 +81,191 @@ public class Study_rf implements Serializable {
 	}
 
 	public Integer getAlert_cumulative_count() {
-		return alert_cumulative_count;
+		return this.alert_cumulative_count;
 	}
 
-
 	public Integer getAlert_drl_count() {
-		return alert_drl_count;
+		return this.alert_drl_count;
 	}
 
 	public Date getAlert_reviewed_date_initial() {
-		return alert_reviewed_date_initial;
+		return this.alert_reviewed_date_initial;
 	}
 
 	public Date getAlert_reviewed_date_last() {
-		return alert_reviewed_date_last;
+		return this.alert_reviewed_date_last;
 	}
 
 	public Integer getAlert_series_count() {
-		return alert_series_count;
+		return this.alert_series_count;
 	}
 
 	public Integer getAlert_series_lexicon_count() {
-		return alert_series_lexicon_count;
+		return this.alert_series_lexicon_count;
 	}
 
 	public Integer getAlert_study_count() {
-		return alert_study_count;
+		return this.alert_study_count;
 	}
 
 	public Integer getAlert_study_lexicon_count() {
-		return alert_study_lexicon_count;
+		return this.alert_study_lexicon_count;
 	}
 
 	public Integer getAlert_study_protocol_count() {
-		return alert_study_protocol_count;
+		return this.alert_study_protocol_count;
 	}
 
 	public Integer getDay_number() {
-		return day_number;
+		return this.day_number;
 	}
 
 	public Double getDistance_source_detector() {
-		return distance_source_detector;
+		return this.distance_source_detector;
 	}
 
 	public Double getDose_area_product_total() {
-		return dose_area_product_total;
+		return this.dose_area_product_total;
 	}
 
 	public Double getEntrance_dose_total() {
-		return entrance_dose_total;
+		return this.entrance_dose_total;
 	}
 
 	public Integer getExam_duration() {
-		return exam_duration;
+		return this.exam_duration;
 	}
 
 	public Integer getExam_duration_sched() {
-		return exam_duration_sched;
+		return this.exam_duration_sched;
 	}
 
 	public Integer getExam_prep_time_after() {
-		return exam_prep_time_after;
+		return this.exam_prep_time_after;
 	}
 
 	public Integer getExam_prep_time_before() {
-		return exam_prep_time_before;
+		return this.exam_prep_time_before;
 	}
 
 	public String getHour_Integererval() {
-		return hour_interval;
+		return this.hour_interval;
 	}
 
 	public Long getId() {
-		return id;
+		return this.id;
 	}
 
 	public Integer getInstance_key() {
-		return instance_key;
+		return this.instance_key;
 	}
 
 	public String getInstance_name() {
-		return instance_name;
+		return this.instance_name;
 	}
 
 	public String getModality() {
-		return modality;
+		return this.modality;
 	}
 
 	public String getNature_of_exam() {
-		return nature_of_exam;
+		return this.nature_of_exam;
 	}
 
 	public Double getPatient_age() {
-		return patient_age;
+		return this.patient_age;
 	}
 
 	public String getPatient_age_range() {
-		return patient_age_range;
+		return this.patient_age_range;
 	}
 
 	public Timestamp getPatient_birth_date() {
-		return patient_birth_date;
+		return this.patient_birth_date;
 	}
 
 	public String getPatient_first_name() {
-		return patient_first_name;
+		return this.patient_first_name;
 	}
 
 	public Double getPatient_height() {
-		return patient_height;
+		return this.patient_height;
 	}
 
 	public String getPatient_id() {
-		return patient_id;
+		return this.patient_id;
 	}
 
 	public String getPatient_last_name() {
-		return patient_last_name;
+		return this.patient_last_name;
 	}
 
 	public String getPatient_sex() {
-		return patient_sex;
+		return this.patient_sex;
 	}
 
 	public Double getPatient_weight() {
-		return patient_weight;
+		return this.patient_weight;
 	}
 
 	public String getProtocol_name() {
-		return protocol_name;
+		return this.protocol_name;
 	}
 
 	public Boolean getStudy_comment_difficult_procedure() {
-		return study_comment_difficult_procedure;
+		return this.study_comment_difficult_procedure;
 	}
 
 	public Boolean getStudy_comment_patient_weight() {
-		return study_comment_patient_weight;
+		return this.study_comment_patient_weight;
 	}
 
 	public Date getStudy_date() {
-		return study_date;
+		return this.study_date;
 	}
 
 	public Timestamp getStudy_datetime() {
-		return study_datetime;
+		return this.study_datetime;
 	}
 
 	public Timestamp getStudy_datetime_utc() {
-		return study_datetime_utc;
+		return this.study_datetime_utc;
 	}
 
 	public Timestamp getStudy_end_date() {
-		return study_end_date;
+		return this.study_end_date;
 	}
 
 	public Timestamp getStudy_end_estimated() {
-		return study_end_estimated;
+		return this.study_end_estimated;
 	}
 
 	public Integer getStudy_hour() {
-		return study_hour;
+		return this.study_hour;
 	}
 
 	public String getStudy_id() {
-		return study_id;
+		return this.study_id;
 	}
 
 	public String getStudy_instance_uid() {
-		return study_instance_uid;
+		return this.study_instance_uid;
 	}
 
 	public Integer getTotal_number_of_exposures() {
-		return total_number_of_exposures;
+		return this.total_number_of_exposures;
 	}
 
 	public Integer getTotal_study_last_month() {
-		return total_study_last_month;
+		return this.total_study_last_month;
 	}
 
 	public Integer getTotal_time_of_fluoroscopy() {
-		return total_time_of_fluoroscopy;
+		return this.total_time_of_fluoroscopy;
 	}
 
 	public Integer getWeek_number() {
-		return week_number;
+		return this.week_number;
 	}
 
 	public void setAlert_cumulative_count(final Integer alert_cumulative_count) {
@@ -338,7 +337,7 @@ public class Study_rf implements Serializable {
 	}
 
 	public void setHour_Integererval(final String hour_Integererval) {
-		hour_interval = hour_Integererval;
+		this.hour_interval = hour_Integererval;
 	}
 
 	public void setId(final Long id) {

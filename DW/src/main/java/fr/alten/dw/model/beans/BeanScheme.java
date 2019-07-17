@@ -6,6 +6,8 @@ package fr.alten.dw.model.beans;
 import java.util.HashMap;
 
 /**
+ * Bean to wrap the scheme of a table with his fields
+ * 
  * @author Andy Chabalier
  *
  */

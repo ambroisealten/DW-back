@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package fr.alten.dw.model.beans.Study;
 
@@ -12,21 +12,21 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * 
+ *
  * @author Thomas Decamp
  *
  */
 @Entity
-@Table(name="dwh_mg_study_alert")
+@Table(name = "dwh_mg_study_alert")
 public class Mg_study_alert implements Serializable {
-	
+
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 8064950366647588287L;
 
 	@Id
-	@Column(name="id")
+	@Column(name = "id")
 	private Long id;
 	private int instance_key;
 	private double od_lvl_2;
@@ -37,99 +37,80 @@ public class Mg_study_alert implements Serializable {
 	private String study_description;
 	private Timestamp dt_last_update_dwh;
 
-			
 	public Mg_study_alert() {
 		super();
 	}
 
-
-	public Long getId() {
-		return id;
+	public Timestamp getDt_last_update_dwh() {
+		return this.dt_last_update_dwh;
 	}
-
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-
-	public int getInstance_key() {
-		return instance_key;
-	}
-
-
-	public void setInstance_key(int instance_key) {
-		this.instance_key = instance_key;
-	}
-
-
-	public double getOd_lvl_2() {
-		return od_lvl_2;
-	}
-
-
-	public void setOd_lvl_2(double od_lvl_2) {
-		this.od_lvl_2 = od_lvl_2;
-	}
-
-
-	public double getOd_lvl_1() {
-		return od_lvl_1;
-	}
-
-
-	public void setOd_lvl_1(double od_lvl_1) {
-		this.od_lvl_1 = od_lvl_1;
-	}
-
-
-	public double getTne_lvl_2() {
-		return tne_lvl_2;
-	}
-
-
-	public void setTne_lvl_2(double tne_lvl_2) {
-		this.tne_lvl_2 = tne_lvl_2;
-	}
-
-
-	public double getTne_lvl_1() {
-		return tne_lvl_1;
-	}
-
-
-	public void setTne_lvl_1(double tne_lvl_1) {
-		this.tne_lvl_1 = tne_lvl_1;
-	}
-
 
 	public int getFacility_key() {
-		return facility_key;
+		return this.facility_key;
 	}
 
+	public Long getId() {
+		return this.id;
+	}
 
-	public void setFacility_key(int facility_key) {
+	public int getInstance_key() {
+		return this.instance_key;
+	}
+
+	public double getOd_lvl_1() {
+		return this.od_lvl_1;
+	}
+
+	public double getOd_lvl_2() {
+		return this.od_lvl_2;
+	}
+
+	public String getStudy_description() {
+		return this.study_description;
+	}
+
+	public double getTne_lvl_1() {
+		return this.tne_lvl_1;
+	}
+
+	public double getTne_lvl_2() {
+		return this.tne_lvl_2;
+	}
+
+	public void setDt_last_update_dwh(final Timestamp dt_last_update_dwh) {
+		this.dt_last_update_dwh = dt_last_update_dwh;
+	}
+
+	public void setFacility_key(final int facility_key) {
 		this.facility_key = facility_key;
 	}
 
-
-	public String getStudy_description() {
-		return study_description;
+	public void setId(final Long id) {
+		this.id = id;
 	}
 
+	public void setInstance_key(final int instance_key) {
+		this.instance_key = instance_key;
+	}
 
-	public void setStudy_description(String study_description) {
+	public void setOd_lvl_1(final double od_lvl_1) {
+		this.od_lvl_1 = od_lvl_1;
+	}
+
+	public void setOd_lvl_2(final double od_lvl_2) {
+		this.od_lvl_2 = od_lvl_2;
+	}
+
+	public void setStudy_description(final String study_description) {
 		this.study_description = study_description;
 	}
 
-
-	public Timestamp getDt_last_update_dwh() {
-		return dt_last_update_dwh;
+	public void setTne_lvl_1(final double tne_lvl_1) {
+		this.tne_lvl_1 = tne_lvl_1;
 	}
 
-
-	public void setDt_last_update_dwh(Timestamp dt_last_update_dwh) {
-		this.dt_last_update_dwh = dt_last_update_dwh;
+	public void setTne_lvl_2(final double tne_lvl_2) {
+		this.tne_lvl_2 = tne_lvl_2;
 	}
-	
+
 }

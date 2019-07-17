@@ -7,6 +7,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
+ * Web configuration, use to configure CORS policy
  * 
  * @author Andy Chabalier
  *
@@ -19,8 +20,7 @@ public class WebConfiguration implements WebMvcConfigurer {
 
 	@Override
 	public void addCorsMappings(final CorsRegistry registry) {
-		registry.addMapping("/**")
-				.allowedOrigins(ctx.getEnvironment().getProperty("security.allowOrigin"))
+		registry.addMapping("/**").allowedOrigins(this.ctx.getEnvironment().getProperty("security.allowOrigin"))
 				.allowedMethods("GET", "PUT", "POST", "DELETE", "OPTIONS");
 	}
 }

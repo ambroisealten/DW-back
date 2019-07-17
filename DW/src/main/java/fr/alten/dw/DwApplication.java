@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package fr.alten.dw;
 
@@ -8,6 +8,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
+/**
+ * Start point of the spring boot app
+ * 
+ * @author Andy Chabalier
+ *
+ */
 @SpringBootApplication
 public class DwApplication extends SpringBootServletInitializer {
 
@@ -16,7 +22,7 @@ public class DwApplication extends SpringBootServletInitializer {
 	}
 
 	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+	protected SpringApplicationBuilder configure(final SpringApplicationBuilder builder) {
 		return builder.sources(DwApplication.class);
 	}
 

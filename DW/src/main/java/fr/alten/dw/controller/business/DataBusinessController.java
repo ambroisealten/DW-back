@@ -13,6 +13,12 @@ import fr.alten.dw.model.dao.DataRepository;
 import fr.alten.dw.utils.CorrespondenceDataMap;
 import fr.alten.dw.utils.ReflectionClass;
 
+/**
+ * Controller for data logic.
+ *
+ * @author Lucas Royackkers, Andy Chabalier
+ *
+ */
 @Service
 @SuppressWarnings("rawtypes")
 public class DataBusinessController {
@@ -23,53 +29,93 @@ public class DataBusinessController {
 	public DataBusinessController() throws InstantiationException, IllegalAccessException {
 	}
 
+	/**
+	 * Fetch data between two delimiters.
+	 * 
+	 * @param tableToFetch the table to fetch
+	 * @param lineStart    the first line to fetch
+	 * @param numberLine   the number of line to fetch after lineStart
+	 * @return the list of all data between the provided limits
+	 * @throws ClassNotFoundException if the class cannot be located
+	 * @throws IOException            If I/O errors occur
+	 */
 	@SuppressWarnings("unchecked")
-	public List<?> getAllDataOfAnObjectWithinStartAndEnd(final String objectSearched, final Integer lineStart,
-			final Integer lineEnd) throws ClassNotFoundException, IOException {
+	public List<?> getAllDataOfAnObjectWithinStartAndEnd(final String tableToFetch, final Integer lineStart,
+			final Integer numberLine) throws ClassNotFoundException, IOException {
 		final Package pack = BeanScheme.class.getPackage();
 		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
-		final String translatedTableName = dataMap.getTableWithName(objectSearched);
+		final String translatedTableName = dataMap.getTableWithName(tableToFetch);
 
 		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
 			if (classFound.getSimpleName().equals(translatedTableName)) {
-				return dataRepository.findByTableWithLimits(classFound, ReflectionClass.getBeanId(classFound),
-						lineStart, lineEnd);
+				return this.dataRepository.findByTableWithLimits(classFound, ReflectionClass.getBeanId(classFound),
+						lineStart, numberLine);
 			}
 		}
 		return new ArrayList<>();
 	}
 
-	public long getCountOfDataForColumn(final Class cl, final Field field) {
-		return dataRepository.countNumberOfDataField(cl,field);
+	/**
+	 * Fetch the number of row of a specific column of a table.
+	 * 
+	 * @param table  the table to analyze
+	 * @param column the column to fetch
+	 * @return a long representing the number of row in the column
+	 */
+	public long getCountOfDataForColumn(final Class table, final Field column) {
+		return this.dataRepository.countNumberOfDataField(table, column);
 	}
 
-	public long getCountOfDataForObject(final Class objectSearched) throws ClassNotFoundException, IOException {
-		return dataRepository.countNumberOfData(objectSearched);
+	/**
+	 * Fetch the number of row of a table.
+	 * 
+	 * @param table the table to fetch
+	 * @return a long representing the number of row in a table
+	 */
+	public long getCountOfDataForObject(final Class table) {
+		return this.dataRepository.countNumberOfData(table);
 	}
 
+	/**
+	 *
+	 * @param table  the table to analyze
+	 * @param column the column to fetch
+	 * @return the list of data from a table
+	 * @throws ClassNotFoundException if the class cannot be located
+	 * @throws IOException            If I/O errors occur
+	 */
 	@SuppressWarnings("unchecked")
-	public List<?> getDataForObject(final String objectSearched) throws ClassNotFoundException, IOException {
+	public List<?> getDataFromColumn(final String table, final String column)
+			throws ClassNotFoundException, IOException {
 		final Package pack = BeanScheme.class.getPackage();
 		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
-		final String translatedTableName = dataMap.getTableWithName(objectSearched);
+		final String translatedTableName = dataMap.getTableWithName(table);
 
 		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
 			if (classFound.getSimpleName().equals(translatedTableName)) {
-				return dataRepository.findByTable(classFound);
+				return this.dataRepository.findByTableAndColumn(classFound, dataMap.getColumnWithName(column));
 			}
 		}
 		return new ArrayList<>();
 	}
 
+	/**
+	 * Fetch all data from a specific table.
+	 * 
+	 * @param table the table to fetch
+	 * @return the list of data from a table
+	 * @throws ClassNotFoundException if the class cannot be located
+	 * @throws IOException            If I/O errors occur
+	 */
 	@SuppressWarnings("unchecked")
-	public List<?> getDataFromColumn(final String tableSearched, final String columnSearched) throws ClassNotFoundException, IOException {
+	public List<?> getDataOfTable(final String table) throws ClassNotFoundException, IOException {
 		final Package pack = BeanScheme.class.getPackage();
 		final CorrespondenceDataMap dataMap = CorrespondenceDataMap.getInstance();
-		final String translatedTableName = dataMap.getTableWithName(tableSearched);
+		final String translatedTableName = dataMap.getTableWithName(table);
 
 		for (final Class classFound : ReflectionClass.getClasses(pack.getName())) {
 			if (classFound.getSimpleName().equals(translatedTableName)) {
-				return dataRepository.findByTableAndColumn(classFound,dataMap.getColumnWithName(columnSearched));
+				return this.dataRepository.findByTable(classFound);
 			}
 		}
 		return new ArrayList<>();
